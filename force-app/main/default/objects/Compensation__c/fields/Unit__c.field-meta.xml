@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit__c</fullName>
+    <description>Displays the unit of the compensation</description>
+    <externalId>false</externalId>
+    <label>Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Currency</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Kilogramme</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Miles</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Sector</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ticket</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Person</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

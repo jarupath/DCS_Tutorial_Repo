@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Station__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(
+$User.Station__c =  Owner:User.Station__c,
+AND(NOT(ISBLANK(Owner:Queue.QueueName)),CONTAINS($UserRole.Name, Owner:Queue.QueueName))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>My Station</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

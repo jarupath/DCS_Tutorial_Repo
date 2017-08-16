@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+CONTAINS(SUBSTITUTE(FromAddress , LEFT(FromAddress , FIND("@", FromAddress )), "") , $Setup.System_Configuration__c.Internal_Email__c)
+,true,false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>From Internal</label>
+    <type>Checkbox</type>
+</CustomField>

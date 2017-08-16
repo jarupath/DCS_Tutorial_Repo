@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_txt__c</fullName>
+    <description>For M2
+
+Maintenance Case Color Code</description>
+    <externalId>false</externalId>
+    <formula>IMAGE("https://c.cs6.content.force.com/servlet/servlet.ImageServer?id=015N0000000W2ds&amp;oid=00DN0000000AfvZ&amp;lastMod=1475563007000", "")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

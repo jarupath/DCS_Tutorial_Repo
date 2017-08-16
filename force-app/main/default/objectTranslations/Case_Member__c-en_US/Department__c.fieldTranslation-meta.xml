@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Department --></label>
+    <name>Department__c</name>
+    <picklistValues>
+        <masterLabel>AO</masterLabel>
+        <translation><!-- AO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Abroad Stations</masterLabel>
+        <translation><!-- Abroad Stations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baggage Claim</masterLabel>
+        <translation><!-- Baggage Claim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bangkok Ramp Service</masterLabel>
+        <translation><!-- Bangkok Ramp Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bangkok Ticket &amp;	Reservation</masterLabel>
+        <translation><!-- Bangkok Ticket &amp;	Reservation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Catering</masterLabel>
+        <translation><!-- Catering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cockpit Crew</masterLabel>
+        <translation><!-- Cockpit Crew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ground Service at Bangkok Airport</masterLabel>
+        <translation><!-- Ground Service at Bangkok Airport --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Flight Products</masterLabel>
+        <translation><!-- In-Flight Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Flight Service</masterLabel>
+        <translation><!-- In-Flight Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S3</masterLabel>
+        <translation><!-- S3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S4</masterLabel>
+        <translation><!-- S4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SZ-R</masterLabel>
+        <translation><!-- SZ-R --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Service</masterLabel>
+        <translation><!-- Technical Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai Smile Airline</masterLabel>
+        <translation><!-- Thai Smile Airline --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

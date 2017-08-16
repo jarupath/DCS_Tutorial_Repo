@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROP_Basic</fullName>
+    <columns>NAME</columns>
+    <columns>Last_Name__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>PNR__c</columns>
+    <columns>FlightId__c</columns>
+    <columns>FFP_Number__c</columns>
+    <columns>FFP_Tier__c</columns>
+    <columns>VIP_VVIP_Flag__c</columns>
+    <columns>Checkin_Seat__c</columns>
+    <columns>Cabin_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>FFP_Tier__c</field>
+        <operation>equals</operation>
+        <value>BASE</value>
+    </filters>
+    <filters>
+        <field>Flight_Date_Date__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>ROP Basic</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Ground_Service_Team</group>
+        <role>Ground_Customer_Service_Abroad_Station</role>
+    </sharedTo>
+</ListView>

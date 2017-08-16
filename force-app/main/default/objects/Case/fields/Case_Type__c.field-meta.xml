@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Type__c</fullName>
+    <description>Displays the value of case type used in case management</description>
+    <externalId>false</externalId>
+    <label>Case Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Commendation</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Suggestion</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Incident</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Injury</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Star Alliance</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage Claim</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Court Case</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>14 CFR</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Information</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Arrival/Transit/Connections</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Authorities and Airport Facilities</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Boarding and Departure Area</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Check-in and Service before immigration - SPECIAL MEAL</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Check-in and Service before immigration - DGC</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Check-in and Service before immigration - DBC</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Check-in and Service before immigration - SEAT</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Check-in &amp; Service pre-immigration-SPML</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Check-in and Service before immigration - OTHER</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>General Comments on TG Services</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Handling of flight Irregularities</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Lounges</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Unidentified</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Unruly</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Junk</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

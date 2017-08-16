@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_Completed_Reason_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+OR($Profile.Name = 'DT Staff', $Profile.Name = 'DT Admin'),
+TEXT( Action__c) = 'Completed' , 
+OR(Lack_of_Part__c = TRUE, Lack_of_Time__c = TRUE)
+)</errorConditionFormula>
+    <errorDisplayField>Lack_of_Part__c</errorDisplayField>
+    <errorMessage>Please remove the checkbox from Lack of Part or Lack of Time.</errorMessage>
+</ValidationRule>

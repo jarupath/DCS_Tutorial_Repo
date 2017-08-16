@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalate</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Escalate</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/29.0/connection.js")} 
+
+var thiscase = sforce.connection.query("SELECT Role_Name__c from Case where id ='{!Case.Id}' limit 1"); 
+
+records = thiscase.getArray("records"); 
+
+var ucase = new sforce.SObject('Case'); 
+
+ucase.id = "{!Case.Id}"; 
+
+if(records[0].Role_Name__c == "S3 Chief" || records[0].Role_Name__c == "S3 Tier 1"){ 
+ucase.Verified__c = "1"; 
+} 
+else{ 
+ucase.Status = "Escalated"; 
+} 
+
+var r = confirm("Are you sure you want to Escalate?"); 
+if (r == true) { 
+result = sforce.connection.update([ucase]); 
+} 
+
+location.reload(true);</url>
+</WebLink>

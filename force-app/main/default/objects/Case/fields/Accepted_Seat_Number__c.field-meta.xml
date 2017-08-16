@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accepted_Seat_Number__c</fullName>
+    <description>Displays the value of Passenger's Seat Number if available (post check-in)</description>
+    <externalId>false</externalId>
+    <formula>If(NOT(ISBLANK(Passengerid__r.Checkin_Seat__c)),Passengerid__r.Checkin_Seat__c,
+IF(Passengerid__r.Booking_Seat__c != null,Passengerid__r.Booking_Seat__c,"Unidentified"))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Accepted Seat Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LOPA Label</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LOPA Labels</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Label --></label>
+        <name>Actual_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cabin Version --></label>
+        <name>Cabin_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temp Label --></label>
+        <name>Temp_Label__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

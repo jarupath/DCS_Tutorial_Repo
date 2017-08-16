@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Log Type --></label>
+    <name>Log_Type__c</name>
+    <picklistValues>
+        <masterLabel>GENERAL_ERROR_INTEGRATION</masterLabel>
+        <translation><!-- GENERAL_ERROR_INTEGRATION --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MISSING_MASTER_MAP_VALUE</masterLabel>
+        <translation><!-- MISSING_MASTER_MAP_VALUE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

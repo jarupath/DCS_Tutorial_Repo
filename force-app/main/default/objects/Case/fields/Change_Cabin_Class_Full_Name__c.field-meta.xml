@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Cabin_Class_Full_Name__c</fullName>
+    <description>Displays the value of the new cabin class (full name) of the passenger related to the case</description>
+    <externalId>false</externalId>
+    <formula>CASE( Change_Cabin_Class__c , "F", "First", "C", "Business", "Y", "Economy", "")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Change Cabin Class Full Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

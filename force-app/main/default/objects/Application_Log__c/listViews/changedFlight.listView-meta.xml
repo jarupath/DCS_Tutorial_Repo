@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>changedFlight</fullName>
+    <columns>Source__c</columns>
+    <columns>Source_Function__c</columns>
+    <columns>Message__c</columns>
+    <columns>Reference_Id__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Timer__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Source_Function__c</field>
+        <operation>contains</operation>
+        <value>changedFlightMapByChangedFlightNumber</value>
+    </filters>
+    <label>changedFlight</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Currency --></label>
+    <name>Currency__c</name>
+    <picklistValues>
+        <masterLabel>AED</masterLabel>
+        <translation><!-- AED --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AUD</masterLabel>
+        <translation><!-- AUD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BDT</masterLabel>
+        <translation><!-- BDT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BHD</masterLabel>
+        <translation><!-- BHD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CAD</masterLabel>
+        <translation><!-- CAD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHF</masterLabel>
+        <translation><!-- CHF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CNY</masterLabel>
+        <translation><!-- CNY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DKK</masterLabel>
+        <translation><!-- DKK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EUR</masterLabel>
+        <translation><!-- EUR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GBP</masterLabel>
+        <translation><!-- GBP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HKD</masterLabel>
+        <translation><!-- HKD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IDR</masterLabel>
+        <translation><!-- IDR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>INR</masterLabel>
+        <translation><!-- INR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IRR</masterLabel>
+        <translation><!-- IRR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JPY</masterLabel>
+        <translation><!-- JPY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KHR</masterLabel>
+        <translation><!-- KHR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KRW</masterLabel>
+        <translation><!-- KRW --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LAK</masterLabel>
+        <translation><!-- LAK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LKR</masterLabel>
+        <translation><!-- LKR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MMK</masterLabel>
+        <translation><!-- MMK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MOP</masterLabel>
+        <translation><!-- MOP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MYR</masterLabel>
+        <translation><!-- MYR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NOK</masterLabel>
+        <translation><!-- NOK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NPR</masterLabel>
+        <translation><!-- NPR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NZD</masterLabel>
+        <translation><!-- NZD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OMR</masterLabel>
+        <translation><!-- OMR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PHP</masterLabel>
+        <translation><!-- PHP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PKR</masterLabel>
+        <translation><!-- PKR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RUB</masterLabel>
+        <translation><!-- RUB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SEK</masterLabel>
+        <translation><!-- SEK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SGD</masterLabel>
+        <translation><!-- SGD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>THB</masterLabel>
+        <translation><!-- THB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TWD</masterLabel>
+        <translation><!-- TWD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USD</masterLabel>
+        <translation><!-- USD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VND</masterLabel>
+        <translation><!-- VND --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XDR</masterLabel>
+        <translation><!-- XDR --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

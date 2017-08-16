@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Marital Status --></label>
+    <name>ROP_Marital_Status__c</name>
+    <picklistValues>
+        <masterLabel>Divorced</masterLabel>
+        <translation><!-- Divorced --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marriage</masterLabel>
+        <translation><!-- Marriage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Single</masterLabel>
+        <translation><!-- Single --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

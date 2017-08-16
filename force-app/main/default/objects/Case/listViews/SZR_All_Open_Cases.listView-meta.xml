@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SZR_All_Open_Cases</fullName>
+    <columns>Case_Number_Custom__c</columns>
+    <columns>Passengerid__c</columns>
+    <columns>Flightid__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Indicator__c</columns>
+    <columns>Case_Type__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CTI__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Customer Response,Resolved,Duplicate,Closed,Void</value>
+    </filters>
+    <filters>
+        <field>Case_Type__c</field>
+        <operation>equals</operation>
+        <value>Commendation,Complaint,Suggestion</value>
+    </filters>
+    <label>All Open Cases</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>SZR</role>
+    </sharedTo>
+</ListView>

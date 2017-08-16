@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flight_Routing_F__c</fullName>
+    <externalId>false</externalId>
+    <formula>Sector__c &amp; ' ' &amp;
+'STA/ETD: ' &amp;  FlightId__r.STD__c &amp; '/' &amp;  FlightId__r.ETD__c &amp; ' ' &amp;
+'ATA: ' &amp;  FlightId__r.ATA__c &amp; ' ' &amp; 
+'Flying Time: ' &amp;  FlightId__r.Flying_Time_Elapsed_Time__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Flight Routing</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

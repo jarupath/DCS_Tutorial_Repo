@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>In_Flight</fullName>
+    <active>true</active>
+    <businessProcess>Thai Airway Case Process</businessProcess>
+    <label>In-Flight</label>
+    <picklistValues>
+        <picklist>Action__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remain</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Authorize_Signature__c</picklist>
+        <values>
+            <fullName>Anchalee Suthivanich</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Papassara Thamasakjinda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plearnpun Sirihongse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priyasiri Juathes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teerapol Chotichanapibal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trajai Sriudommongkol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ตราใจ ศร%E0%B8%B5อ%E0%B8%B8ดมมงคล</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ธ%E0%B8%B5รพล%09โชต%E0%B8%B4ชนาภ%E0%B8%B4บาล</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ปภ%E0%B8%B1สสรา ธรรมศ%E0%B8%B1กด%E0%B8%B4%E0%B9%8Cจ%E0%B8%B4นดา</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ปร%E0%B8%B5ยาศ%E0%B8%B4ร%E0%B8%B4 เช%E0%B8%B7%E0%B9%89อเทศ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>อ%E0%B8%B1ญชล%E0%B8%B5 ส%E0%B8%B8ทธ%E0%B8%B4วาณ%E0%B8%B4ชย%E0%B9%8C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>เพล%E0%B8%B4นพ%E0%B8%B1นธ%E0%B9%8C ส%E0%B8%B4ร%E0%B8%B4หงส%E0%B9%8C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Type__c</picklist>
+        <values>
+            <fullName>14 CFR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baggage Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check-in and Service before immigration - SPECIAL MEAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commendation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Court Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Star Alliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suggestion</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Channel__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-flight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walk-in</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Condition_Multi__c</picklist>
+        <values>
+            <fullName>ACTIVATE %2F DEACTIVATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTHER</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Emergency_Type__c</picklist>
+        <values>
+            <fullName>Crew Decease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passenger Decease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Severe Crew Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Severe Passenger Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Severe Turbulence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slide Deployment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Impact_CGM__c</picklist>
+        <values>
+            <fullName>Block</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serviceable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Impact__c</picklist>
+        <values>
+            <fullName>Block</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Serviceable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Incident_Type__c</picklist>
+        <values>
+            <fullName>Cabin Log</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flight Log</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Investigation_Type__c</picklist>
+        <values>
+            <fullName>Accident%2FInjuries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baggage Handling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defect%2FMalfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied Onboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disruptive%2FUnruly Passenger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excess Baggage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Irregularities Handling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meal Onboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance of staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Punctuality of flights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reservation%2FTicketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrading%2FDowngrading</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Letter_Language__c</picklist>
+        <values>
+            <fullName>EN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lounge_Location__c</picklist>
+        <values>
+            <fullName>ROYAL FIRST LOUNGE %28D3-F%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROYAL ORCHID LOUNGE %28E3-2%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROYAL ORCHID LOUNGE %28E3-F%29 FIRST CLASS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROYAL SILK LOUNGE %28A2-1%29 Domestic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROYAL SILK LOUNGE %28C3-1%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROYAL SILK LOUNGE %28C3-2%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROYAL SILK LOUNGE %28D3-1%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROYAL SILK LOUNGE %28E3-1%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Airport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Saraban</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-flight</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Station</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TGWebsite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walk-in</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Type__c</picklist>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mileage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Root_Cause_CTI__c</picklist>
+        <values>
+            <fullName>Accident during take off%2Flanding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accommodation not provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alternative flights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assistant during delayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancellation of flights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company%27s policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diversion of flights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drunk PAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-booking system</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expired food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fee charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign objects in food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harassment behaviour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impolite manner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-flight Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-flight equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information during delayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingredients in special meal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Irregularities of flights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Item falls from overhead locker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late at boarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Late at check-in</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overbooking flight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance of staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piece%2FWeight%2FSize concept policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality of meal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulation concerned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reschedule of flights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rotten%2FMold food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service mind</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special meal not provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ticket regulations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turbulence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uncoopreative PAX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unprofessional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Variety of meal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Arrival%2FTransit%2FConnections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Authorities and Airport Facilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baggage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boarding and Departure Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check-in %26 Service pre-immigration-DBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check-in %26 Service pre-immigration-DGC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check-in %26 Service pre-immigration-OTHER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check-in %26 Service pre-immigration-SEAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check-in %26 Service pre-immigration-SPML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Comments on TG Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handling of flight Irregularities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lounges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unidentified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unruly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

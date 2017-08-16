@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Passengers__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Passengers</label>
+    <summarizedField>PAX_Flown_Detail__c.Total_Passengers__c</summarizedField>
+    <summaryForeignKey>PAX_Flown_Detail__c.PAX_Flown_Summary__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

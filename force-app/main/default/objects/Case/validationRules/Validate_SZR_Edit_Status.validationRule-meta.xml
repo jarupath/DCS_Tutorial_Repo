@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_SZR_Edit_Status</fullName>
+    <active>true</active>
+    <errorConditionFormula>$UserRole.Name == 'SZR' &amp;&amp; ISCHANGED(Status)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>No permission to update case status</errorMessage>
+</ValidationRule>

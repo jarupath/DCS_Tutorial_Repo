@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <description>This field is for user input. Type value is concate between Type 1 and Type 2 which in format 'Type 1 > Type 2'.</description>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Aircraft</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Alternative Flight Arrangement</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Announcement / Information</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Announcement in Lounge</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Announcement on Board > Cabin crew announcement</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Announcement on Board > Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Announcement on Board > Pilot announcement</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Arrangement during irregularities</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Cabin Crew</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Check-in Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Check-in staff at Transfer desk</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Lost and Found Staff on Arrival</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Lounge Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Other Airport Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Other Arrival Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Reservation &amp; Ticketing Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Reservation &amp; Ticketing Staff at Airport</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Reservation &amp; Ticketing Staff at Transfer desk</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Special Unit Staff (LP-S)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Special Unit staff (LP-S) on Arrival</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of staff at boarding and departure area</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Attitude and Care of Staff Concern</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Availability of check-in counter</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage Handling at check-in</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage Handling on Arrival</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Benefit/Privilege/Global Recognition</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Beverage in Lounge</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Boarding Announcement</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Boarding Gate Location</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Bus Gate boarding</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Cabin ambience</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Cancellation of Flight</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Customer Profile</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Customer Relations Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Customer Service counter</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Bin storage</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Cradle/bassinet</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Defect of in-flight entertainment system</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Internet</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Leakage</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Reading lights</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Seat</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Socket for laptop/adapter</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Tables/tray</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Telephone/fax on board</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Toilets</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunctions > Window shade/glass</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Denied Boarding</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Denied Check-in, Overbooking</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Disembarkation</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Disruptive/Unruly Passenger on Board</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Diversion of Flight</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Drink / Beverages > Beverages / Juice</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Drink / Beverages > Coffee / Tea</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Drink / Beverages > Liquor / Beer</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Drink / Beverages > Water</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Drink / Beverages > Wine / Champagne</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Duty-Free Sale on Board</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>E-Check-in service > Content</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>E-Check-in service > Functional Usage</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>E-Check-in service > Graphic Design</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Enrollment</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>E-ticket/E-booking</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Excess Baggage</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Facility in Lounge > Entertainment</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Facility in Lounge > Internet Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Facility in Lounge > Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Facility in Lounge > Reading materials</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Facility in Lounge > Toilet/Shower room</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Fare</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Flight/Seat/Class Availability</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Flight Schedule</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Food / Beverage serving > Procedure</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Food in Lounge</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Fruit / Dried fruit</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Gate Lounge</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>General Comments in Check - in Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>General Comments on Arrival</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>General Comments on Boarding</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>General Comments on Lounge Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Hand Baggage Handling at Boarding Gate</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Handling of Ticket Refund</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Hotel/Accommodation during irregularities</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment > Audio/Music/Radio</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment > Audio system</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment > Entire Entertainment System</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment > Games</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment > Headphones</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment > Inseat-video/personal video</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment > Landscape camera</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment > Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment > TV monitor/screen</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment > Video/Movie/TV program</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Interline/Transit/Connections</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Items Distributed in Cabin > Amenity kits</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Items Distributed in Cabin > Blankets/Pillows</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Items Distributed in Cabin > Giveaway</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Items Distributed in Cabin > Hot/cold towels</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Items Distributed in Cabin > Immigration/Customs/ROP forms etc.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Items Distributed in Cabin > Orchid corsages</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Items Distributed in Cabin > Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Items Distributed in Cabin > Playing cards</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Items Distributed in Cabin > Slipper/pajamas</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Items Distributed in Cabin > Toys</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Layover Expense</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Limousine Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Lounge Ambience/Comfort</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Lounge Availability/Admittance</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Lounge check-in</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Lounge Location</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Lounge Working hours</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Massage Service/Royal Orchid Spa</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Meals/Dessert/Snack</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Medical Assistance, Injuries on Board</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Membership Levels</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Messages to Relative</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Mileage Accumulation and Validity</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Mileage Claim/Retro Credit</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Mileage Purchase</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Mobile Application > Content and Information</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Mobile Application > Design</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Mobile Application > Functional Usage</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Mobile Application > Language</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Mobile Application > Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>No. of Counter/Staff at check-in</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Number of Cabin Crew</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Arrival/Transit/Connections</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Boarding and Departure Area</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Check-in and Service before Immigration</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Contact Center</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Customer Retention</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > General Comments on TG services</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Handling of Flight Irregularities</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Lounge</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Marketing</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Onboard Catering</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Reservation</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > ROP</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others > Schedule Deviation</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Overall Comments</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Overall satisfaction</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Passenger's Menu/ Wine List</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Passenger Bus</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Passenger Bus on Arrival</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Pax dislike procedure of credit card verification (internet purchasing)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Cabin Crew</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Check-in Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Check-in staff at Transfer desk</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Lost and Found Staff on Arrival</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Lounge staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Other Airport Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Other Arrival Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Reservation &amp; Ticketing Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Reservation &amp; Ticketing Staff at Airport</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Reservation &amp; Ticketing Staff Transfer desk</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Special Unit Staff (LP-S)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Special Unit staff (LP-S) on Arrival</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of staff at boarding and departure area</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance and Efficiency of Staff Concern</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Presence of TG staff on Arrival</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Printed Timetable</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Priority Boarding</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Promotion/Marketing campaign</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Punctuality of Flight</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Reading Materials > Magazines</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Reading Materials > Newspapers</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Reading Materials > Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Refreshment/Meal Provided during irregularities</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Request for Document</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Request Information Before Traveling</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Rerouting of Flight</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Reschedule of Flight</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Resolution/Reply/Settlement</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROP Advertisement/Brochure</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROP Awards and Redeeming Award</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROP Contact by Mail/Email/Fax/Website</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROP Contact by Phone</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROP Membership Application and Guide/Handbook</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROP Membership Card</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROP Mileage Statement/Newsletter</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROP Staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Routing</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Safety on Board Aspects</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seasoning / Condiment</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > Amount of leg room</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > Appearance of seat</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > Baby seat/cradle bassinet</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > Flat bed</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > Foot rest</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > General comfort of seat</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > Head rest</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > Leg rest</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > Seats abreast</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat > Size/pitch/width</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat Assignment</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Security Aspects at Boarding Gate</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Self-service Check-in/Kiosk</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Special Meals</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Stand by process</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Tableware (cutlery, glasses, meal box, etc.)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Telephone Contact</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Telephone Expenses/Allowance</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>thaiairways.com > Content and Information</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>thaiairways.com > Design</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>thaiairways.com > Functional Usage</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>thaiairways.com > Language</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>thaiairways.com > Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Through check-in</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ticketing and Reservation at Airport</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ticket Issuance</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ticket Office</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ticket Regulations</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Time for boarding</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Timing for check-in counter</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Timing for Meal/Beverage Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Toilets</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Transportation during irregularities</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Upgrading, Downgrading at Check-in</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Waiting time at check-in</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>WIFI on board</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Drink / Beverages > Beverages / Juice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Drink / Beverages > Coffee / Tea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Drink / Beverages > Liquor / Beer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Drink / Beverages > Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Drink / Beverages > Wine / Champagne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Food / Beverage serving > Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Fruit / Dried fruit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Meals/Dessert/Snack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Others > Onboard Catering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Passenger's Menu/ Wine List</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Seasoning / Condiment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Special Meals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Tableware (cutlery, glasses, meal box, etc.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Onboard Catering</controllingFieldValue>
+            <valueName>Timing for Meal/Beverage Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>Attitude and Care of Reservation &amp; Ticketing Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>E-ticket/E-booking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>Flight/Seat/Class Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>Handling of Ticket Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>Layover Expense</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>Others > Reservation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>Performance and Efficiency of Reservation &amp; Ticketing Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>Request Information Before Traveling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>Ticket Issuance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>Ticket Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation and Ticketing Service</controllingFieldValue>
+            <valueName>Ticket Regulations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>Benefit/Privilege/Global Recognition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>Customer Profile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>Enrollment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>Membership Levels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>Mileage Accumulation and Validity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>Mileage Claim/Retro Credit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>Mileage Purchase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>Others > ROP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>ROP Advertisement/Brochure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>ROP Awards and Redeeming Award</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>ROP Contact by Mail/Email/Fax/Website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>ROP Contact by Phone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>ROP Membership Application and Guide/Handbook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>ROP Membership Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>ROP Mileage Statement/Newsletter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Royal Orchid Plus Program</controllingFieldValue>
+            <valueName>ROP Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule Deviation</controllingFieldValue>
+            <valueName>Cancellation of Flight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule Deviation</controllingFieldValue>
+            <valueName>Diversion of Flight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule Deviation</controllingFieldValue>
+            <valueName>Others > Schedule Deviation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule Deviation</controllingFieldValue>
+            <valueName>Punctuality of Flight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule Deviation</controllingFieldValue>
+            <valueName>Rerouting of Flight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schedule Deviation</controllingFieldValue>
+            <valueName>Reschedule of Flight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Attitude and Care of Check-in staff at Transfer desk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Attitude and Care of Lost and Found Staff on Arrival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Attitude and Care of Other Arrival Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Attitude and Care of Reservation &amp; Ticketing Staff at Transfer desk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Attitude and Care of Special Unit staff (LP-S) on Arrival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Baggage Handling on Arrival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Disembarkation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>General Comments on Arrival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Interline/Transit/Connections</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Limousine Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Others > Arrival/Transit/Connections</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Passenger Bus on Arrival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Performance and Efficiency of Check-in staff at Transfer desk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Performance and Efficiency of Lost and Found Staff on Arrival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Performance and Efficiency of Other Arrival Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Performance and Efficiency of Reservation &amp; Ticketing Staff Transfer desk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Performance and Efficiency of Special Unit staff (LP-S) on Arrival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arrival/Transit/Connections</controllingFieldValue>
+            <valueName>Presence of TG staff on Arrival</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Attitude and Care of staff at boarding and departure area</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Boarding Announcement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Boarding Gate Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Bus Gate boarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Denied Boarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Gate Lounge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>General Comments on Boarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Hand Baggage Handling at Boarding Gate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Others > Boarding and Departure Area</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Passenger Bus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Performance and Efficiency of staff at boarding and departure area</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Priority Boarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Security Aspects at Boarding Gate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Boarding and Departure Area</controllingFieldValue>
+            <valueName>Time for boarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Attitude and Care of Check-in Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Attitude and Care of Other Airport Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Attitude and Care of Reservation &amp; Ticketing Staff at Airport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Attitude and Care of Special Unit Staff (LP-S)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Availability of check-in counter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Baggage Handling at check-in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Customer Service counter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Denied Check-in, Overbooking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>E-Check-in service > Content</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>E-Check-in service > Functional Usage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>E-Check-in service > Graphic Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Excess Baggage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>General Comments in Check - in Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>No. of Counter/Staff at check-in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Others > Check-in and Service before Immigration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Pax dislike procedure of credit card verification (internet purchasing)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Performance and Efficiency of Check-in Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Performance and Efficiency of Other Airport Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Performance and Efficiency of Reservation &amp; Ticketing Staff at Airport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Performance and Efficiency of Special Unit Staff (LP-S)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Seat Assignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Self-service Check-in/Kiosk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Stand by process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Through check-in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Ticketing and Reservation at Airport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Timing for check-in counter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Upgrading, Downgrading at Check-in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Check-in and Service before immigration</controllingFieldValue>
+            <valueName>Waiting time at check-in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>Mobile Application > Content and Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>Mobile Application > Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>Mobile Application > Functional Usage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>Mobile Application > Language</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>Mobile Application > Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>Others > Contact Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>Telephone Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>thaiairways.com > Content and Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>thaiairways.com > Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>thaiairways.com > Functional Usage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>thaiairways.com > Language</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Center</controllingFieldValue>
+            <valueName>thaiairways.com > Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Retention</controllingFieldValue>
+            <valueName>Customer Relations Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Retention</controllingFieldValue>
+            <valueName>Others > Customer Retention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Retention</controllingFieldValue>
+            <valueName>Request for Document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Retention</controllingFieldValue>
+            <valueName>Resolution/Reply/Settlement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Comments on TG Services</controllingFieldValue>
+            <valueName>Others > General Comments on TG services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Comments on TG Services</controllingFieldValue>
+            <valueName>Overall Comments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Alternative Flight Arrangement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Announcement / Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Arrangement during irregularities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Attitude and Care of Staff Concern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Hotel/Accommodation during irregularities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Messages to Relative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Others > Handling of Flight Irregularities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Performance and Efficiency of Staff Concern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Refreshment/Meal Provided during irregularities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Telephone Expenses/Allowance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Handling of flight Irregularities</controllingFieldValue>
+            <valueName>Transportation during irregularities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Announcement on Board > Cabin crew announcement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Announcement on Board > Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Announcement on Board > Pilot announcement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Attitude and Care of Cabin Crew</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Cabin ambience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Bin storage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Cradle/bassinet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Defect of in-flight entertainment system</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Internet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Leakage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Reading lights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Seat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Socket for laptop/adapter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Tables/tray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Telephone/fax on board</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Toilets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Defect/Malfunctions > Window shade/glass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Disruptive/Unruly Passenger on Board</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Duty-Free Sale on Board</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>In-flight Entertainment > Audio/Music/Radio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>In-flight Entertainment > Audio system</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>In-flight Entertainment > Entire Entertainment System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>In-flight Entertainment > Games</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>In-flight Entertainment > Headphones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>In-flight Entertainment > Inseat-video/personal video</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>In-flight Entertainment > Landscape camera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>In-flight Entertainment > Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>In-flight Entertainment > TV monitor/screen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>In-flight Entertainment > Video/Movie/TV program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Items Distributed in Cabin > Amenity kits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Items Distributed in Cabin > Blankets/Pillows</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Items Distributed in Cabin > Giveaway</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Items Distributed in Cabin > Hot/cold towels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Items Distributed in Cabin > Immigration/Customs/ROP forms etc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Items Distributed in Cabin > Orchid corsages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Items Distributed in Cabin > Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Items Distributed in Cabin > Playing cards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Items Distributed in Cabin > Slipper/pajamas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Items Distributed in Cabin > Toys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Medical Assistance, Injuries on Board</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Number of Cabin Crew</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Overall satisfaction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Performance and Efficiency of Cabin Crew</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Pilot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Reading Materials > Magazines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Reading Materials > Newspapers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Reading Materials > Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Safety on Board Aspects</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > Amount of leg room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > Appearance of seat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > Baby seat/cradle bassinet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > Flat bed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > Foot rest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > General comfort of seat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > Head rest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > Leg rest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > Seats abreast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Seat > Size/pitch/width</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>Toilets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-flight Service</controllingFieldValue>
+            <valueName>WIFI on board</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Announcement in Lounge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Attitude and Care of Lounge Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Beverage in Lounge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Facility in Lounge > Entertainment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Facility in Lounge > Internet Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Facility in Lounge > Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Facility in Lounge > Reading materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Facility in Lounge > Toilet/Shower room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Food in Lounge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>General Comments on Lounge Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Lounge Ambience/Comfort</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Lounge Availability/Admittance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Lounge check-in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Lounge Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Lounge Working hours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Massage Service/Royal Orchid Spa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Others > Lounge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>Performance and Efficiency of Lounge staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Aircraft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Fare</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Flight Schedule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Others > Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Printed Timetable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Promotion/Marketing campaign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Routing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

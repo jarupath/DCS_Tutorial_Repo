@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VoidCase</fullName>
+    <availability>online</availability>
+    <description>void case button</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Void</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/20.0/connection.js")}
+
+function insertScript(){
+var caseId = '{!Case.Id}';
+var currentLocation = window.location;
+var topURL = window.top.location.href;
+var box = new SimpleDialog("hersh"+Math.random(), true); 
+parent.box = box; 
+box.setWidth(425); 
+box.setTitle("Void Case");
+box.createDialog(); 
+box.setContentInnerHTML("&lt;iframe id='iframeContentId' src='/apex/VoidCasePage?id=" + caseId +"&amp;ret="+currentLocation+"&amp;top="+ topURL+"' frameborder='0' marginheight='0' width='100%' height='350px' marginwidth='0' scrolling='yes' />");
+box.setupDefaultButtons(); 
+box.show(); 
+} 
+
+insertScript();</url>
+</WebLink>

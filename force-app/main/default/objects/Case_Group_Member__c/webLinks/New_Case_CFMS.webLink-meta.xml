@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Case_CFMS</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>New Case CFMS</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>srcUp("/500/e?def_account_id={!Account.Id}&amp;RecordType={!$Setup.System_Configuration__c.Customer_Feedback_Create__c}&amp;ekp=500&amp;ent=Case");</url>
+</WebLink>

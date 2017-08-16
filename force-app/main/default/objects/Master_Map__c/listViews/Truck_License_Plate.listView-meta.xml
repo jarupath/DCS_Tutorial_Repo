@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Truck_License_Plate</fullName>
+    <columns>NAME</columns>
+    <columns>Code__c</columns>
+    <columns>Source_System_Code__c</columns>
+    <columns>Depend_On_Object__c</columns>
+    <columns>Depend_On_Object2__c</columns>
+    <columns>Depend_On_Value__c</columns>
+    <columns>Field_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Field_Name__c</field>
+        <operation>equals</operation>
+        <value>Truck License Plate</value>
+    </filters>
+    <label>Truck License Plate</label>
+    <language>en_US</language>
+</ListView>

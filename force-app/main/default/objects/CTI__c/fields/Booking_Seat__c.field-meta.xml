@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Booking_Seat__c</fullName>
+    <description>Passenger's Booking Seat (from booking before chenk-in) from Booking Seat Number in related case.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Caseid__r.Passengerid__r.Booking_Seat__c),"Unidentified",Caseid__r.Passengerid__r.Booking_Seat__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Booking Seat</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Compensation_Amount</fullName>
+    <active>false</active>
+    <description>Validate the compensation items is required for approval submitted.</description>
+    <errorConditionFormula>NOT(ISNEW()) &amp;&amp; Compensation_Amount__c &lt;= 0</errorConditionFormula>
+    <errorMessage>There is no compensations in this case. Please add the compensation item before submit for approval.</errorMessage>
+</ValidationRule>

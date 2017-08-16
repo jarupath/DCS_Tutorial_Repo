@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Authorize_Signature_Current__c</fullName>
+    <description>Displays the authorize signature that is to be used in templates and print screens (from bangkok or from abroad)</description>
+    <externalId>false</externalId>
+    <formula>CASE(Owner:User.Station__c,
+"BKK", text(Authorize_Signature__c) ,
+"CNX", text(Authorize_Signature__c) ,
+"HKT", text(Authorize_Signature__c) ,
+"KBV", text(Authorize_Signature__c) ,
+"USM", text(Authorize_Signature__c) ,
+ Authorize_Signature_Text__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Authorize Signature Current</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

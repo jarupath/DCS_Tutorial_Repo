@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investigation_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Investigation Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accident/Injuries</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage Handling</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Defect/Malfunction</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Denied Onboard</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Excess Baggage</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Irregularities Handling</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Meal Onboard</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance of staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Punctuality of flights</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Reservation/Ticketing</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Disruptive/Unruly Passenger</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Upgrading/Downgrading</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

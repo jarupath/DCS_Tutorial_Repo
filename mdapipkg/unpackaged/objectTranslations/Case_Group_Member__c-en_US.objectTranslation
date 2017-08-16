@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Group Member</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Group Members</value>
+    </caseValues>
+    <fields>
+        <label><!-- ATA Chapter --></label>
+        <name>ATA_Chapter_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATA Chapter --></label>
+        <name>ATA_Chapter__c</name>
+        <relationshipLabel><!-- Case Group Members (ATA Chapter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- A/C Zone --></label>
+        <name>A_C_Zone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accepted Class --></label>
+        <name>Accepted_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accepted Seat Number --></label>
+        <name>Accepted_Seat_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>AccountId__c</name>
+        <relationshipLabel><!-- Case Group Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Action Status --></label>
+        <name>Action_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- A/C REG --></label>
+        <name>Aircraft__c</name>
+        <relationshipLabel><!-- Case Group Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AUTH NO. --></label>
+        <name>Authorize_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Block Name --></label>
+        <name>Block_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date/Time Opened --></label>
+        <name>Case_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Number --></label>
+        <name>Case_Number_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>Case_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Case_Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Type --></label>
+        <name>Case_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Number --></label>
+        <name>Caseid__c</name>
+        <relationshipLabel><!-- Case Group Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Change Cabin Class Full Name --></label>
+        <name>Change_Cabin_Class_Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Cabin Class --></label>
+        <name>Change_Cabin_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Seat --></label>
+        <name>Change_Seat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Complain TXT --></label>
+        <name>Complain_TXT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created At (Mobile) --></label>
+        <name>Created_At_Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crew --></label>
+        <name>CrewId__c</name>
+        <relationshipLabel><!-- Case Group Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Defect Type --></label>
+        <name>Defect_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detail --></label>
+        <name>Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document_Version --></label>
+        <name>Document_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Equipment --></label>
+        <name>Equipment_From_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- Equipment --></label>
+        <name>Equipment__c</name>
+        <relationshipLabel><!-- Case Group Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- FFP Number --></label>
+        <name>FFP_Number_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- FFP Number --></label>
+        <name>FFP_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- FFP Tier --></label>
+        <name>FFP_Tier_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- FFP Tier --></label>
+        <name>FFP_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Number --></label>
+        <name>FlightId__c</name>
+        <relationshipLabel><!-- Case Group Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Flight Number --></label>
+        <name>Flight_Number_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact --></label>
+        <name>Impact_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact Status --></label>
+        <name>Impact_Status_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Impact --></label>
+        <name>Impact__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation><!-- Block --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malfunction</masterLabel>
+            <translation><!-- Malfunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serviceable</masterLabel>
+            <translation><!-- Serviceable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Master Case Recode Type Id (Clarify) --></label>
+        <name>Master_Case_Recode_Type_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Travel Class --></label>
+        <name>New_Travel_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- PNR --></label>
+        <name>PNR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part --></label>
+        <name>Part_From_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part --></label>
+        <name>Part__c</name>
+        <relationshipLabel><!-- Case Group Members (Part) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Passenger Class Search --></label>
+        <name>Passenger_Class_Search__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger Name Search --></label>
+        <name>Passenger_Name_Search__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger Seat Search --></label>
+        <name>Passenger_Seat_Search__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger --></label>
+        <name>Passengerid__c</name>
+        <relationshipLabel><!-- Case Group Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Position Alphabet Only --></label>
+        <name>Position_Alphabet_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position Number Only --></label>
+        <name>Position_Number_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seat Position --></label>
+        <name>Position_with_condition_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Tier --></label>
+        <name>ROP_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requires Fix --></label>
+        <name>Requires_Fix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- SEQ No. --></label>
+        <name>SEQ_No_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seat Number --></label>
+        <name>Seat_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Staff Name --></label>
+        <name>Staff_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Staff Personal Number --></label>
+        <name>Staff_Personal_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Class --></label>
+        <name>Travel_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- VIP --></label>
+        <name>VIP__c</name>
+    </fields>
+    <layouts>
+        <layout>Admin Case Group Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Group Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>General Case Group Member</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Maintemance of Case Group Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Maintenance Case Group Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Ground Service CGM --></label>
+        <name>Ground_Service_CGM</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Maintenance Page Layout --></label>
+        <name>Maintenance_Page_Layout</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_Passenger_List --></label>
+        <name>Add_Passenger_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Case --></label>
+        <name>New_Case</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Case_CFMS --></label>
+        <name>New_Case_CFMS</name>
+    </webLinks>
+</CustomObjectTranslation>

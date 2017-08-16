@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seat_Number__c</fullName>
+    <description>Pull data from Passenger's Accepted Seat but if Passenger's Accepted Seat is blank, pull value from Passenger's Booking Seat.</description>
+    <externalId>false</externalId>
+    <formula>IF( Caseid__r.Passengerid__r.Checkin_Seat__c != null, Caseid__r.Passengerid__r.Checkin_Seat__c , IF(ISBLANK(Caseid__r.Passengerid__r.Booking_Seat__c),"Unidentified",Caseid__r.Passengerid__r.Booking_Seat__c) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Seat Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

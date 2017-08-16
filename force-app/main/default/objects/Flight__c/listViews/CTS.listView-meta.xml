@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CTS</fullName>
+    <columns>NAME</columns>
+    <columns>Routing__c</columns>
+    <columns>Sector__c</columns>
+    <columns>Flight_Date_UTC__c</columns>
+    <columns>Flight_Date_F__c</columns>
+    <columns>STA__c</columns>
+    <columns>STD__c</columns>
+    <columns>Leg_Number__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Departure_STN__c</field>
+        <operation>equals</operation>
+        <value>CTS</value>
+    </filters>
+    <filters>
+        <field>STA_LT_DateTime__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>CTS</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Ground_Service_Team</group>
+    </sharedTo>
+</ListView>

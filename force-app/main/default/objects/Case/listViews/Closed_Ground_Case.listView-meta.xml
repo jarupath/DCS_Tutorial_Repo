@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Ground_Case</fullName>
+    <booleanFilter>1 AND 2 AND ( 3 OR 4 )</booleanFilter>
+    <columns>Case_Number_Custom__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Flightid__c</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Case_Type__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Role_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Ground_Service_Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>Created_by_Profile__c</field>
+        <operation>equals</operation>
+        <value>Ground Customer Service</value>
+    </filters>
+    <filters>
+        <field>Created_by_Profile__c</field>
+        <operation>equals</operation>
+        <value>Ground Customer Service NOT BKK</value>
+    </filters>
+    <label>Closed Ground Case</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Ground_Service_Team</group>
+    </sharedTo>
+</ListView>

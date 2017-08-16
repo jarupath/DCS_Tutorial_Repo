@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MembershipId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>In case of duplication, this field will related to the actual membership</description>
+    <externalId>false</externalId>
+    <label>Merge with memership no.</label>
+    <referenceTo>Membership__c</referenceTo>
+    <relationshipLabel>Memberships</relationshipLabel>
+    <relationshipName>Memberships</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

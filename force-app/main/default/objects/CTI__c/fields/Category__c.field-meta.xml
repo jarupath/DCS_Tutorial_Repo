@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <description>Category represent touchpoit thai case occur.</description>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contact Center</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Reservation and Ticketing Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Check-in and Service before immigration</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Lounges</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Boarding and Departure Area</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Onboard Catering</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Arrival/Transit/Connections</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Royal Orchid Plus Program</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Customer Retention</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>General Comments on TG Services</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Schedule Deviation</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Handling of flight Irregularities</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Liability --></label>
+    <name>Liability__c</name>
+    <picklistValues>
+        <masterLabel>Act of Legislation 2015 for International Air Transportation</masterLabel>
+        <translation><!-- Act of Legislation 2015 for International Air Transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EC261/2004</masterLabel>
+        <translation><!-- EC261/2004 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local Laws</masterLabel>
+        <translation><!-- Local Laws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MC99 (The Montreal Convention)</masterLabel>
+        <translation><!-- MC99 (The Montreal Convention) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>US Laws</masterLabel>
+        <translation><!-- US Laws --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warsaw Convention</masterLabel>
+        <translation><!-- Warsaw Convention --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

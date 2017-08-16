@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investigation_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Investigation Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Investigation_Department__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Booking through TG website</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ticket Receipt</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>BKK Reservation (Thai Contact Center)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Reservation System Service Management</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ticketing Dept.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Tickets issued at Larnluang Office</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Tickets issued at Head office (Vibhavadee)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Tickets issued at Silom office</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>E-Ticketing</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Airport Ticket Office</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Refund office</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Passenger Refund</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Agency Sales</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Airline Industry Relations</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Check-in Landside - International</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Check-in Landside - Domestic</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Departure - Airside</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>BKK Station Manager / Duty Manager</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Passenger Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Service Delivery Support Dept.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage Services Dept.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>BKK Lounges</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Lounges at abroad</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Stations</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Load Control</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ground Support Equipment Operations Control Dept.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>CCTV at sorting area</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Passenger Transport Dept.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Cabin Cleaning (TG)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Cabin Cleaning (Customer A/L)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Tractor Service in Ramp</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Load Performing</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage Sorting</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>International Stations</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Domestic Stations &amp; Inter’l stations</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Catering Dept.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Menu Planning Dept.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Europe and Africa group</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>West Asia / Indo-China and Domestic</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Australia / Middle East / South Asia</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>America / North and East Asia</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Service Equipment Inventory Control</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-Flight Duty Free Department</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-Flight Department Cabin Crew</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-Flight Department Cabin Report</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-Flight Services Procedure Planning Department</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Flight Standard Dept.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Flight Operations Safety Department</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Pilot Admin. Dept.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Technical Department BKKMC</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Strategic Enterprise Products</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-Flight Entertainment Management Dept.</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Internal for passenger</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Thai Smile Airline</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Abroad Stations</controllingFieldValue>
+            <valueName>International Stations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Abroad Stations</controllingFieldValue>
+            <valueName>Domestic Stations &amp; Inter’l stations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ramp Service</controllingFieldValue>
+            <valueName>Ground Support Equipment Operations Control Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ramp Service</controllingFieldValue>
+            <valueName>CCTV at sorting area</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ramp Service</controllingFieldValue>
+            <valueName>Passenger Transport Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ramp Service</controllingFieldValue>
+            <valueName>Cabin Cleaning (TG)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ramp Service</controllingFieldValue>
+            <valueName>Cabin Cleaning (Customer A/L)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ramp Service</controllingFieldValue>
+            <valueName>Tractor Service in Ramp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ramp Service</controllingFieldValue>
+            <valueName>Load Performing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ramp Service</controllingFieldValue>
+            <valueName>Baggage Sorting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Booking through TG website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Ticket Receipt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>BKK Reservation (Thai Contact Center)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Reservation System Service Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Ticketing Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Tickets issued at Larnluang Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Tickets issued at Head office (Vibhavadee)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Tickets issued at Silom office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>E-Ticketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Airport Ticket Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Refund office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Passenger Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Agency Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bangkok Ticket &amp;	Reservation</controllingFieldValue>
+            <valueName>Airline Industry Relations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering</controllingFieldValue>
+            <valueName>Catering Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering</controllingFieldValue>
+            <valueName>Menu Planning Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering</controllingFieldValue>
+            <valueName>Europe and Africa group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering</controllingFieldValue>
+            <valueName>West Asia / Indo-China and Domestic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering</controllingFieldValue>
+            <valueName>Australia / Middle East / South Asia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Catering</controllingFieldValue>
+            <valueName>America / North and East Asia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cockpit Crew</controllingFieldValue>
+            <valueName>Flight Standard Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cockpit Crew</controllingFieldValue>
+            <valueName>Flight Operations Safety Department</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cockpit Crew</controllingFieldValue>
+            <valueName>Pilot Admin. Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>Check-in Landside - International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>Check-in Landside - Domestic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>Departure - Airside</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>BKK Station Manager / Duty Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>Passenger Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>Service Delivery Support Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>Baggage Services Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>BKK Lounges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>Lounges at abroad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>Stations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Service at Bangkok Airport</controllingFieldValue>
+            <valueName>Load Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-Flight Products</controllingFieldValue>
+            <valueName>Strategic Enterprise Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-Flight Products</controllingFieldValue>
+            <valueName>In-Flight Entertainment Management Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-Flight Products</controllingFieldValue>
+            <valueName>Internal for passenger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-Flight Service</controllingFieldValue>
+            <valueName>Service Equipment Inventory Control</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-Flight Service</controllingFieldValue>
+            <valueName>In-Flight Duty Free Department</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-Flight Service</controllingFieldValue>
+            <valueName>In-Flight Department Cabin Crew</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-Flight Service</controllingFieldValue>
+            <valueName>In-Flight Department Cabin Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-Flight Service</controllingFieldValue>
+            <valueName>In-Flight Services Procedure Planning Department</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Service</controllingFieldValue>
+            <valueName>Technical Department BKKMC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Thai Smile Airline</controllingFieldValue>
+            <valueName>Thai Smile Airline</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aircraft</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aircrafts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Aircraft Case Status --></label>
+        <name>Aircraft_Case_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- A/C CONF. --></label>
+        <name>Aircraft_Configuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- A/C Model --></label>
+        <name>Aircraft_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Main Type --></label>
+        <name>Aircraft_Main_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- A/C Name EN --></label>
+        <name>Aircraft_Name_EN__c</name>
+    </fields>
+    <fields>
+        <label><!-- A/C Name TH --></label>
+        <name>Aircraft_Name_TH__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Registration --></label>
+        <name>Aircraft_Registration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Sub Type --></label>
+        <name>Aircraft_Sub_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- A/C Type --></label>
+        <name>Aircraft_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cabin Duty --></label>
+        <name>Cabin_Duty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cabin Ver. --></label>
+        <name>Cabin_Ver__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEP STN --></label>
+        <name>DEP_STN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery --></label>
+        <name>Delivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is LOPA Ready --></label>
+        <name>Is_LOPA_Ready__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOPA Business Class --></label>
+        <name>LOPA_Business_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOPA Economy Class --></label>
+        <name>LOPA_Economy_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOPA First Class --></label>
+        <name>LOPA_First_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line no. --></label>
+        <name>Line_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- Msn. --></label>
+        <name>Msn__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Blocks --></label>
+        <name>Number_Of_Blocks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Completes --></label>
+        <name>Number_Of_Completes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Malfunctions --></label>
+        <name>Number_Of_Malfunctions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of NoActions --></label>
+        <name>Number_Of_NoActions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Serviceables --></label>
+        <name>Number_Of_Serviceables__c</name>
+    </fields>
+    <layouts>
+        <layout>Admin Aircraft Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Aircraft Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Maintenance Aircraft Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Incident --></label>
+            <section>Incident</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TG Admin Aircraft Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

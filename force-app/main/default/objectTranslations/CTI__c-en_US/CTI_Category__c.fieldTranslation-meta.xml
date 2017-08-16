@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category (del) --></label>
+    <name>CTI_Category__c</name>
+    <picklistValues>
+        <masterLabel>Arrival/Transit/Connections</masterLabel>
+        <translation><!-- Arrival/Transit/Connections --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Authorities and Airport Facilities</masterLabel>
+        <translation><!-- Authorities and Airport Facilities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boarding and Departure Area</masterLabel>
+        <translation><!-- Boarding and Departure Area --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Check-in and Service before immigration</masterLabel>
+        <translation><!-- Check-in and Service before immigration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contact Center</masterLabel>
+        <translation><!-- Contact Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Retention</masterLabel>
+        <translation><!-- Customer Retention --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Comments on TG Services</masterLabel>
+        <translation><!-- General Comments on TG Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handling of flight Irregularities</masterLabel>
+        <translation><!-- Handling of flight Irregularities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Service</masterLabel>
+        <translation><!-- In-flight Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lounges</masterLabel>
+        <translation><!-- Lounges --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation><!-- Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Onboard Catering</masterLabel>
+        <translation><!-- Onboard Catering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reservation and Ticketing Service</masterLabel>
+        <translation><!-- Reservation and Ticketing Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Royal Orchid Holiday Program</masterLabel>
+        <translation><!-- Royal Orchid Holiday Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Royal Orchid Plus Program</masterLabel>
+        <translation><!-- Royal Orchid Plus Program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedule Deviation</masterLabel>
+        <translation><!-- Schedule Deviation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

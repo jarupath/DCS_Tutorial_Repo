@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Passenger_Flown__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Link this case with PAX Flown Summary object which match to issue created mont  to be used to caculate 1MPAX and 100KPAX in report.</description>
+    <externalId>false</externalId>
+    <label>Passenger Flown</label>
+    <referenceTo>PAX_Flown_Summary__c</referenceTo>
+    <relationshipLabel>CTIs</relationshipLabel>
+    <relationshipName>CTIs</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Information_Cases</fullName>
+    <columns>Case_Number_Custom__c</columns>
+    <columns>Passengerid__c</columns>
+    <columns>Flightid__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Indicator__c</columns>
+    <columns>Case_Type__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CTI__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Case_Type__c</field>
+        <operation>equals</operation>
+        <value>Information</value>
+    </filters>
+    <label>All Information Cases</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>AO_Tier_2_Team</group>
+        <group>S4_First_Platinum_Team</group>
+        <group>S4_Level_8_Ground_Team</group>
+        <group>S4_Level_8_In_Flight_Team</group>
+        <group>S4_Level_8_Team</group>
+        <group>S4_Tier_1_Team</group>
+        <group>S4_Tier_2_Team</group>
+        <role>D7</role>
+        <role>SZ</role>
+    </sharedTo>
+</ListView>

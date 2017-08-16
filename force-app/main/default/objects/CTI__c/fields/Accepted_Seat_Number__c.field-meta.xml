@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accepted_Seat_Number__c</fullName>
+    <description>Display Passenger's Seat (post check-in) from Accepted Seat Number in related case. Formula will default Unidentified value for blank Accepted Seat.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Caseid__r.Accepted_Seat_Number__c) || Caseid__r.Accepted_Seat_Number__c == "NA","Unidentified",Caseid__r.Accepted_Seat_Number__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Accepted Seat Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

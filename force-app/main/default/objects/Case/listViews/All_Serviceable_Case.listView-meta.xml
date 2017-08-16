@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Serviceable_Case</fullName>
+    <columns>Case_Status__c</columns>
+    <columns>SEQ__c</columns>
+    <columns>Position_Case_Group_Member__c</columns>
+    <columns>ATA_Chapter_2_F__c</columns>
+    <columns>EquipmentId__c</columns>
+    <columns>PartId__c</columns>
+    <columns>Description_txt__c</columns>
+    <columns>DEP_STN__c</columns>
+    <columns>A_C_REG_ID__c</columns>
+    <columns>A_C_Main_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Blue_Case_Record_Count__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Maintenance</value>
+    </filters>
+    <label>All Serviceable Case</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Aircraft_Maintenance_Team</group>
+    </sharedTo>
+</ListView>

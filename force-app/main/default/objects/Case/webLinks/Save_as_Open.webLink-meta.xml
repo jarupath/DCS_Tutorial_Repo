@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Save_as_Open</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Save as Open</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/29.0/connection.js")} 
+
+var ucase = new sforce.SObject('Case'); 
+
+ucase.id = "{!Case.Id}"; 
+ucase.Ground_Customer_Service__c = "1";
+if ("{!Case.Passengerid__c}" != '')
+   ucase.Status = "Escalated"; 
+else
+   ucase.Status = "Open";
+ 
+
+
+var r = confirm("This action will escalate the Case. Are you sure you want to save as Open?"); 
+if (r == true) { 
+result = sforce.connection.update([ucase]); 
+} 
+
+location.reload(true);</url>
+</WebLink>

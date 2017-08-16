@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Approved_Status_OnCeate</fullName>
+    <active>true</active>
+    <errorConditionFormula>(  RecordType.DeveloperName == 'CFMS_Compensation' || RecordType.DeveloperName == 'SD_SR_Compensation') &amp;&amp; ISNEW() &amp;&amp; ISPICKVAL(Status__c , 'Approved' )</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Cannot create new compensation with Approved status</errorMessage>
+</ValidationRule>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Membership</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Memberships</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccountId --></label>
+        <name>AccountId__c</name>
+        <relationshipLabel><!-- Memberships --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Airline --></label>
+        <name>Airline__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXT Member --></label>
+        <name>EXTMember__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiry Date --></label>
+        <name>Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Favorite Food --></label>
+        <name>Favorite_Food__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge with memership no. --></label>
+        <name>MembershipId__c</name>
+        <relationshipLabel><!-- Memberships --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mileages Current Quater Expiry Date --></label>
+        <name>Mileages_Current_Quater_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages Current Quater --></label>
+        <name>Mileages_Current_Quater__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages Q+1 Expiry Date --></label>
+        <name>Mileages_Q_1_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages Q+1 --></label>
+        <name>Mileages_Q_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages Q+2 Expiry Date --></label>
+        <name>Mileages_Q_2_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages Q+2 --></label>
+        <name>Mileages_Q_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages Q+3 Expiry Date --></label>
+        <name>Mileages_Q_3_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages Q+3 --></label>
+        <name>Mileages_Q_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages Q+4 Expiry Date --></label>
+        <name>Mileages_Q_4_Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages Q+4 --></label>
+        <name>Mileages_Q_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages Recent Transaction --></label>
+        <name>Mileages_Recent_Transaction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mileages --></label>
+        <name>Mileages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occupation --></label>
+        <name>Occupation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Seat Preference --></label>
+        <name>Seat_Preference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dead</masterLabel>
+            <translation><!-- Dead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merge</masterLabel>
+            <translation><!-- Merge --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tier WS --></label>
+        <name>Tier_WS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expired --></label>
+        <name>isExpired__c</name>
+    </fields>
+    <layouts>
+        <layout>Membership Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Memberships Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TG Admin Membership Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

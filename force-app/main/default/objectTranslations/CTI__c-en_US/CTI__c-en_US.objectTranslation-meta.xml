@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CTI</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CTIs</value>
+    </caseValues>
+    <layouts>
+        <layout>CFMS CTI Layout</layout>
+        <sections>
+            <label><!-- CTI Information --></label>
+            <section>CTI Information</section>
+        </sections>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Information --></label>
+            <section>Flight Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CTI Layout</layout>
+        <sections>
+            <label><!-- CTI Information --></label>
+            <section>CTI Information</section>
+        </sections>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Information --></label>
+            <section>Flight Information</section>
+        </sections>
+        <sections>
+            <label><!-- Investigated Result --></label>
+            <section>Investigated Result</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- New_CTI --></label>
+        <name>New_CTI</name>
+    </webLinks>
+</CustomObjectTranslation>

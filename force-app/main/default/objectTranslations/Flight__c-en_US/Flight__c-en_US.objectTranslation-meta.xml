@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Flight</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Flights</value>
+    </caseValues>
+    <layouts>
+        <layout>Admin Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date --></label>
+            <section>Date</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Sector --></label>
+            <section>Flight Sector</section>
+        </sections>
+        <sections>
+            <label><!-- Maintenance Case --></label>
+            <section>Maintenance Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger Case --></label>
+            <section>Passenger Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger List --></label>
+            <section>Passenger List</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger by Sector --></label>
+            <section>Passenger by Sector</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CMFS Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Information --></label>
+            <section>Flight Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Irregularity Information --></label>
+            <section>Flight Irregularity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Sector --></label>
+            <section>Flight Sector</section>
+        </sections>
+        <sections>
+            <label><!-- Maintenance Case --></label>
+            <section>Maintenance Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger Case --></label>
+            <section>Passenger Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger List --></label>
+            <section>Passenger List</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger by Sector --></label>
+            <section>Passenger by Sector</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ground Service Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Information --></label>
+            <section>Flight Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Irregularity Information --></label>
+            <section>Flight Irregularity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Sector --></label>
+            <section>Flight Sector</section>
+        </sections>
+        <sections>
+            <label><!-- Maintenance Case --></label>
+            <section>Maintenance Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger Case --></label>
+            <section>Passenger Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger List --></label>
+            <section>Passenger List</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger by Sector --></label>
+            <section>Passenger by Sector</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Maintenance Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Sector --></label>
+            <section>Flight Sector</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger Sector --></label>
+            <section>Passenger Sector</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>New Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Information --></label>
+            <section>Flight Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TG Admin Flight Layout</layout>
+        <sections>
+            <label><!-- Case Group Member by Flight --></label>
+            <section>Case Group Member by Flight</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date --></label>
+            <section>Date</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger by Sector on Flight --></label>
+            <section>Passenger by Sector on Flight</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Case --></label>
+        <name>New_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Passenger --></label>
+        <name>New_Passenger_PAC</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Flight Summary --></label>
+        <name>ViewFlightSummary</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Flight --></label>
+        <name>Flight</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- New Flight --></label>
+        <name>New_Flight</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Maintenace_Case_Report --></label>
+        <name>Maintenace_Case_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

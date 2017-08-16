@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Platinum</fullName>
+    <columns>NAME</columns>
+    <columns>Department__c</columns>
+    <columns>Email__c</columns>
+    <columns>Tier__c</columns>
+    <columns>Type__c</columns>
+    <columns>Round_Robin_Status__c</columns>
+    <columns>Last_Assigned_Time__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Tier__c</field>
+        <operation>equals</operation>
+        <value>First / Platinum</value>
+    </filters>
+    <label>First &amp; Platinum</label>
+</ListView>

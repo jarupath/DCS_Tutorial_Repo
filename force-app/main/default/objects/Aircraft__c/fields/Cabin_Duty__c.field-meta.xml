@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cabin_Duty__c</fullName>
+    <description>The role of an air cabin crew member is to provide excellent customer service to passengers while ensuring their comfort and safety throughout the flight.</description>
+    <externalId>false</externalId>
+    <label>Cabin Duty</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

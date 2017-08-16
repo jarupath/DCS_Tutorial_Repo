@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Cases__c</fullName>
+    <description>Checks whether the Case is concerned with KPI report for DT</description>
+    <externalId>false</externalId>
+    <formula>IF(
+(ISPICKVAL( Action__c, "Remain" ) ||  ISPICKVAL( Action__c, "Completed" ))  &amp;&amp; (  TEXT( Status ) &lt;> "Void" ) , TRUE, FALSE )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>All Cases</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

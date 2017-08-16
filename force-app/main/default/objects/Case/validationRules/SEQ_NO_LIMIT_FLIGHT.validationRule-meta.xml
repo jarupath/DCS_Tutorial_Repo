@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEQ_NO_LIMIT_FLIGHT</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+ISNEW(), 
+TEXT(Incident_Type__c) = "Flight Log", 
+OR(VALUE( SEQ_No_txt__c ) &lt; 001 , VALUE( SEQ_No_txt__c ) > 150) 
+)</errorConditionFormula>
+    <errorDisplayField>SEQ_No_txt__c</errorDisplayField>
+    <errorMessage>SEQ No. value has exceeded limit (001 - 150). Please enter a new value.</errorMessage>
+</ValidationRule>

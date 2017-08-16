@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Case_Flight</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>New Case Flight</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>srcUp("/500/e?{!$Setup.System_Configuration__c.Case_Flight_Name_SFDC_ID__c}={!Flight__c.Name}&amp;{!$Setup.System_Configuration__c.Case_Flight_Id_SFDC_ID__c}={!Flight__c.Id}&amp;{!$Setup.System_Configuration__c.Previous_Flight_Date_Field__c}={!Flight__c.Flight_Date_LT_F__c}&amp;RecordType={!$Setup.System_Configuration__c.Case_Record_Type_ID_Ground_Service__c}&amp;nooverride=1");</url>
+</WebLink>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Round_Robin</fullName>
+    <active>true</active>
+    <label>Round Robin</label>
+    <picklistValues>
+        <picklist>Department__c</picklist>
+        <values>
+            <fullName>AO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abroad Stations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baggage Claim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bangkok Ramp Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bangkok Ticket %26%09Reservation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cockpit Crew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground Service at Bangkok Airport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Flight Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Flight Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SZ-R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thai Smile Airline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tier__c</picklist>
+        <values>
+            <fullName>Agency Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Airline Industry Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Airport Ticket Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>America %2F North and East Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Australia %2F Middle East %2F South Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BKK Lounges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BKK Reservation %28Thai Contact Center%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BKK Station Manager %2F Duty Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baggage Services Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baggage Sorting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Booking through TG website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCTV at sorting area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabin Cleaning %28Customer A%2FL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabin Cleaning %28TG%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catering Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check-in Landside - Domestic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check-in Landside - International</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Departure - Airside</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domestic Stations %26 Inter%E2%80%99l stations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Ticketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Europe and Africa group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First %2F Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flight Operations Safety Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flight Standard Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground Support Equipment Operations Control Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Flight Department Cabin Crew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Flight Department Cabin Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Flight Duty Free Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Flight Entertainment Management Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Flight Services Procedure Planning Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal for passenger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Stations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 8 %28Ground Service Urgent%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Level 8 %28In-Flight Urgent%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Load Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Load Performing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lounges at abroad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Menu Planning Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passenger Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passenger Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passenger Transport Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pilot Admin%2E Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reservation System Service Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Delivery Support Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Equipment Inventory Control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategic Enterprise  Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Department BKKMC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thai Smile Airline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ticket Receipt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ticketing Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tickets issued at Head office %28Vibhavadee%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tickets issued at Larnluang Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tickets issued at Silom office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 2 %28Baggage claim%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tractor Service in Ramp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Asia %2F Indo-China and Domestic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>External User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Round Robin User</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

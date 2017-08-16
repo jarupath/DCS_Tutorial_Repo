@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Infant_Age__c</fullName>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE( 
+SUBSTITUTE( 
+TEXT(FLOOR( 
+(( (YEAR( TODAY()) * 12)+ MONTH(TODAY())) 
+- ( 
+(YEAR( Infant_Date_of_Birth_Date__c ) * 12) 
++ MONTH( Infant_Date_of_Birth_Date__c ) 
+))/12) 
+) + ' year(s) ' + 
+TEXT(MOD( 
+(( (YEAR( TODAY()) * 12)+ MONTH(TODAY())) 
+- ( 
+(YEAR ( Infant_Date_of_Birth_Date__c ) * 12) 
++ MONTH( Infant_Date_of_Birth_Date__c ) 
+)),12) 
+) + ' month(s)' 
+, ' 0 month(s)', '') 
+, ' year(s) month(s)', 'N/A')</formula>
+    <label>Infant Age</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

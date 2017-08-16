@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Root_Cause_CTI__c</fullName>
+    <description>Cause of case which from Investigate Result (Manual input by SZ-R)</description>
+    <externalId>false</externalId>
+    <label>Root Cause</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Investigation_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accident during take off/landing</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight equipment</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Item falls from overhead locker</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Performance of staff</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Turbulence</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Equipment problem</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Irregularities of flights</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Regulation concerned</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-flight Entertainment</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Health Problem</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Late at boarding</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Late at check-in</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Overbooking flight</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Drunk PAX</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Uncoopreative PAX</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Harassment behaviour</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Piece/Weight/Size concept policy</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Accommodation not provided</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Alternative flights</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Assistant during delayed</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Information during delayed</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Meal</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Expired food</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Foreign objects in food</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ingredients in special meal</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Quality of meal</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Rotten/Mold food</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Special meal not provided</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Variety of meal</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Impolite manner</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Service mind</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Unprofessional</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Cancellation of flights</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Delay</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Diversion of flights</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Reschedule of flights</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>E-booking system</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Fee charge</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ticket regulations</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Company's policy</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Disruptive/Unruly Passenger</controllingFieldValue>
+            <controllingFieldValue>Upgrading/Downgrading</controllingFieldValue>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Accident/Injuries</controllingFieldValue>
+            <controllingFieldValue>Baggage Handling</controllingFieldValue>
+            <controllingFieldValue>Defect/Malfunction</controllingFieldValue>
+            <controllingFieldValue>Denied Onboard</controllingFieldValue>
+            <controllingFieldValue>Excess Baggage</controllingFieldValue>
+            <controllingFieldValue>Irregularities Handling</controllingFieldValue>
+            <controllingFieldValue>Meal Onboard</controllingFieldValue>
+            <controllingFieldValue>Performance of staff</controllingFieldValue>
+            <controllingFieldValue>Punctuality of flights</controllingFieldValue>
+            <controllingFieldValue>Reservation/Ticketing</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disruptive/Unruly Passenger</controllingFieldValue>
+            <valueName>Drunk PAX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disruptive/Unruly Passenger</controllingFieldValue>
+            <valueName>Uncoopreative PAX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disruptive/Unruly Passenger</controllingFieldValue>
+            <valueName>Harassment behaviour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upgrading/Downgrading</controllingFieldValue>
+            <controllingFieldValue>Accident/Injuries</controllingFieldValue>
+            <controllingFieldValue>Baggage Handling</controllingFieldValue>
+            <controllingFieldValue>Excess Baggage</controllingFieldValue>
+            <controllingFieldValue>Reservation/Ticketing</controllingFieldValue>
+            <valueName>Performance of staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upgrading/Downgrading</controllingFieldValue>
+            <controllingFieldValue>Denied Onboard</controllingFieldValue>
+            <valueName>Overbooking flight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upgrading/Downgrading</controllingFieldValue>
+            <valueName>Company's policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accident/Injuries</controllingFieldValue>
+            <valueName>Accident during take off/landing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accident/Injuries</controllingFieldValue>
+            <valueName>In-flight equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accident/Injuries</controllingFieldValue>
+            <valueName>Item falls from overhead locker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accident/Injuries</controllingFieldValue>
+            <valueName>Turbulence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baggage Handling</controllingFieldValue>
+            <valueName>Equipment problem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baggage Handling</controllingFieldValue>
+            <valueName>Irregularities of flights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Baggage Handling</controllingFieldValue>
+            <valueName>Regulation concerned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defect/Malfunction</controllingFieldValue>
+            <valueName>In-flight Entertainment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Defect/Malfunction</controllingFieldValue>
+            <valueName>Seat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied Onboard</controllingFieldValue>
+            <valueName>Health Problem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied Onboard</controllingFieldValue>
+            <valueName>Late at boarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denied Onboard</controllingFieldValue>
+            <valueName>Late at check-in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Excess Baggage</controllingFieldValue>
+            <valueName>Piece/Weight/Size concept policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irregularities Handling</controllingFieldValue>
+            <valueName>Accommodation not provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irregularities Handling</controllingFieldValue>
+            <valueName>Alternative flights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irregularities Handling</controllingFieldValue>
+            <valueName>Assistant during delayed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irregularities Handling</controllingFieldValue>
+            <valueName>Information during delayed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irregularities Handling</controllingFieldValue>
+            <valueName>Meal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meal Onboard</controllingFieldValue>
+            <valueName>Expired food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meal Onboard</controllingFieldValue>
+            <valueName>Foreign objects in food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meal Onboard</controllingFieldValue>
+            <valueName>Ingredients in special meal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meal Onboard</controllingFieldValue>
+            <valueName>Quality of meal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meal Onboard</controllingFieldValue>
+            <valueName>Rotten/Mold food</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meal Onboard</controllingFieldValue>
+            <valueName>Special meal not provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Meal Onboard</controllingFieldValue>
+            <valueName>Variety of meal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance of staff</controllingFieldValue>
+            <valueName>Impolite manner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance of staff</controllingFieldValue>
+            <valueName>Service mind</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance of staff</controllingFieldValue>
+            <valueName>Unprofessional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Punctuality of flights</controllingFieldValue>
+            <valueName>Cancellation of flights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Punctuality of flights</controllingFieldValue>
+            <valueName>Delay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Punctuality of flights</controllingFieldValue>
+            <valueName>Diversion of flights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Punctuality of flights</controllingFieldValue>
+            <valueName>Reschedule of flights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation/Ticketing</controllingFieldValue>
+            <valueName>E-booking system</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation/Ticketing</controllingFieldValue>
+            <valueName>Fee charge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reservation/Ticketing</controllingFieldValue>
+            <valueName>Ticket regulations</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

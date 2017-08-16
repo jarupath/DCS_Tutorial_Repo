@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blue_Case_Record_Count__c</fullName>
+    <description>Displays the sum of all Maintenance Cases with Impact being Serviceable</description>
+    <externalId>false</externalId>
+    <label>Blue Case Record Count</label>
+    <summaryFilterItems>
+        <field>Case_Group_Member__c.Impact__c</field>
+        <operation>equals</operation>
+        <value>Serviceable</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Case_Group_Member__c.Caseid__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

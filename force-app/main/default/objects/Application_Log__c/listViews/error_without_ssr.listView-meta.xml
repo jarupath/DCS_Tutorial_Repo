@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>error_without_ssr</fullName>
+    <columns>NAME</columns>
+    <columns>Debug_Level__c</columns>
+    <columns>Source__c</columns>
+    <columns>Source_Function__c</columns>
+    <columns>Reference_Id__c</columns>
+    <columns>Message__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Timer__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Source_Function__c</field>
+        <operation>notEqual</operation>
+        <value>getSSR</value>
+    </filters>
+    <filters>
+        <field>Source__c</field>
+        <operation>notEqual</operation>
+        <value>CSE_SOAPUpdateComplaintStatus_WS</value>
+    </filters>
+    <filters>
+        <field>Source__c</field>
+        <operation>notEqual</operation>
+        <value>JobQueueToScheduleLog</value>
+    </filters>
+    <filters>
+        <field>Debug_Level__c</field>
+        <operation>equals</operation>
+        <value>Error</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <label>error without ssr</label>
+    <language>en_US</language>
+</ListView>

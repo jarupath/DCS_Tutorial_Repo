@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Member</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Members</value>
+    </caseValues>
+    <layouts>
+        <layout>Investigation Staff</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Responsible Information --></label>
+            <section>Responsible Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Round Robin Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Responsible Information --></label>
+            <section>Responsible Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Extension Feed Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Responsible Information --></label>
+            <section>Responsible Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Investigation Staff --></label>
+        <name>Investigation_Staff</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Round Robin --></label>
+        <name>Round_Robin</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

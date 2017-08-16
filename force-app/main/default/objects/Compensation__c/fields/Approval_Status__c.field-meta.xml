@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Status__c</fullName>
+    <description>Status of this approval request.</description>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+If(Text(Status__c) == "Approved", 
+"/resource/icon_case/Status_Approved.gif",
+If(Text(Status__c) == "Rejected", 
+"/resource/icon_case/Status_Rejected.gif",
+IF(Text(Status__c) == "Pending",
+"/resource/icon_case/Status_Pending.gif",
+IF(Text(Status__c) == "Draft",
+"/resource/icon_case/Status_Draft.gif",
+IF(Text(Status__c) == "Obsolete",
+"/resource/icon_case/Status_Obsolete.gif",
+"/resource/icon_case/Status_New.gif")))))
+,"",25,30)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Approval Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

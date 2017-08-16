@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Passenger_Salutation_Auto__c</fullName>
+    <description>This field stores the value of salutation of this passenger which is the result of automatic detection of salutation from passenger's first name.</description>
+    <externalId>false</externalId>
+    <label>Passenger Salutation Auto</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

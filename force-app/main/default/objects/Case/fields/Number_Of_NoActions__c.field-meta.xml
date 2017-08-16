@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_Of_NoActions__c</fullName>
+    <description>Displays the number of cases where impact has no value</description>
+    <externalId>false</externalId>
+    <label>Number Of NoActions</label>
+    <summaryFilterItems>
+        <field>Case_Group_Member__c.Impact_F__c</field>
+        <operation>equals</operation>
+        <value/>
+    </summaryFilterItems>
+    <summaryForeignKey>Case_Group_Member__c.Caseid__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

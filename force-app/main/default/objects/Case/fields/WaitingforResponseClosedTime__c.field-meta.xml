@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WaitingforResponseClosedTime__c</fullName>
+    <description>This field is stamp by code about time to change case's Status to be 'Waiting Customer Response' or 'Closed'.</description>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(Status,'Waiting for response'), Waiting_for_Response_Time__c, Closed_Time__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Waiting for Response/Closed Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

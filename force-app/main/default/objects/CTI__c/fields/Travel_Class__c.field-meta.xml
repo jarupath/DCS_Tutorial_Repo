@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Travel_Class__c</fullName>
+    <description>Travel class is a passenger's Accepted class which default null value as 'Unidentified'.</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(TEXT(Accepted_Class__c) )) &amp;&amp; NOT(ISPICKVAL( Accepted_Class__c , 'Unidentified')),
+TEXT( Accepted_Class__c ),
+'Unidentified')</formula>
+    <label>Travel Class</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trigger Activation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trigger Activation</value>
+    </caseValues>
+    <fields>
+        <label><!-- CTI Trigger --></label>
+        <name>CTI_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Group Member Trigger --></label>
+        <name>Case_Group_Member_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Trigger --></label>
+        <name>Case_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compensation Trigger --></label>
+        <name>Compensation_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crew List Trigger --></label>
+        <name>Crew_List_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Trigger --></label>
+        <name>Email_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Trigger --></label>
+        <name>Flight_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Queue Scheduler --></label>
+        <name>Job_Queue_Scheduler__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Queue Trigger --></label>
+        <name>Job_Queue_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger Trigger --></label>
+        <name>Passenger_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Trigger --></label>
+        <name>Task_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- TempPassenger Trigger --></label>
+        <name>TempPassenger_Trigger__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

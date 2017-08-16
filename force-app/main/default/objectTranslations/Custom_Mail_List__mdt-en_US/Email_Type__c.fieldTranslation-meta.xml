@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Email Type --></label>
+    <name>Email_Type__c</name>
+    <picklistValues>
+        <masterLabel>Emergency Case</masterLabel>
+        <translation><!-- Emergency Case --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monitoring</masterLabel>
+        <translation><!-- Monitoring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROP Enrollment</masterLabel>
+        <translation><!-- ROP Enrollment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upgrade Seat</masterLabel>
+        <translation><!-- Upgrade Seat --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

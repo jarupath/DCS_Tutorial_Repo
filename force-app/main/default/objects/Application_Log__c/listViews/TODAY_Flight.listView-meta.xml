@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TODAY_Flight</fullName>
+    <columns>NAME</columns>
+    <columns>Reference_Id__c</columns>
+    <columns>Source__c</columns>
+    <columns>Source_Function__c</columns>
+    <columns>Message__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>CreateDateTime__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Reference_Id__c</field>
+        <operation>contains</operation>
+        <value>TG0930_01MAY17_1_80</value>
+    </filters>
+    <label>TODAY_Flight</label>
+    <language>en_US</language>
+</ListView>

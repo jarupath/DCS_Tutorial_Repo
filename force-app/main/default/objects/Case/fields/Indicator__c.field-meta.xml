@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+CASE( Status, 
+"New", "/resource/icon_case/Status_New.png", 
+"Escalated", "/resource/icon_case/Status_Escalate.png", 
+"Waiting for Investigation", "/resource/icon_case/Status_Waiting_for_Investigation.png", 
+"Waiting for Response", "/resource/icon_case/Status_Waiting_Customer_Response.png", 
+"Investigated", "/resource/icon_case/Status_Investigated.png", 
+"Customer Response", "/resource/icon_case/Status_Customer_Response.png", 
+"Resolved", "/resource/icon_case/Status_Resolved.png", 
+"Acknowledge", "/resource/icon_case/Status_Acknowledge.png", 
+"Duplicate", "/resource/icon_case/Status_Duplicate.png",
+"Closed", "/resource/icon_case/Status_Closed.png", 
+"Re-Open", "/resource/icon_case/Status_Reopen.png",
+"/resource/icon_case/Status_New.png"),"",24,24)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>specific_flight</fullName>
+    <columns>Source__c</columns>
+    <columns>Source_Function__c</columns>
+    <columns>Debug_Level__c</columns>
+    <columns>Message__c</columns>
+    <columns>Reference_Id__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Timer__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Reference_Id__c</field>
+        <operation>contains</operation>
+        <value>FLIGHT_TG0974_17JUN17_1_80H</value>
+    </filters>
+    <label>specific flight</label>
+    <language>en_US</language>
+</ListView>

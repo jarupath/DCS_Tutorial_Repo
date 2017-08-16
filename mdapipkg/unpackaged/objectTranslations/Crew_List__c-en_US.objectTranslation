@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Crew List</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Crew Lists</value>
+    </caseValues>
+    <fields>
+        <label><!-- Acting Rank --></label>
+        <name>Acting_Rank__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crew --></label>
+        <name>CrewId__c</name>
+        <relationshipLabel><!-- Crew Lists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CrewList Temp --></label>
+        <name>CrewList_Temp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crew External ID --></label>
+        <name>Crew_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crew Temp --></label>
+        <name>Crew_Temp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duty Assignment --></label>
+        <name>Duty_Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duty Code --></label>
+        <name>Duty_Code_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duty Code --></label>
+        <name>Duty_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight --></label>
+        <name>FlightId__c</name>
+        <relationshipLabel><!-- Crew Lists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Flight Temp --></label>
+        <name>Flight_Temp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Source --></label>
+        <name>Integration_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last EVAL --></label>
+        <name>Last_EVAL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modifed by Webservice --></label>
+        <name>Last_Modifed_by_Webservice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nickname --></label>
+        <name>Nickname__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of Eval --></label>
+        <name>No_of_Eval__c</name>
+    </fields>
+    <fields>
+        <label><!-- POS Fly --></label>
+        <name>POS_Fly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personnel ID --></label>
+        <name>Personnel_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position Status --></label>
+        <name>Position_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rank --></label>
+        <name>Rank__c</name>
+    </fields>
+    <fields>
+        <label><!-- SEQ No. --></label>
+        <name>SEQ_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- returnfltdate --></label>
+        <name>returnfltdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- returnfltno --></label>
+        <name>returnfltno__c</name>
+    </fields>
+    <layouts>
+        <layout>Crew Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Crew List Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TG Admin Crew Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

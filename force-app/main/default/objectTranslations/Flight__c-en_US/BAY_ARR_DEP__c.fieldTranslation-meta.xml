@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BAY ARR/DEP --></label>
+    <name>BAY_ARR_DEP__c</name>
+</CustomFieldTranslation>

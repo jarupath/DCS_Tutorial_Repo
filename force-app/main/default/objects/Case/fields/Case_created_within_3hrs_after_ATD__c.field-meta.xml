@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_created_within_3hrs_after_ATD__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+((CreatedDate - Flightid__r.ATD_LT_DateTime__c) * 1440) &lt;= 180,
+TRUE,
+FALSE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case created within 3 hrs after ATD</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
