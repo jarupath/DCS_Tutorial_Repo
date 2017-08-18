@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>STN__c</fullName>
+    <description>To descibe Statin that case ocuured as 'Bangkok', 'Abroad' 'Provincial', 'Unidentified'.</description>
+    <externalId>false</externalId>
+    <label>STN</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bangkok</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Abroad</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Provincial</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Unidentified</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

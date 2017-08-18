@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TempPassenger</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TempPassengers</value>
+    </caseValues>
+    <fields>
+        <label><!-- ROP Business Area Code 2 --></label>
+        <name>ROP_Business_Area_Code_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Area Code --></label>
+        <name>ROP_Business_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Country Code 2 --></label>
+        <name>ROP_Business_Country_Code_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Country Code --></label>
+        <name>ROP_Business_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Extension 2 --></label>
+        <name>ROP_Business_Extension_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Extension --></label>
+        <name>ROP_Business_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Phone 2 Area Code --></label>
+        <name>ROP_Business_Phone_2_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Phone 2 Country Code --></label>
+        <name>ROP_Business_Phone_2_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Phone 2 Extension --></label>
+        <name>ROP_Business_Phone_2_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Phone 2 --></label>
+        <name>ROP_Business_Phone_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Phone Area Code --></label>
+        <name>ROP_Business_Phone_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Phone Country Code --></label>
+        <name>ROP_Business_Phone_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Phone Extension --></label>
+        <name>ROP_Business_Phone_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Business Phone --></label>
+        <name>ROP_Business_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Date of Birth --></label>
+        <name>ROP_Date_of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Email --></label>
+        <name>ROP_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Fax Area Code --></label>
+        <name>ROP_Fax_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Fax Country Code --></label>
+        <name>ROP_Fax_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Fax Extension --></label>
+        <name>ROP_Fax_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Fax Phone Area Code --></label>
+        <name>ROP_Fax_Phone_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Fax Phone Country Code --></label>
+        <name>ROP_Fax_Phone_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Fax Phone Extension --></label>
+        <name>ROP_Fax_Phone_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Fax Phone --></label>
+        <name>ROP_Fax_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP First Name --></label>
+        <name>ROP_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Food Preference --></label>
+        <name>ROP_Food_Preference__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Gender --></label>
+        <name>ROP_Gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Area Code 2 --></label>
+        <name>ROP_Home_Area_Code_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Area Code --></label>
+        <name>ROP_Home_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Country Code 2 --></label>
+        <name>ROP_Home_Country_Code_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Country Code --></label>
+        <name>ROP_Home_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Extension 2 --></label>
+        <name>ROP_Home_Extension_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Extension --></label>
+        <name>ROP_Home_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone 2 Area Code --></label>
+        <name>ROP_Home_Phone_2_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone 2 Country Code --></label>
+        <name>ROP_Home_Phone_2_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone 2 Extension --></label>
+        <name>ROP_Home_Phone_2_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone 2 --></label>
+        <name>ROP_Home_Phone_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone Area Code --></label>
+        <name>ROP_Home_Phone_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone Country Code --></label>
+        <name>ROP_Home_Phone_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone Extension --></label>
+        <name>ROP_Home_Phone_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone --></label>
+        <name>ROP_Home_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Language --></label>
+        <name>ROP_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Last Name --></label>
+        <name>ROP_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mailing Address --></label>
+        <name>ROP_Mailing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile 2 --></label>
+        <name>ROP_Mobile_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Area Code 2 --></label>
+        <name>ROP_Mobile_Area_Code_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Area Code --></label>
+        <name>ROP_Mobile_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Country Code 2 --></label>
+        <name>ROP_Mobile_Country_Code_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Country Code --></label>
+        <name>ROP_Mobile_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Extension 2 --></label>
+        <name>ROP_Mobile_Extension_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Extension --></label>
+        <name>ROP_Mobile_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Phone 2 Area Code --></label>
+        <name>ROP_Mobile_Phone_2_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Phone 2 Country Code --></label>
+        <name>ROP_Mobile_Phone_2_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Phone 2 Extension --></label>
+        <name>ROP_Mobile_Phone_2_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Phone 2 --></label>
+        <name>ROP_Mobile_Phone_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Phone Area Code --></label>
+        <name>ROP_Mobile_Phone_Area_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Phone Country Code --></label>
+        <name>ROP_Mobile_Phone_Country_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Phone Extension --></label>
+        <name>ROP_Mobile_Phone_Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Mobile Phone --></label>
+        <name>ROP_Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Number --></label>
+        <name>ROP_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Seat Preference --></label>
+        <name>ROP_Seat_Preference__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Status --></label>
+        <name>ROP_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Tier --></label>
+        <name>ROP_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Title --></label>
+        <name>ROP_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Board Point --></label>
+        <name>boardPoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booking Class --></label>
+        <name>bookingClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booking Seat --></label>
+        <name>bookingSeat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cabin Code --></label>
+        <name>cabinCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkin Seat --></label>
+        <name>checkinSeat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of birth --></label>
+        <name>dateOfBirth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Doc Date Expiry --></label>
+        <name>docDateExpiry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doc Issuing Country --></label>
+        <name>docIssuingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel document number --></label>
+        <name>docNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>docType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enroll Date --></label>
+        <name>enrollDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enroll Source --></label>
+        <name>enrollSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>errorMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- FirstName --></label>
+        <name>firstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Date --></label>
+        <name>flightDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Number --></label>
+        <name>flightNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- fqtCarrier --></label>
+        <name>fqtCarrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- fqtNumber --></label>
+        <name>fqtNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- fqtTierLevel --></label>
+        <name>fqtTierLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Name --></label>
+        <name>groupName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has SSR --></label>
+        <name>hasSSR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home phone type --></label>
+        <name>homePhoneType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Assigned Seat --></label>
+        <name>isAssignedSeat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Child --></label>
+        <name>isChild__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Inbound --></label>
+        <name>isInbound__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Infant --></label>
+        <name>isInfant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Outbound --></label>
+        <name>isOutbound__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retry --></label>
+        <name>isRetry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is StaffBooking --></label>
+        <name>isStaffBooking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is StaffWaitlist --></label>
+        <name>isStaffWaitlist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Ticket --></label>
+        <name>isTicket__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lastname --></label>
+        <name>lastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Middle Name --></label>
+        <name>middleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile --></label>
+        <name>mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- nationality --></label>
+        <name>nationality__c</name>
+    </fields>
+    <fields>
+        <label><!-- Off Point --></label>
+        <name>offPoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Locator --></label>
+        <name>recordLocator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Religion --></label>
+        <name>religion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remaining Miles --></label>
+        <name>remainingMiles__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Address City Name --></label>
+        <name>ropAdrCityName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Address Company Name 1 --></label>
+        <name>ropAdrCompanyName1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Address Company Name 2 --></label>
+        <name>ropAdrCompanyName2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Address Country Code --></label>
+        <name>ropAdrCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Address Line 1 --></label>
+        <name>ropAdrLine1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Address Line 2 --></label>
+        <name>ropAdrLine2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Address Line 3 --></label>
+        <name>ropAdrLine3__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Address Postal --></label>
+        <name>ropAdrPostal__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP address seq no --></label>
+        <name>ropAdrSeqNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP address type --></label>
+        <name>ropAdrType__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Children --></label>
+        <name>ropChildren__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Current Mileage --></label>
+        <name>ropCurrentMileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Education --></label>
+        <name>ropEducation__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Eml Seq No --></label>
+        <name>ropEmlSeqNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone Area Code --></label>
+        <name>ropHomePhoneAreaCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone Country Code --></label>
+        <name>ropHomePhoneCountryCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone Extension --></label>
+        <name>ropHomePhoneExtension__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone Number --></label>
+        <name>ropHomePhoneNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone Seq No --></label>
+        <name>ropHomePhoneSeqNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Home Phone Type --></label>
+        <name>ropHomePhoneType__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Identification Number --></label>
+        <name>ropIdentificationNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Income --></label>
+        <name>ropIncome__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Marital Status --></label>
+        <name>ropMaritalStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP mile expiry amount quater 1 --></label>
+        <name>ropMileExpAmountQ1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP mile expiry amount quater 2 --></label>
+        <name>ropMileExpAmountQ2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP mile expiry date quater 1 --></label>
+        <name>ropMileExpDateQ1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP mile expiry date Q2 --></label>
+        <name>ropMileExpDateQ2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP mile expiry year quater 1 --></label>
+        <name>ropMileExpYearQ1__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP mile expiry year quater 2 --></label>
+        <name>ropMileExpYearQ2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Occupation --></label>
+        <name>ropOccupation__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Passport Number --></label>
+        <name>ropPassportNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP SPC Code --></label>
+        <name>ropSPCCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROP Status --></label>
+        <name>ropStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salutation --></label>
+        <name>salutation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment Status --></label>
+        <name>segmentStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPML --></label>
+        <name>spml__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suffix --></label>
+        <name>suffix__c</name>
+    </fields>
+    <fields>
+        <label><!-- wsKey --></label>
+        <name>wsKey__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

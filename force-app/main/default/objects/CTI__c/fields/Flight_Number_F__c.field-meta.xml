@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flight_Number_F__c</fullName>
+    <description>Flight Number which relate to CTI</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(Flightid__r.Flight_Number__c)),
+LEFT(Flightid__r.Flight_Number__c, LEN(Flightid__r.Flight_Number__c) - 4) &amp; TEXT(VALUE(RIGHT(Flightid__r.Flight_Number__c, 4))),"TGXXX")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Flight No.</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

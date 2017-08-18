@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Routing__c</columns>
+    <columns>Sector__c</columns>
+    <columns>STD__c</columns>
+    <columns>ETD__c</columns>
+    <columns>STA__c</columns>
+    <columns>ETA__c</columns>
+    <columns>Flying_Time_Elapsed_Time__c</columns>
+    <columns>Total_Elapsed_Time__c</columns>
+    <columns>Departure_STN_Name__c</columns>
+    <columns>Arrival_STN_Name__c</columns>
+    <columns>Leg_Number__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Ground_Service_Team</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>S4_Level_8_Ground_Team_Case</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+    <columns>Case_Number_Custom__c</columns>
+    <columns>Passengerid__c</columns>
+    <columns>Flightid__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Indicator__c</columns>
+    <columns>Case_Type__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.PRIORITY</field>
+        <operation>equals</operation>
+        <value>Urgent</value>
+    </filters>
+    <filters>
+        <field>Ground_Customer_Service__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Profile_Name__c</field>
+        <operation>equals</operation>
+        <value>CFMS Chief</value>
+    </filters>
+    <filters>
+        <field>Owner_Role_Name__c</field>
+        <operation>equals</operation>
+        <value>S4</value>
+    </filters>
+    <label>S4 Level 8 Ground Team Urgent</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>S4_Level_8_Ground_Team</group>
+        <group>S4_Level_8_In_Flight_Team</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Ground_Service_Case_Closed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Profile.Name = 'Ground Customer Service',
+ PRIORVALUE(RecordTypeId) =  $Setup.System_Configuration__c.Case_Closed_Record_Type_ID__c 
+)</errorConditionFormula>
+    <errorMessage>This case has already been closed, please contact your administrator.</errorMessage>
+</ValidationRule>

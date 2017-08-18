@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acknowledge_Email_Validation</fullName>
+    <active>true</active>
+    <description>If acknowledgment email workflow is triggered, then contact email should not be null.</description>
+    <errorConditionFormula>AND( 
+Ispickval(Status, "Acknowledge"), 
+Not_Send_Acknowledge_Email__c != true, 
+Contact_Email_txt__c = null, SuppliedEmail == null,  NOT(ISPICKVAL(Origin,'In-flight')))</errorConditionFormula>
+    <errorDisplayField>Contact_Email_txt__c</errorDisplayField>
+    <errorMessage>No e-mail specified. Please specify an email to send acknowledgment to or select the field 'Not Send Acknowledge Email' to not send an email.</errorMessage>
+</ValidationRule>

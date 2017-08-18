@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- RPT Next2Day --></label>
+    <name>RPT_Next2Day__c</name>
+</CustomFieldTranslation>

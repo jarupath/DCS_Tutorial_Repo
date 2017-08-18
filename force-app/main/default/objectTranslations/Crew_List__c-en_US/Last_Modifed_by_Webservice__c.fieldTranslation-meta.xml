@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Last Modifed by Webservice --></label>
+    <name>Last_Modifed_by_Webservice__c</name>
+</CustomFieldTranslation>

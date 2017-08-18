@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Flight</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Flights</value>
+    </caseValues>
+    <fields>
+        <label><!-- ARR FLT FROM --></label>
+        <name>ARR_FLT_FROM_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATA LT DateTime --></label>
+        <name>ATA_LT_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATA LT --></label>
+        <name>ATA_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATA UTC DateTime --></label>
+        <name>ATA_UTC_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATA (UTC) --></label>
+        <name>ATA_UTC_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATA UTC --></label>
+        <name>ATA_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATA --></label>
+        <name>ATA__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATD LT DateTime --></label>
+        <name>ATD_LT_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATD LT --></label>
+        <name>ATD_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATD UTC DateTime --></label>
+        <name>ATD_UTC_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATD (UTC) --></label>
+        <name>ATD_UTC_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATD UTC --></label>
+        <name>ATD_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATD --></label>
+        <name>ATD__c</name>
+    </fields>
+    <fields>
+        <label><!-- A/C Reg --></label>
+        <name>A_C_Reg__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accepted Passengers --></label>
+        <name>Accepted_Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Registration --></label>
+        <name>AircraftId__c</name>
+        <relationshipLabel><!-- Flights --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Configuration Business Class --></label>
+        <name>Aircraft_Configuration_Business_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Configuration Economy Class --></label>
+        <name>Aircraft_Configuration_Economy_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Configuration First Class --></label>
+        <name>Aircraft_Configuration_First_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Configuration Premium Economy --></label>
+        <name>Aircraft_Configuration_Premium_Economy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Configuration --></label>
+        <name>Aircraft_Configuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- A/C Model --></label>
+        <name>Aircraft_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aircraft Type --></label>
+        <name>Aircraft_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Airline Code --></label>
+        <name>Airline_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Delay DateTime --></label>
+        <name>Arrival_Delay_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Delay --></label>
+        <name>Arrival_Delay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival STN ICAO --></label>
+        <name>Arrival_STN_ICAO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival STN Name --></label>
+        <name>Arrival_STN_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival STN --></label>
+        <name>Arrival_STN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Terminal --></label>
+        <name>Arrival_Terminal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Arrival Time UTC --></label>
+        <name>Arrival_Time_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Available Seat --></label>
+        <name>Available_Seat__c</name>
+    </fields>
+    <fields>
+        <label><!-- BAY ARR/DEP --></label>
+        <name>BAY_ARR_DEP__c</name>
+    </fields>
+    <fields>
+        <label><!-- BAY --></label>
+        <name>BAY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Belt --></label>
+        <name>Belt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Block Time DateTime --></label>
+        <name>Block_Time_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Block Time --></label>
+        <name>Block_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booking Passenger Business Class --></label>
+        <name>Booking_Passenger_Business_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booking Passenger Economy Class --></label>
+        <name>Booking_Passenger_Economy_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booking Passenger First Class --></label>
+        <name>Booking_Passenger_First_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booking Passenger Premium Economy Class --></label>
+        <name>Booking_Passenger_Premium_Economy_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booking Passengers --></label>
+        <name>Booking_Passengers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cabin Version --></label>
+        <name>Cabin_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Amount (Clarify) --></label>
+        <name>Case_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Flight Date LT --></label>
+        <name>Change_Flight_Date_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Flight Date UTC --></label>
+        <name>Change_Flight_Date_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Flight Number --></label>
+        <name>Change_Flight_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Codeshare --></label>
+        <name>Codeshare__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEP FLT TO --></label>
+        <name>DEP_FLT_TO_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delay Mins --></label>
+        <name>Delay_Mins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departed --></label>
+        <name>Departed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure Delay DateTime --></label>
+        <name>Departure_Delay_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure Delay --></label>
+        <name>Departure_Delay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure STN ICAO --></label>
+        <name>Departure_STN_ICAO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure STN Name --></label>
+        <name>Departure_STN_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure STN --></label>
+        <name>Departure_STN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure Terminal --></label>
+        <name>Departure_Terminal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Departure Time UTC --></label>
+        <name>Departure_Time_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination --></label>
+        <name>Destination__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETA LT DateTime --></label>
+        <name>ETA_LT_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETA LT --></label>
+        <name>ETA_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETA UTC DateTime --></label>
+        <name>ETA_UTC_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETA (UTC) --></label>
+        <name>ETA_UTC_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETA UTC --></label>
+        <name>ETA_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETA --></label>
+        <name>ETA__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETD / ETA --></label>
+        <name>ETD_ETA__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETD LT DateTime --></label>
+        <name>ETD_LT_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETD LT --></label>
+        <name>ETD_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETD UTC DateTime --></label>
+        <name>ETD_UTC_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETD (UTC) --></label>
+        <name>ETD_UTC_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETD UTC --></label>
+        <name>ETD_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- ETD --></label>
+        <name>ETD__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Leg --></label>
+        <name>First_Leg__c</name>
+        <relationshipLabel><!-- Flights --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Flight Area --></label>
+        <name>Flight_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Cancel Flag --></label>
+        <name>Flight_Cancel_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Change Flag --></label>
+        <name>Flight_Change_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Date --></label>
+        <name>Flight_Date_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Date LT --></label>
+        <name>Flight_Date_LT_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Date --></label>
+        <name>Flight_Date_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Date UTC --></label>
+        <name>Flight_Date_UTC_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Date UTC --></label>
+        <name>Flight_Date_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Date --></label>
+        <name>Flight_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight External ID --></label>
+        <name>Flight_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Master --></label>
+        <name>Flight_Master__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Numbers --></label>
+        <name>Flight_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Region --></label>
+        <name>Flight_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Remark --></label>
+        <name>Flight_Remark__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flying Elapsed Time (HH:MM) --></label>
+        <name>Flying_Elapsed_Time_HH_MM__c</name>
+    </fields>
+    <fields>
+        <help><!-- HH:MM --></help>
+        <label><!-- Flying Time (Elapsed Time) --></label>
+        <name>Flying_Time_Elapsed_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gate --></label>
+        <name>Gate__c</name>
+    </fields>
+    <fields>
+        <label><!-- IS CFMS --></label>
+        <name>IS_CFMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Source --></label>
+        <name>Integration_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Irregularity Handling --></label>
+        <name>Irregularity_Handling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Matching User Preference --></label>
+        <name>Is_Matching_User_Preference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Port Equals to Bay --></label>
+        <name>Is_Port_Equals_to_Bay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landed --></label>
+        <name>Landed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Sync Job Name --></label>
+        <name>Last_Sync_Job_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Sync Time --></label>
+        <name>Last_Sync_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Leg Number --></label>
+        <name>Leg_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenace Case Report --></label>
+        <name>Maintenace_Case_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manual Run --></label>
+        <name>Manual_Run__c</name>
+    </fields>
+    <fields>
+        <label><!-- My Station --></label>
+        <name>My_Station_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Flight Number --></label>
+        <name>Next_Flight_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Flight STD LT DateTime --></label>
+        <name>Next_Flight_STD_LT_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Flight STD LT --></label>
+        <name>Next_Flight_STD_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Flight STD UTC DateTime --></label>
+        <name>Next_Flight_STD_UTC_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Flight STD UTC --></label>
+        <name>Next_Flight_STD_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Cabin Crew --></label>
+        <name>Number_of_Cabin_Crew__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Cockpit Crew --></label>
+        <name>Number_of_Cockpit_Crew__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Extra Crew --></label>
+        <name>Number_of_Extra_Crew__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of GE --></label>
+        <name>Number_of_GE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Passive Crew --></label>
+        <name>Number_of_Passive_Crew__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Over Booked Amount --></label>
+        <name>Over_Booked_Amount_txt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Flight Date LT --></label>
+        <name>Previous_Flight_Date_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Flight Date UTC --></label>
+        <name>Previous_Flight_Date_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Flight External Id --></label>
+        <name>Previous_Flight_External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Flight Master --></label>
+        <name>Previous_Flight_Master__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Flight Number --></label>
+        <name>Previous_Flight_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- RPT Next2Day --></label>
+        <name>RPT_Next2Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenace Report --></label>
+        <name>Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Routing --></label>
+        <name>Routing__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSR Report Date Arrival --></label>
+        <name>SSR_Report_Date_Arrival__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSR Report Date --></label>
+        <name>SSR_Report_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- STA LT DateTime --></label>
+        <name>STA_LT_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- STA LT (Datetime) --></label>
+        <name>STA_LT_Datetime_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- STA LT --></label>
+        <name>STA_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- STA UTC DateTime --></label>
+        <name>STA_UTC_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- STA (UTC) --></label>
+        <name>STA_UTC_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- STA UTC --></label>
+        <name>STA_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- STA --></label>
+        <name>STA__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD LT DateTime --></label>
+        <name>STD_LT_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD LT (Datetime) --></label>
+        <name>STD_LT_Datetime_F__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD LT --></label>
+        <name>STD_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD / STA --></label>
+        <name>STD_STA__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD UTC DateTime --></label>
+        <name>STD_UTC_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD (UTC) --></label>
+        <name>STD_UTC_Display__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD_UTC_TEST --></label>
+        <name>STD_UTC_TEST_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD UTC --></label>
+        <name>STD_UTC__c</name>
+    </fields>
+    <fields>
+        <label><!-- STD --></label>
+        <name>STD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduling Type --></label>
+        <name>Scheduling_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sector --></label>
+        <name>Sector__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Status --></label>
+        <name>Status_txt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Elapsed Time --></label>
+        <name>Total_Elapsed_Time__c</name>
+    </fields>
+    <layouts>
+        <layout>Admin Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date --></label>
+            <section>Date</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Sector --></label>
+            <section>Flight Sector</section>
+        </sections>
+        <sections>
+            <label><!-- Maintenance Case --></label>
+            <section>Maintenance Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger Case --></label>
+            <section>Passenger Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger List --></label>
+            <section>Passenger List</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger by Sector --></label>
+            <section>Passenger by Sector</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CMFS Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Information --></label>
+            <section>Flight Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Irregularity Information --></label>
+            <section>Flight Irregularity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Sector --></label>
+            <section>Flight Sector</section>
+        </sections>
+        <sections>
+            <label><!-- Maintenance Case --></label>
+            <section>Maintenance Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger Case --></label>
+            <section>Passenger Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger List --></label>
+            <section>Passenger List</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger by Sector --></label>
+            <section>Passenger by Sector</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ground Service Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Information --></label>
+            <section>Flight Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Irregularity Information --></label>
+            <section>Flight Irregularity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Sector --></label>
+            <section>Flight Sector</section>
+        </sections>
+        <sections>
+            <label><!-- Maintenance Case --></label>
+            <section>Maintenance Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger Case --></label>
+            <section>Passenger Case</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger List --></label>
+            <section>Passenger List</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger by Sector --></label>
+            <section>Passenger by Sector</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Maintenance Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Sector --></label>
+            <section>Flight Sector</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger Sector --></label>
+            <section>Passenger Sector</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>New Flight Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Flight Information --></label>
+            <section>Flight Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TG Admin Flight Layout</layout>
+        <sections>
+            <label><!-- Case Group Member by Flight --></label>
+            <section>Case Group Member by Flight</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date --></label>
+            <section>Date</section>
+        </sections>
+        <sections>
+            <label><!-- Passenger by Sector on Flight --></label>
+            <section>Passenger by Sector on Flight</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Case --></label>
+        <name>New_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Passenger --></label>
+        <name>New_Passenger_PAC</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- View Flight Summary --></label>
+        <name>ViewFlightSummary</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Flight --></label>
+        <name>Flight</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- New Flight --></label>
+        <name>New_Flight</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Maintenace_Case_Report --></label>
+        <name>Maintenace_Case_Report</name>
+    </webLinks>
+</CustomObjectTranslation>

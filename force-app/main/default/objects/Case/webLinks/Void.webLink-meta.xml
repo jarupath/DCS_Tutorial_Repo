@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Void</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Void</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/29.0/connection.js")} 
+
+var ucase = new sforce.SObject('Case'); 
+
+ucase.id = "{!Case.Id}"; 
+ucase.Void_Flag__c = 1;
+ucase.Status = "Void"; 
+
+var r = confirm("Are you sure you want to void?");
+if (r == true) { 
+result = sforce.connection.update([ucase]); 
+}
+
+location.reload(true);</url>
+</WebLink>

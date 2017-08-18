@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Passenger</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>New Passenger</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>srcUp("/{!$Setup.System_Configuration__c.Passenger_Object_ID__c}/e?{!$Setup.System_Configuration__c.Flight_Passenger_Name_SFDC_ID__c}={!Flight__c.Name}&amp;{!$Setup.System_Configuration__c.Flight_Passenger_ID_SFDC_ID__c}={!Passenger__c.FlightId__c}&amp;RecordType={!$Setup.System_Configuration__c.Passenger_Record_Type_New_Passenger__c}&amp;ekp=a00&amp;ent={!$Setup.System_Configuration__c.Passenger_Name_SFDC_ID__c}&amp;Name=TempPassengerName");</url>
+</WebLink>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>TG_7445_4_0_LA_5_F</label>
+    <protected>false</protected>
+    <values>
+        <field>Actual_Label__c</field>
+        <value xsi:type="xsd:string">J</value>
+    </values>
+    <values>
+        <field>Cabin_Version__c</field>
+        <value xsi:type="xsd:string">7445</value>
+    </values>
+    <values>
+        <field>Temp_Label__c</field>
+        <value xsi:type="xsd:string">4_0_LA_5_F</value>
+    </values>
+</CustomMetadata>

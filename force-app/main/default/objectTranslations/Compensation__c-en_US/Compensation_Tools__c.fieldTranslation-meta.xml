@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Compensation Tools --></label>
+    <name>Compensation_Tools__c</name>
+    <picklistValues>
+        <masterLabel>Cash</masterLabel>
+        <translation><!-- Cash --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complimentary Ticket</masterLabel>
+        <translation><!-- Complimentary Ticket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duty Free</masterLabel>
+        <translation><!-- Duty Free --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EMD</masterLabel>
+        <translation><!-- EMD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Excess Baggage</masterLabel>
+        <translation><!-- Excess Baggage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gifts</masterLabel>
+        <translation><!-- Gifts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lounge Access Voucher</masterLabel>
+        <translation><!-- Lounge Access Voucher --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mileage Compensation</masterLabel>
+        <translation><!-- Mileage Compensation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upgrading</masterLabel>
+        <translation><!-- Upgrading --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

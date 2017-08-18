@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Class__c</fullName>
+    <description>To convert CTI Accepted Class from F, C, U, Y to be fullname</description>
+    <externalId>false</externalId>
+    <formula>CASE( Accepted_Class__c , 'F', 'Royal First Class', 'C', 'Royal Silk Class','U','Premium Economy Class','Y','Economy Class','Unidentified')</formula>
+    <label>Class</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

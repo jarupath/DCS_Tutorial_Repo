@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Team</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Teams</value>
+    </caseValues>
+    <fields>
+        <label><!-- Status --></label>
+        <name>ActiveStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queue ID --></label>
+        <name>Queue_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields>
+    <layouts>
+        <layout>Active Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inactive Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Active --></label>
+        <name>Active</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Inactive --></label>
+        <name>Inactive</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Active_Group --></label>
+        <name>Active_Group</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Inactive_Group --></label>
+        <name>Inactive_Group</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Type__c</fullName>
+    <description>Represent flight as 'Domestic' or 'International' by Flight Number.
+
+If flight number is less than 300 or equal 1000 and over, it will be 'Domestic' flight.
+else it could be 'International'.</description>
+    <externalId>false</externalId>
+    <formula>IF( Flight_Number_F__c == "TGXXX","Unidentified",
+IF(VALUE(SUBSTITUTE( Flight_Number_F__c , "TG", "")) &lt; 300 ||  
+   VALUE(SUBSTITUTE( Flight_Number_F__c , "TG", "")) >= 1000,
+"Domestic","International"))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Region</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

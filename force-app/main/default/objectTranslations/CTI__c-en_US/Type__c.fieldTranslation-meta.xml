@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Advertising</masterLabel>
+        <translation><!-- Advertising --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aircraft</masterLabel>
+        <translation><!-- Aircraft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alternative Flight Arrangement</masterLabel>
+        <translation><!-- Alternative Flight Arrangement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Announcement / Information</masterLabel>
+        <translation><!-- Announcement / Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Announcement in Lounge</masterLabel>
+        <translation><!-- Announcement in Lounge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Announcement on Board > Cabin crew announcement</masterLabel>
+        <translation><!-- Announcement on Board &gt; Cabin crew announcement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Announcement on Board > Others</masterLabel>
+        <translation><!-- Announcement on Board &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Announcement on Board > Pilot announcement</masterLabel>
+        <translation><!-- Announcement on Board &gt; Pilot announcement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arrangement during irregularities</masterLabel>
+        <translation><!-- Arrangement during irregularities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Cabin Crew</masterLabel>
+        <translation><!-- Attitude and Care of Cabin Crew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Check-in Staff</masterLabel>
+        <translation><!-- Attitude and Care of Check-in Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Check-in staff at Transfer desk</masterLabel>
+        <translation><!-- Attitude and Care of Check-in staff at Transfer desk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Lost and Found Staff on Arrival</masterLabel>
+        <translation><!-- Attitude and Care of Lost and Found Staff on Arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Lounge Staff</masterLabel>
+        <translation><!-- Attitude and Care of Lounge Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Other Airport Staff</masterLabel>
+        <translation><!-- Attitude and Care of Other Airport Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Other Arrival Staff</masterLabel>
+        <translation><!-- Attitude and Care of Other Arrival Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Reservation &amp; Ticketing Staff</masterLabel>
+        <translation><!-- Attitude and Care of Reservation &amp; Ticketing Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Reservation &amp; Ticketing Staff at Airport</masterLabel>
+        <translation><!-- Attitude and Care of Reservation &amp; Ticketing Staff at Airport --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Reservation &amp; Ticketing Staff at Transfer desk</masterLabel>
+        <translation><!-- Attitude and Care of Reservation &amp; Ticketing Staff at Transfer desk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Special Unit Staff (LP-S)</masterLabel>
+        <translation><!-- Attitude and Care of Special Unit Staff (LP-S) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Special Unit staff (LP-S) on Arrival</masterLabel>
+        <translation><!-- Attitude and Care of Special Unit staff (LP-S) on Arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of Staff Concern</masterLabel>
+        <translation><!-- Attitude and Care of Staff Concern --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care of staff at boarding and departure area</masterLabel>
+        <translation><!-- Attitude and Care of staff at boarding and departure area --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability of check-in counter</masterLabel>
+        <translation><!-- Availability of check-in counter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baggage Handling at check-in</masterLabel>
+        <translation><!-- Baggage Handling at check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baggage Handling on Arrival</masterLabel>
+        <translation><!-- Baggage Handling on Arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Benefit/Privilege/Global Recognition</masterLabel>
+        <translation><!-- Benefit/Privilege/Global Recognition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beverage in Lounge</masterLabel>
+        <translation><!-- Beverage in Lounge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boarding Announcement</masterLabel>
+        <translation><!-- Boarding Announcement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boarding Gate Location</masterLabel>
+        <translation><!-- Boarding Gate Location --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bus Gate boarding</masterLabel>
+        <translation><!-- Bus Gate boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin ambience</masterLabel>
+        <translation><!-- Cabin ambience --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancellation of Flight</masterLabel>
+        <translation><!-- Cancellation of Flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Profile</masterLabel>
+        <translation><!-- Customer Profile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Relations Staff</masterLabel>
+        <translation><!-- Customer Relations Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Service counter</masterLabel>
+        <translation><!-- Customer Service counter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Bin storage</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Bin storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Cradle/bassinet</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Cradle/bassinet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Defect of in-flight entertainment system</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Defect of in-flight entertainment system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Internet</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Internet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Leakage</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Leakage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Others</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Reading lights</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Reading lights --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Seat</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Socket for laptop/adapter</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Socket for laptop/adapter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Tables/tray</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Tables/tray --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Telephone/fax on board</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Telephone/fax on board --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Toilets</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Toilets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Defect/Malfunctions > Window shade/glass</masterLabel>
+        <translation><!-- Defect/Malfunctions &gt; Window shade/glass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denied Boarding</masterLabel>
+        <translation><!-- Denied Boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denied Check-in, Overbooking</masterLabel>
+        <translation><!-- Denied Check-in, Overbooking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disembarkation</masterLabel>
+        <translation><!-- Disembarkation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disruptive/Unruly Passenger on Board</masterLabel>
+        <translation><!-- Disruptive/Unruly Passenger on Board --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diversion of Flight</masterLabel>
+        <translation><!-- Diversion of Flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drink / Beverages > Beverages / Juice</masterLabel>
+        <translation><!-- Drink / Beverages &gt; Beverages / Juice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drink / Beverages > Coffee / Tea</masterLabel>
+        <translation><!-- Drink / Beverages &gt; Coffee / Tea --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drink / Beverages > Liquor / Beer</masterLabel>
+        <translation><!-- Drink / Beverages &gt; Liquor / Beer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drink / Beverages > Water</masterLabel>
+        <translation><!-- Drink / Beverages &gt; Water --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drink / Beverages > Wine / Champagne</masterLabel>
+        <translation><!-- Drink / Beverages &gt; Wine / Champagne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duty-Free Sale on Board</masterLabel>
+        <translation><!-- Duty-Free Sale on Board --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E-Check-in service > Content</masterLabel>
+        <translation><!-- E-Check-in service &gt; Content --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E-Check-in service > Functional Usage</masterLabel>
+        <translation><!-- E-Check-in service &gt; Functional Usage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E-Check-in service > Graphic Design</masterLabel>
+        <translation><!-- E-Check-in service &gt; Graphic Design --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E-ticket/E-booking</masterLabel>
+        <translation><!-- E-ticket/E-booking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enrollment</masterLabel>
+        <translation><!-- Enrollment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Excess Baggage</masterLabel>
+        <translation><!-- Excess Baggage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facility in Lounge > Entertainment</masterLabel>
+        <translation><!-- Facility in Lounge &gt; Entertainment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facility in Lounge > Internet Service</masterLabel>
+        <translation><!-- Facility in Lounge &gt; Internet Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facility in Lounge > Others</masterLabel>
+        <translation><!-- Facility in Lounge &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facility in Lounge > Reading materials</masterLabel>
+        <translation><!-- Facility in Lounge &gt; Reading materials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facility in Lounge > Toilet/Shower room</masterLabel>
+        <translation><!-- Facility in Lounge &gt; Toilet/Shower room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fare</masterLabel>
+        <translation><!-- Fare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flight Schedule</masterLabel>
+        <translation><!-- Flight Schedule --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flight/Seat/Class Availability</masterLabel>
+        <translation><!-- Flight/Seat/Class Availability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food / Beverage serving > Procedure</masterLabel>
+        <translation><!-- Food / Beverage serving &gt; Procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food in Lounge</masterLabel>
+        <translation><!-- Food in Lounge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fruit / Dried fruit</masterLabel>
+        <translation><!-- Fruit / Dried fruit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gate Lounge</masterLabel>
+        <translation><!-- Gate Lounge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Comments in Check - in Service</masterLabel>
+        <translation><!-- General Comments in Check - in Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Comments on Arrival</masterLabel>
+        <translation><!-- General Comments on Arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Comments on Boarding</masterLabel>
+        <translation><!-- General Comments on Boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General Comments on Lounge Service</masterLabel>
+        <translation><!-- General Comments on Lounge Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hand Baggage Handling at Boarding Gate</masterLabel>
+        <translation><!-- Hand Baggage Handling at Boarding Gate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handling of Ticket Refund</masterLabel>
+        <translation><!-- Handling of Ticket Refund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hotel/Accommodation during irregularities</masterLabel>
+        <translation><!-- Hotel/Accommodation during irregularities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Entertainment > Audio system</masterLabel>
+        <translation><!-- In-flight Entertainment &gt; Audio system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Entertainment > Audio/Music/Radio</masterLabel>
+        <translation><!-- In-flight Entertainment &gt; Audio/Music/Radio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Entertainment > Entire Entertainment System</masterLabel>
+        <translation><!-- In-flight Entertainment &gt; Entire Entertainment System --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Entertainment > Games</masterLabel>
+        <translation><!-- In-flight Entertainment &gt; Games --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Entertainment > Headphones</masterLabel>
+        <translation><!-- In-flight Entertainment &gt; Headphones --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Entertainment > Inseat-video/personal video</masterLabel>
+        <translation><!-- In-flight Entertainment &gt; Inseat-video/personal video --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Entertainment > Landscape camera</masterLabel>
+        <translation><!-- In-flight Entertainment &gt; Landscape camera --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Entertainment > Others</masterLabel>
+        <translation><!-- In-flight Entertainment &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Entertainment > TV monitor/screen</masterLabel>
+        <translation><!-- In-flight Entertainment &gt; TV monitor/screen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-flight Entertainment > Video/Movie/TV program</masterLabel>
+        <translation><!-- In-flight Entertainment &gt; Video/Movie/TV program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interline/Transit/Connections</masterLabel>
+        <translation><!-- Interline/Transit/Connections --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Items Distributed in Cabin > Amenity kits</masterLabel>
+        <translation><!-- Items Distributed in Cabin &gt; Amenity kits --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Items Distributed in Cabin > Blankets/Pillows</masterLabel>
+        <translation><!-- Items Distributed in Cabin &gt; Blankets/Pillows --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Items Distributed in Cabin > Giveaway</masterLabel>
+        <translation><!-- Items Distributed in Cabin &gt; Giveaway --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Items Distributed in Cabin > Hot/cold towels</masterLabel>
+        <translation><!-- Items Distributed in Cabin &gt; Hot/cold towels --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Items Distributed in Cabin > Immigration/Customs/ROP forms etc.</masterLabel>
+        <translation><!-- Items Distributed in Cabin &gt; Immigration/Customs/ROP forms etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Items Distributed in Cabin > Orchid corsages</masterLabel>
+        <translation><!-- Items Distributed in Cabin &gt; Orchid corsages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Items Distributed in Cabin > Others</masterLabel>
+        <translation><!-- Items Distributed in Cabin &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Items Distributed in Cabin > Playing cards</masterLabel>
+        <translation><!-- Items Distributed in Cabin &gt; Playing cards --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Items Distributed in Cabin > Slipper/pajamas</masterLabel>
+        <translation><!-- Items Distributed in Cabin &gt; Slipper/pajamas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Items Distributed in Cabin > Toys</masterLabel>
+        <translation><!-- Items Distributed in Cabin &gt; Toys --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Layover Expense</masterLabel>
+        <translation><!-- Layover Expense --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limousine Service</masterLabel>
+        <translation><!-- Limousine Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lounge Ambience/Comfort</masterLabel>
+        <translation><!-- Lounge Ambience/Comfort --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lounge Availability/Admittance</masterLabel>
+        <translation><!-- Lounge Availability/Admittance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lounge Location</masterLabel>
+        <translation><!-- Lounge Location --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lounge Working hours</masterLabel>
+        <translation><!-- Lounge Working hours --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lounge check-in</masterLabel>
+        <translation><!-- Lounge check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Massage Service/Royal Orchid Spa</masterLabel>
+        <translation><!-- Massage Service/Royal Orchid Spa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meals/Dessert/Snack</masterLabel>
+        <translation><!-- Meals/Dessert/Snack --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Assistance, Injuries on Board</masterLabel>
+        <translation><!-- Medical Assistance, Injuries on Board --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Membership Levels</masterLabel>
+        <translation><!-- Membership Levels --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Messages to Relative</masterLabel>
+        <translation><!-- Messages to Relative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mileage Accumulation and Validity</masterLabel>
+        <translation><!-- Mileage Accumulation and Validity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mileage Claim/Retro Credit</masterLabel>
+        <translation><!-- Mileage Claim/Retro Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mileage Purchase</masterLabel>
+        <translation><!-- Mileage Purchase --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobile Application > Content and Information</masterLabel>
+        <translation><!-- Mobile Application &gt; Content and Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobile Application > Design</masterLabel>
+        <translation><!-- Mobile Application &gt; Design --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobile Application > Functional Usage</masterLabel>
+        <translation><!-- Mobile Application &gt; Functional Usage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobile Application > Language</masterLabel>
+        <translation><!-- Mobile Application &gt; Language --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobile Application > Others</masterLabel>
+        <translation><!-- Mobile Application &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No. of Counter/Staff at check-in</masterLabel>
+        <translation><!-- No. of Counter/Staff at check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of Cabin Crew</masterLabel>
+        <translation><!-- Number of Cabin Crew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Arrival/Transit/Connections</masterLabel>
+        <translation><!-- Others &gt; Arrival/Transit/Connections --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Boarding and Departure Area</masterLabel>
+        <translation><!-- Others &gt; Boarding and Departure Area --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Check-in and Service before Immigration</masterLabel>
+        <translation><!-- Others &gt; Check-in and Service before Immigration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Contact Center</masterLabel>
+        <translation><!-- Others &gt; Contact Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Customer Retention</masterLabel>
+        <translation><!-- Others &gt; Customer Retention --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > General Comments on TG services</masterLabel>
+        <translation><!-- Others &gt; General Comments on TG services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Handling of Flight Irregularities</masterLabel>
+        <translation><!-- Others &gt; Handling of Flight Irregularities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Lounge</masterLabel>
+        <translation><!-- Others &gt; Lounge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Marketing</masterLabel>
+        <translation><!-- Others &gt; Marketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Onboard Catering</masterLabel>
+        <translation><!-- Others &gt; Onboard Catering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > ROP</masterLabel>
+        <translation><!-- Others &gt; ROP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Reservation</masterLabel>
+        <translation><!-- Others &gt; Reservation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Schedule Deviation</masterLabel>
+        <translation><!-- Others &gt; Schedule Deviation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overall Comments</masterLabel>
+        <translation><!-- Overall Comments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overall satisfaction</masterLabel>
+        <translation><!-- Overall satisfaction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Passenger Bus</masterLabel>
+        <translation><!-- Passenger Bus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Passenger Bus on Arrival</masterLabel>
+        <translation><!-- Passenger Bus on Arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Passenger's Menu/ Wine List</masterLabel>
+        <translation><!-- Passenger&apos;s Menu/ Wine List --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pax dislike procedure of credit card verification (internet purchasing)</masterLabel>
+        <translation><!-- Pax dislike procedure of credit card verification (internet purchasing) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Cabin Crew</masterLabel>
+        <translation><!-- Performance and Efficiency of Cabin Crew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Check-in Staff</masterLabel>
+        <translation><!-- Performance and Efficiency of Check-in Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Check-in staff at Transfer desk</masterLabel>
+        <translation><!-- Performance and Efficiency of Check-in staff at Transfer desk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Lost and Found Staff on Arrival</masterLabel>
+        <translation><!-- Performance and Efficiency of Lost and Found Staff on Arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Lounge staff</masterLabel>
+        <translation><!-- Performance and Efficiency of Lounge staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Other Airport Staff</masterLabel>
+        <translation><!-- Performance and Efficiency of Other Airport Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Other Arrival Staff</masterLabel>
+        <translation><!-- Performance and Efficiency of Other Arrival Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Reservation &amp; Ticketing Staff</masterLabel>
+        <translation><!-- Performance and Efficiency of Reservation &amp; Ticketing Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Reservation &amp; Ticketing Staff Transfer desk</masterLabel>
+        <translation><!-- Performance and Efficiency of Reservation &amp; Ticketing Staff Transfer desk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Reservation &amp; Ticketing Staff at Airport</masterLabel>
+        <translation><!-- Performance and Efficiency of Reservation &amp; Ticketing Staff at Airport --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Special Unit Staff (LP-S)</masterLabel>
+        <translation><!-- Performance and Efficiency of Special Unit Staff (LP-S) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Special Unit staff (LP-S) on Arrival</masterLabel>
+        <translation><!-- Performance and Efficiency of Special Unit staff (LP-S) on Arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of Staff Concern</masterLabel>
+        <translation><!-- Performance and Efficiency of Staff Concern --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency of staff at boarding and departure area</masterLabel>
+        <translation><!-- Performance and Efficiency of staff at boarding and departure area --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pilot</masterLabel>
+        <translation><!-- Pilot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presence of TG staff on Arrival</masterLabel>
+        <translation><!-- Presence of TG staff on Arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Printed Timetable</masterLabel>
+        <translation><!-- Printed Timetable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priority Boarding</masterLabel>
+        <translation><!-- Priority Boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promotion/Marketing campaign</masterLabel>
+        <translation><!-- Promotion/Marketing campaign --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Punctuality of Flight</masterLabel>
+        <translation><!-- Punctuality of Flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROP Advertisement/Brochure</masterLabel>
+        <translation><!-- ROP Advertisement/Brochure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROP Awards and Redeeming Award</masterLabel>
+        <translation><!-- ROP Awards and Redeeming Award --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROP Contact by Mail/Email/Fax/Website</masterLabel>
+        <translation><!-- ROP Contact by Mail/Email/Fax/Website --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROP Contact by Phone</masterLabel>
+        <translation><!-- ROP Contact by Phone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROP Membership Application and Guide/Handbook</masterLabel>
+        <translation><!-- ROP Membership Application and Guide/Handbook --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROP Membership Card</masterLabel>
+        <translation><!-- ROP Membership Card --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROP Mileage Statement/Newsletter</masterLabel>
+        <translation><!-- ROP Mileage Statement/Newsletter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ROP Staff</masterLabel>
+        <translation><!-- ROP Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reading Materials > Magazines</masterLabel>
+        <translation><!-- Reading Materials &gt; Magazines --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reading Materials > Newspapers</masterLabel>
+        <translation><!-- Reading Materials &gt; Newspapers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reading Materials > Others</masterLabel>
+        <translation><!-- Reading Materials &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refreshment/Meal Provided during irregularities</masterLabel>
+        <translation><!-- Refreshment/Meal Provided during irregularities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request Information Before Traveling</masterLabel>
+        <translation><!-- Request Information Before Traveling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Document</masterLabel>
+        <translation><!-- Request for Document --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rerouting of Flight</masterLabel>
+        <translation><!-- Rerouting of Flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reschedule of Flight</masterLabel>
+        <translation><!-- Reschedule of Flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resolution/Reply/Settlement</masterLabel>
+        <translation><!-- Resolution/Reply/Settlement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Routing</masterLabel>
+        <translation><!-- Routing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safety on Board Aspects</masterLabel>
+        <translation><!-- Safety on Board Aspects --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seasoning / Condiment</masterLabel>
+        <translation><!-- Seasoning / Condiment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > Amount of leg room</masterLabel>
+        <translation><!-- Seat &gt; Amount of leg room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > Appearance of seat</masterLabel>
+        <translation><!-- Seat &gt; Appearance of seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > Baby seat/cradle bassinet</masterLabel>
+        <translation><!-- Seat &gt; Baby seat/cradle bassinet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > Flat bed</masterLabel>
+        <translation><!-- Seat &gt; Flat bed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > Foot rest</masterLabel>
+        <translation><!-- Seat &gt; Foot rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > General comfort of seat</masterLabel>
+        <translation><!-- Seat &gt; General comfort of seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > Head rest</masterLabel>
+        <translation><!-- Seat &gt; Head rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > Leg rest</masterLabel>
+        <translation><!-- Seat &gt; Leg rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > Others</masterLabel>
+        <translation><!-- Seat &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > Seats abreast</masterLabel>
+        <translation><!-- Seat &gt; Seats abreast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat > Size/pitch/width</masterLabel>
+        <translation><!-- Seat &gt; Size/pitch/width --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat Assignment</masterLabel>
+        <translation><!-- Seat Assignment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Security Aspects at Boarding Gate</masterLabel>
+        <translation><!-- Security Aspects at Boarding Gate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Self-service Check-in/Kiosk</masterLabel>
+        <translation><!-- Self-service Check-in/Kiosk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Special Meals</masterLabel>
+        <translation><!-- Special Meals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stand by process</masterLabel>
+        <translation><!-- Stand by process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tableware (cutlery, glasses, meal box, etc.)</masterLabel>
+        <translation><!-- Tableware (cutlery, glasses, meal box, etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telephone Contact</masterLabel>
+        <translation><!-- Telephone Contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telephone Expenses/Allowance</masterLabel>
+        <translation><!-- Telephone Expenses/Allowance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Through check-in</masterLabel>
+        <translation><!-- Through check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ticket Issuance</masterLabel>
+        <translation><!-- Ticket Issuance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ticket Office</masterLabel>
+        <translation><!-- Ticket Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ticket Regulations</masterLabel>
+        <translation><!-- Ticket Regulations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ticketing and Reservation at Airport</masterLabel>
+        <translation><!-- Ticketing and Reservation at Airport --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Time for boarding</masterLabel>
+        <translation><!-- Time for boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing for Meal/Beverage Service</masterLabel>
+        <translation><!-- Timing for Meal/Beverage Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing for check-in counter</masterLabel>
+        <translation><!-- Timing for check-in counter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toilets</masterLabel>
+        <translation><!-- Toilets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation during irregularities</masterLabel>
+        <translation><!-- Transportation during irregularities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upgrading, Downgrading at Check-in</masterLabel>
+        <translation><!-- Upgrading, Downgrading at Check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WIFI on board</masterLabel>
+        <translation><!-- WIFI on board --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting time at check-in</masterLabel>
+        <translation><!-- Waiting time at check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>thaiairways.com > Content and Information</masterLabel>
+        <translation><!-- thaiairways.com &gt; Content and Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>thaiairways.com > Design</masterLabel>
+        <translation><!-- thaiairways.com &gt; Design --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>thaiairways.com > Functional Usage</masterLabel>
+        <translation><!-- thaiairways.com &gt; Functional Usage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>thaiairways.com > Language</masterLabel>
+        <translation><!-- thaiairways.com &gt; Language --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>thaiairways.com > Others</masterLabel>
+        <translation><!-- thaiairways.com &gt; Others --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

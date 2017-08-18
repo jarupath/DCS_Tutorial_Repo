@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Passenger_List</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Add Passenger List</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!REQUIRESCRIPT("/soap/ajax/20.0/connection.js")}
+
+function insertScript(){
+var caseId = '{!Case.Id}';
+var isAddCGMAllow = '{!Case.Approved_Compensation__c}' > 0 ? false : true;
+var currentLocation = window.location;
+var topURL = window.top.location.href;
+if(isAddCGMAllow){
+var box = new SimpleDialog("hersh"+Math.random(), true); 
+parent.box = box; 
+box.setTitle("Add Passenger List");
+box.createDialog();  
+box.setWidth(1000);
+box.setContentInnerHTML("&lt;iframe id='iframeContentId' src='/apex/AddCasePassengerListPage?id=" + caseId  +"&amp;ret="+currentLocation+"&amp;top="+ topURL+"' frameborder='0' height='400px' width='100%' marginheight='0' marginwidth='0' scrolling='yes' />");
+box.setupDefaultButtons(); 
+box.show();  
+}
+else window.alert('Please obsolete approved compensation before add more related passenger to the case.');
+
+} 
+
+insertScript();</url>
+</WebLink>

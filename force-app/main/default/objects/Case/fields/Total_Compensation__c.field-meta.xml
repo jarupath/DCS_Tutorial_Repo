@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Compensation__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+SUM_Compensation_Cash_Amount__c > 0 
+, TEXT(SUM_Compensation_Cash_Amount__c) &amp; " x " &amp; 
+TEXT(SUM_Involved_Passenger_Amount__c)&amp; " = " &amp; 
+TEXT(SUM_Compensation_Cash_Amount__c * SUM_Involved_Passenger_Amount__c) 
+, "" 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Compensation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

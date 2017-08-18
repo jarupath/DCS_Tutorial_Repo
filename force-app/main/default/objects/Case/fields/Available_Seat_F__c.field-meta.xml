@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_Seat_F__c</fullName>
+    <description>Invalid</description>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(Flightid__r.Aircraft_Configuration__c, 'F'), 'F' &amp;
+ IF((Flightid__r.Aircraft_Configuration_First_Class__c - Flightid__r.Booking_Passenger_First_Class__c) &lt; 0, ('-' &amp;
+     LPAD(
+     TEXT((Flightid__r.Aircraft_Configuration_First_Class__c - Flightid__r.Booking_Passenger_First_Class__c) * (-1)),
+ 2, '0')),
+     LPAD(
+     TEXT(Flightid__r.Aircraft_Configuration_First_Class__c - Flightid__r.Booking_Passenger_First_Class__c),
+ 2, '0')
+    )
+ , '') &amp;
+IF(CONTAINS(Flightid__r.Aircraft_Configuration__c, 'C'), ' C' &amp;
+ IF((Flightid__r.Aircraft_Configuration_Business_Class__c - Flightid__r.Booking_Passenger_Business_Class__c) &lt; 0, ('-' &amp;
+     LPAD(
+     TEXT((Flightid__r.Aircraft_Configuration_Business_Class__c - Flightid__r.Booking_Passenger_Business_Class__c) * (-1)),
+ 2, '0')),
+     LPAD(
+     TEXT(Flightid__r.Aircraft_Configuration_Business_Class__c - Flightid__r.Booking_Passenger_Business_Class__c),
+ 2, '0')
+    )
+ , '') &amp;
+IF(CONTAINS(Flightid__r.Aircraft_Configuration__c, 'U'), ' U' &amp;
+ IF((Flightid__r.Aircraft_Configuration_Premium_Economy__c - Flightid__r.Booking_Passenger_Premium_Economy_Class__c) &lt; 0, ('-' &amp;
+     LPAD(
+     TEXT((Flightid__r.Aircraft_Configuration_Premium_Economy__c - Flightid__r.Booking_Passenger_Premium_Economy_Class__c) * (-1)),
+ 2, '0')),
+     LPAD(
+     TEXT(Flightid__r.Aircraft_Configuration_Premium_Economy__c - Flightid__r.Booking_Passenger_Premium_Economy_Class__c),
+ 2, '0')
+    )
+ , '') &amp;
+IF(CONTAINS(Flightid__r.Aircraft_Configuration__c, 'Y'), ' Y' &amp;
+ IF((Flightid__r.Aircraft_Configuration_Economy_Class__c - Flightid__r.Booking_Passenger_Economy_Class__c) &lt; 0, ('-' &amp;
+     LPAD(
+     TEXT((Flightid__r.Aircraft_Configuration_Economy_Class__c - Flightid__r.Booking_Passenger_Economy_Class__c) * (-1)),
+ 3, '0')),
+     LPAD(
+     TEXT(Flightid__r.Aircraft_Configuration_Economy_Class__c - Flightid__r.Booking_Passenger_Economy_Class__c),
+ 3, '0')
+    )
+ , '')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Available Seat</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

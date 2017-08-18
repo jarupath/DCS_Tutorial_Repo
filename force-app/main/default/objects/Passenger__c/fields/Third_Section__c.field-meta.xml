@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Section__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+VALUE(
+SUBSTITUTE(
+TRIM
+(
+MID
+
+(TEXT( Flight_STD__c ),
+FIND
+(":", TEXT( Flight_STD__c ))
+
+
+ - 2, 5)
+)
+, ":","")
+)
+>= 2100 ||
+(  
+( 
+
+IF(
+
+LEFT(TEXT(Flight_STD__c), 10) = LEFT(TEXT(NOW()+ 1), 10)
+
+
+
+
+
+,TRUE, FALSE)
+
+&amp;&amp;
+VALUE(
+SUBSTITUTE(
+TRIM
+(
+MID
+
+(TEXT( Flight_STD__c ),
+FIND
+(":", TEXT( Flight_STD__c ))
+
+
+ - 2, 5)
+)
+, ":","")
+) &lt;= 200)
+)
+, TRUE,FALSE)</formula>
+    <label>Third Section</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

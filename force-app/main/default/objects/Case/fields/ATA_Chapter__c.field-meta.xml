@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ATA_Chapter__c</fullName>
+    <description>Displays the ATA Chapter of the equipment</description>
+    <externalId>false</externalId>
+    <formula>EquipmentId__r.Depend_On_Object__r.Name</formula>
+    <label>ATA DES.</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Flight Passenger ID SFDC ID --></label>
+    <name>Flight_Passenger_ID_SFDC_ID__c</name>
+</CustomFieldTranslation>

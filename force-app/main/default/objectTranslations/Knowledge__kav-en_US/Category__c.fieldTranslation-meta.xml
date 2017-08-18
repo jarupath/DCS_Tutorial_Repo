@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>Category__c</name>
+    <picklistValues>
+        <masterLabel>Catering</masterLabel>
+        <translation><!-- Catering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Feedback</masterLabel>
+        <translation><!-- Customer Feedback --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GCSM</masterLabel>
+        <translation><!-- GCSM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GOM</masterLabel>
+        <translation><!-- GOM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guideline to service recovery</masterLabel>
+        <translation><!-- Guideline to service recovery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LCM</masterLabel>
+        <translation><!-- LCM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PHM</masterLabel>
+        <translation><!-- PHM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TDGM</masterLabel>
+        <translation><!-- TDGM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training Manual</masterLabel>
+        <translation><!-- Training Manual --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

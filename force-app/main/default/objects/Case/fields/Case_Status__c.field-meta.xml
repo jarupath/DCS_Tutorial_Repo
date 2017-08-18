@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Status__c</fullName>
+    <description>Displays four colored circles where color is indicative of persisting cases with differing impacts</description>
+    <externalId>false</externalId>
+    <formula>IF( Yellow_Case_Record_Count__c > 0 , IMAGE("/resource/YellowCase","",20,20) + ' ',IMAGE("/resource/WhiteCase","",20,20)+ ' ')&amp;
+
+IF( Red_Case_Record_Count__c > 0 , IMAGE("/resource/RedCase","",20,20) + ' ', IMAGE("/resource/WhiteCase","",20,20))&amp;
+
+IF( Orange_Case_Record_Count__c > 0 , IMAGE("/resource/OrangeCase","",20,20) + ' ',IMAGE("/resource/WhiteCase","",20,20)+ ' ')&amp;
+
+IF( Blue_Case_Record_Count__c > 0, IMAGE("/resource/BlueCase","",20,20) + ' ',IMAGE("/resource/WhiteCase","",20,20)+ ' ')</formula>
+    <label>Case Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

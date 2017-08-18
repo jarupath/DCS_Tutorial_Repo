@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Group Member</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Group Members</value>
+    </caseValues>
+    <layouts>
+        <layout>Admin Case Group Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Group Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>General Case Group Member</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Maintemance of Case Group Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Maintenance Case Group Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Ground Service CGM --></label>
+        <name>Ground_Service_CGM</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Maintenance Page Layout --></label>
+        <name>Maintenance_Page_Layout</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_Passenger_List --></label>
+        <name>Add_Passenger_List</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Case --></label>
+        <name>New_Case</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Case_CFMS --></label>
+        <name>New_Case_CFMS</name>
+    </webLinks>
+</CustomObjectTranslation>

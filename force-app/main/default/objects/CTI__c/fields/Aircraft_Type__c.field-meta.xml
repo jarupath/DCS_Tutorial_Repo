@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aircraft_Type__c</fullName>
+    <description>Displays the Aircraft Type that the Case is related to (via Aircraft).</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(Flightid__r.Aircraft_Type__c)),Flightid__r.Aircraft_Type__c,"Unidentified")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Aircraft Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

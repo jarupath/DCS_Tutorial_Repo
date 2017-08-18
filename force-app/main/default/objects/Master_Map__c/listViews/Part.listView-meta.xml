@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Part</fullName>
+    <columns>OBJECT_ID</columns>
+    <columns>Depend_On_Value__c</columns>
+    <columns>NAME</columns>
+    <columns>Code__c</columns>
+    <columns>Depend_On_Object__c</columns>
+    <columns>Field_Name__c</columns>
+    <columns>Aircraft_Description__c</columns>
+    <columns>Cabin_Ver__c</columns>
+    <columns>Check_by_CA_s_station__c</columns>
+    <columns>Checked_Procedure__c</columns>
+    <columns>Description__c</columns>
+    <columns>Equipment_Type__c</columns>
+    <columns>Location__c</columns>
+    <columns>Quantity_to_be_checked__c</columns>
+    <columns>Total__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Field_Name__c</field>
+        <operation>startsWith</operation>
+        <value>Part</value>
+    </filters>
+    <label>Part</label>
+    <language>en_US</language>
+</ListView>

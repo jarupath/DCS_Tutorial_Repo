@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Save_as_Resolved</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Save as Resolved</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/29.0/connection.js")} 
+
+var thiscase = sforce.connection.query("SELECT Compensation_Count__c from Case where id ='{!Case.Id}' limit 1");
+
+records = thiscase.getArray("records"); 
+
+var compcount = records[0].Compensation_Count__c; 
+
+var ucase = new sforce.SObject('Case'); 
+
+ucase.id = "{!Case.Id}"; 
+ucase.Ground_Customer_Service__c = "1";
+
+if(compcount > 0){
+   ucase.status = "Resolved"; 
+}
+else{
+   ucase.status = "Closed"; 
+}
+
+var r = confirm("This will close the Case if no compensations are present. Are you sure you want to save as Resolved?"); 
+if (r == true) { 
+result = sforce.connection.update([ucase]); 
+} 
+
+location.reload(true);</url>
+</WebLink>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <description>Display department of member</description>
+    <externalId>false</externalId>
+    <label>Department</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abroad Stations</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage Claim</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Bangkok Ramp Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Bangkok Ticket &amp;	Reservation</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Catering</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Cockpit Crew</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ground Service at Bangkok Airport</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-Flight Products</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-Flight Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>S3</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>S4</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>SZ-R</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Technical Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Thai Smile Airline</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>AO</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Group</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Active Group</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/29.0/connection.js")} 
+
+var rrg = new sforce.SObject("Case_Team__c"); 
+rrg.id = "{!Case_Team__c.Id}"; 
+rrg.active__c = "1"; 
+rrg.recordtypeid = "{!$Setup.System_Configuration__c.Active_Case_Team_ID__c}"; 
+result = sforce.connection.update([rrg]); 
+location.reload(true);</url>
+</WebLink>

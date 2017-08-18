@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isExpired__c</fullName>
+    <description>The incicator when the Tier of this membership is expired for Royal Orchid Plus (Currently not used but must be kept anywhere 26/05/17)</description>
+    <externalId>false</externalId>
+    <formula>Expiry_Date__c &lt;  TODAY()</formula>
+    <label>Expired</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

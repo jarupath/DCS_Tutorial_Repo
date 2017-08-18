@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual_Enrollment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicate wheter this ROP Enrollment must be done manually because the salutation cannot be extracted from the customer's name</description>
+    <externalId>false</externalId>
+    <label>Manual Enrollment</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

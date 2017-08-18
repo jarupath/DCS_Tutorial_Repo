@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Compensation Account Center --></label>
+    <name>Compensation_Account_Center__c</name>
+    <picklistValues>
+        <masterLabel>1015519</masterLabel>
+        <translation><!-- 1015519 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1030100</masterLabel>
+        <translation><!-- 1030100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1301220</masterLabel>
+        <translation><!-- 1301220 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>N/A</masterLabel>
+        <translation><!-- N/A --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

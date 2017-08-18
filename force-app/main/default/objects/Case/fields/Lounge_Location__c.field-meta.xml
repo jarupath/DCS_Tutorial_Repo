@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lounge_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Lounge Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Case_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ROYAL SILK LOUNGE (A2-1) Domestic</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROYAL SILK LOUNGE (C3-1)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROYAL SILK LOUNGE (C3-2)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROYAL SILK LOUNGE (D3-1)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROYAL FIRST LOUNGE (D3-F)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROYAL SILK LOUNGE (E3-1)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROYAL ORCHID LOUNGE (E3-2)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROYAL ORCHID LOUNGE (E3-F) FIRST CLASS</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROYAL ORCHID LOUNGE (E3-F)   FIRST CLASS</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ROYAL SILK LOUNGE (A2-1)   Domestic</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>ROYAL SILK LOUNGE (A2-1) Domestic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>ROYAL SILK LOUNGE (C3-1)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>ROYAL SILK LOUNGE (C3-2)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>ROYAL SILK LOUNGE (D3-1)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>ROYAL FIRST LOUNGE (D3-F)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>ROYAL SILK LOUNGE (E3-1)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>ROYAL ORCHID LOUNGE (E3-2)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lounges</controllingFieldValue>
+            <valueName>ROYAL ORCHID LOUNGE (E3-F) FIRST CLASS</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

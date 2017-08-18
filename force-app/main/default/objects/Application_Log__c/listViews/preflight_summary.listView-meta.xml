@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>preflight_summary</fullName>
+    <booleanFilter>((1 AND 3)  OR 4) AND 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Source__c</columns>
+    <columns>Source_Function__c</columns>
+    <columns>Reference_Id__c</columns>
+    <columns>Message__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Timer__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Debug_Level__c</field>
+        <operation>equals</operation>
+        <value>Error,Warning</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>Source_Function__c</field>
+        <operation>notEqual</operation>
+        <value>getSSR</value>
+    </filters>
+    <filters>
+        <field>Source_Function__c</field>
+        <operation>equals</operation>
+        <value>postSync</value>
+    </filters>
+    <label>preflight summary</label>
+    <language>en_US</language>
+</ListView>

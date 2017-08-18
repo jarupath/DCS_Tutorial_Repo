@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Input_Case_Reason_If_Void</fullName>
+    <active>false</active>
+    <description>Requires Case reason if Case status is changed to Void</description>
+    <errorConditionFormula>AND(
+$Profile.Name = 'DT Staff'  &amp;&amp; $Profile.Name = 'DT Admin',
+PRIORVALUE( Status ) = 'Void',
+ISBLANK(  Case_Reason_Text__c )
+)</errorConditionFormula>
+    <errorMessage>Please input voiding reasons.</errorMessage>
+</ValidationRule>

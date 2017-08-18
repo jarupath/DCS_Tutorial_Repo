@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>S4_Tier_1_Group_A_receive_time__c</fullName>
+    <description>Time that user S4 Tier 1 Group A receive case</description>
+    <externalId>false</externalId>
+    <label>S4Tier1GroupA receive time</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

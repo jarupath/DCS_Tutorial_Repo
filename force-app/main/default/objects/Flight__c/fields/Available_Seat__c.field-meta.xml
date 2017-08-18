@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_Seat__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(Aircraft_Configuration__c, 'F'), 'F' &amp;
+ IF((Aircraft_Configuration_First_Class__c - Booking_Passenger_First_Class__c) &lt; 0, ('-' &amp;
+     LPAD(
+     TEXT((Aircraft_Configuration_First_Class__c - Booking_Passenger_First_Class__c) * (-1)),
+ 2, '0')),
+     LPAD(
+     TEXT(Aircraft_Configuration_First_Class__c - Booking_Passenger_First_Class__c),
+ 2, '0')
+    )
+ , '') &amp;
+IF(CONTAINS(Aircraft_Configuration__c, 'C'), ' C' &amp;
+ IF((Aircraft_Configuration_Business_Class__c - Booking_Passenger_Business_Class__c) &lt; 0, ('-' &amp;
+     LPAD(
+     TEXT((Aircraft_Configuration_Business_Class__c - Booking_Passenger_Business_Class__c) * (-1)),
+ 2, '0')),
+     LPAD(
+     TEXT(Aircraft_Configuration_Business_Class__c - Booking_Passenger_Business_Class__c),
+ 2, '0')
+    )
+ , '') &amp;
+IF(CONTAINS(Aircraft_Configuration__c, 'U'), ' U' &amp;
+ IF((Aircraft_Configuration_Premium_Economy__c - Booking_Passenger_Premium_Economy_Class__c) &lt; 0, ('-' &amp;
+     LPAD(
+     TEXT((Aircraft_Configuration_Premium_Economy__c - Booking_Passenger_Premium_Economy_Class__c) * (-1)),
+ 2, '0')),
+     LPAD(
+     TEXT(Aircraft_Configuration_Premium_Economy__c - Booking_Passenger_Premium_Economy_Class__c),
+ 2, '0')
+    )
+ , '') &amp;
+IF(CONTAINS(Aircraft_Configuration__c, 'Y'), ' Y' &amp;
+ IF((Aircraft_Configuration_Economy_Class__c - Booking_Passenger_Economy_Class__c) &lt; 0, ('-' &amp;
+     LPAD(
+     TEXT((Aircraft_Configuration_Economy_Class__c - Booking_Passenger_Economy_Class__c) * (-1)),
+ 3, '0')),
+     LPAD(
+     TEXT(Aircraft_Configuration_Economy_Class__c - Booking_Passenger_Economy_Class__c),
+ 3, '0')
+    )
+ , '')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Available Seat</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

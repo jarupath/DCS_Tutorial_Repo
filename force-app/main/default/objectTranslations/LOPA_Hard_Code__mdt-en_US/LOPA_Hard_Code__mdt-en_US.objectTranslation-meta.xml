@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LOPA Add-On</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LOPA Add-On</value>
+    </caseValues>
+    <layouts>
+        <layout>LOPA Hard Code Layout</layout>
+        <sections>
+            <label><!-- Cabin Infomation --></label>
+            <section>Cabin Infomation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Position --></label>
+            <section>Position</section>
+        </sections>
+        <sections>
+            <label><!-- Remove --></label>
+            <section>Remove</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

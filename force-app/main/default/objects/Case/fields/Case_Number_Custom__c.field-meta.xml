@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Number_Custom__c</fullName>
+    <description>Displays the Case Number as a combination of Station Created by, Department and the automated Salesforce generated numbers as a hyperlink</description>
+    <externalId>false</externalId>
+    <formula>IF( $User.UIThemeDisplayed == 'Theme4t', HYPERLINK("/" &amp; Id, CreatedBy.Station__c &amp; CreatedBy.Department &amp; CaseNumber, "_self" ), HYPERLINK("javascript:srcUp('/" &amp; Id &amp; "')", 
+
+CreatedBy.Station__c &amp; CreatedBy.Department &amp; CaseNumber &amp; " " &amp; 
+
+if( Text(Priority) == "Urgent", 
+
+IMAGE("/resource/icon_case/Priority_Exclamation.png","",13,13), 
+
+" ")&amp; 
+
+if(Text(Approval_Status__c) == "Pending", 
+
+IMAGE("/resource/icon_case/Icon_Lock.png","",15,15), 
+
+" ") &amp; 
+ 
+if( Follow_up__c == TRUE, 
+
+IMAGE("/img/samples/flag_yellow.gif","",13,13), 
+
+"")
+
+, "_self" ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

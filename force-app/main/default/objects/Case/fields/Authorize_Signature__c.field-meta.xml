@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Authorize_Signature__c</fullName>
+    <description>Displays the available signatures of Customer Feedback personnels in Bangkok</description>
+    <externalId>false</externalId>
+    <label>Authorize Signature</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Letter_Language__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Usanee Sangsingkeo</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Teerapol Chotichanapibal</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Priyasiri Juathes</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Plearnpun Sirihongse</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Anchalee Suthivanich</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Papassara Thamasakjinda</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Trajai Sriudommongkol</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Chamaiporn Pholpoul</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Thanasorn Phoonkabutr</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Suksatit Meesook</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Vicharn Jaroensuk</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Lapasrada Rongyen</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Kanokrut Tesakarn</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Sasiwimol Skulyong</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>อุษณีย์ แสงสิงแก้ว</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ธีรพล	โชติชนาภิบาล</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ปรียาศิริ เชื้อเทศ</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>เพลินพันธ์ สิริหงส์</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>อัญชลี สุทธิวาณิชย์</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ปภัสสรา ธรรมศักดิ์จินดา</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ตราใจ ศรีอุดมมงคล</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ชไมพร ผลพูล</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ธนสร ปุณกะบุตร</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>สุขสถิตย์ มีสุข</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>วิชาญ เจริญสุข</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ลภัสรดา รองเย็น</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ธีรพล โชติชนาภิบาล</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>ศศิวิมล สกุลยง</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>กนกรัตน์ เทศกาล</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Charamporn Jotikasthira</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>จรัมพร โชติกเสถียร</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>อุษณีย์ แสงสิงแก้ว</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>ธีรพล	โชติชนาภิบาล</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>ปรียาศิริ เชื้อเทศ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>เพลินพันธ์ สิริหงส์</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>อัญชลี สุทธิวาณิชย์</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>ปภัสสรา ธรรมศักดิ์จินดา</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>ตราใจ ศรีอุดมมงคล</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>ชไมพร ผลพูล</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>ธนสร ปุณกะบุตร</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>สุขสถิตย์ มีสุข</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>วิชาญ เจริญสุข</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>ลภัสรดา รองเย็น</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>ศศิวิมล สกุลยง</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TH</controllingFieldValue>
+            <valueName>กนกรัตน์ เทศกาล</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Usanee Sangsingkeo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Teerapol Chotichanapibal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Priyasiri Juathes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Plearnpun Sirihongse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Anchalee Suthivanich</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Papassara Thamasakjinda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Trajai Sriudommongkol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Chamaiporn Pholpoul</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Thanasorn Phoonkabutr</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Suksatit Meesook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Vicharn Jaroensuk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Lapasrada Rongyen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Kanokrut Tesakarn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EN</controllingFieldValue>
+            <valueName>Sasiwimol Skulyong</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

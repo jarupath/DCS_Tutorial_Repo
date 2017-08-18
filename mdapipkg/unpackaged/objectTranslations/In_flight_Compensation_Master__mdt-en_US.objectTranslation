@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>In-flight Compensation Master</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>In-flight Compensation Master</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Class --></label>
+        <name>Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flight Region --></label>
+        <name>Flight_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Problem --></label>
+        <name>Problem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Type --></label>
+        <name>Sub_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

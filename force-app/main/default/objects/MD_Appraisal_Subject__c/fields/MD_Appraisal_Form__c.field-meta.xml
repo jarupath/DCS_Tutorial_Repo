@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MD_Appraisal_Form__c</fullName>
+    <externalId>false</externalId>
+    <label>MD Appraisal Form</label>
+    <referenceTo>MD_Appraisal_Form__c</referenceTo>
+    <relationshipLabel>MD Appraisal Subjects</relationshipLabel>
+    <relationshipName>MD_Appraisal_Subjects</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreFlight_Sync_specific_date</fullName>
+    <columns>Source__c</columns>
+    <columns>Source_Function__c</columns>
+    <columns>Message__c</columns>
+    <columns>Reference_Id__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>Timer__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>4/26/2017 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>lessThan</operation>
+        <value>4/27/2017 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Source__c</field>
+        <operation>equals</operation>
+        <value>PreFlight_Sync</value>
+    </filters>
+    <filters>
+        <field>Reference_Id__c</field>
+        <operation>contains</operation>
+        <value>TG0926_26Apr17</value>
+    </filters>
+    <label>PreFlight_Sync specific date</label>
+    <language>en_US</language>
+</ListView>

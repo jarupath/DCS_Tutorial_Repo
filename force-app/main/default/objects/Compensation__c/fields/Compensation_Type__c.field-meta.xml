@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compensation_Type__c</fullName>
+    <description>Displays the compensation tools</description>
+    <externalId>false</externalId>
+    <label>Compensation Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Baggage Damage</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage Delay</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage Loss</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Baggage Pilferage</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Boarding</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Check in Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Contact Center</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Denied Boarding</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Downgrade</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>EC261</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Food poisoning</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Foreign object</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Handling of Flight Irregularity</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>IFE (in-flight entertainment) malfunction</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Inadmissible passenger</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>In-Flight Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Injury before boarding/after/on arrival/Medical assistance</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Injury on Board</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Lounge</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Medical assistance</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>On board Catering</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Reservation Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Schedule Deviation</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Seat malfunction</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Special meal request</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ticketing Service</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Web Booking</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

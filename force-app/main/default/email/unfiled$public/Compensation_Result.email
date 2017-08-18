@@ -1,0 +1,10 @@
+Your has been approved request for the followings : <br/><br/>
+
+Case Number : {!Case.Case_Number_Custom__c} <br/>
+Approval Status : {!Case.Approval_Status__c}<br/><br/>
+
+Comment : {!ApprovalRequest.Comments}<br/>
+
+Comment by : {!ApprovalRequest.Process_Approver}<br/><br/>
+
+Thank you.

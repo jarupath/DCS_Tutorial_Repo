@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_Remain_Reason_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR($Profile.Name = 'DT Staff', $Profile.Name = 'DT Admin'), 
+TEXT( Action__c) = "Remain" , 
+Lack_of_Part__c = FALSE, 
+Lack_of_Time__c = FALSE
+)</errorConditionFormula>
+    <errorDisplayField>Lack_of_Part__c</errorDisplayField>
+    <errorMessage>Please specify reason for not completing the case.</errorMessage>
+</ValidationRule>

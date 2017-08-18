@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ROE_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR($Profile.Name &lt;> "Ground Customer Service")
+
+,
+OR($Profile.Name &lt;> "Ground Customer Service Not BKK") 
+
+,
+OR(RecordType.Name == "CFMS Compensation",
+RecordType.Name == "CFMS Compensation Final")
+,
+OR(Ispickval(Compensation_Tools__c , "Cash"),
+Ispickval(Compensation_Tools__c , "EMD"))
+,
+OR(
+NOT(Ispickval(Currency__c , "THB")),
+ISBLANK(TEXT(Currency__c)))
+,
+OR(ROE__c &lt;= 0, ISBLANK(ROE__c)))</errorConditionFormula>
+    <errorDisplayField>ROE__c</errorDisplayField>
+    <errorMessage>ROE is required</errorMessage>
+</ValidationRule>

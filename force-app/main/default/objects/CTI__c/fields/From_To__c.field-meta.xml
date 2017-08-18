@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>From_To__c</fullName>
+    <description>This field is used to identify 'Outbound', 'Inbound', or 'Unidentified' for CTI's Flight. This is map from sector.</description>
+    <externalId>false</externalId>
+    <formula>IF(Sector__c != "XXX",
+IF( LEFT(Sector__c, 3) == "BKK", "Outbound","Inbound"),
+"Unidentified")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>From - To</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

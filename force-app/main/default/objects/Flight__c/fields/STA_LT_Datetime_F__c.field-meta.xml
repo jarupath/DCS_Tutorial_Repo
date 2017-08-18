@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>STA_LT_Datetime_F__c</fullName>
+    <externalId>false</externalId>
+    <formula>MID(STA_LT__c , 9, 2) + '/' + 
+MID(STA_LT__c, 6, 2) + '/' + 
+MID(STA_LT__c, 1, 4) + ' ' + 
+MID(STA_LT__c, 12, 5)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>STA LT (Datetime)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

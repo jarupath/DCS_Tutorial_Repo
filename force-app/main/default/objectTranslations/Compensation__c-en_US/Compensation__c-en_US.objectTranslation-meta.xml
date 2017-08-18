@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Compensation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Compensations</value>
+    </caseValues>
+    <layouts>
+        <layout>CFMS Compensation Final Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- For Individual Compensation --></label>
+            <section>For Individual Compensation</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CFMS Compensation Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- For Individual Compensation --></label>
+            <section>For Individual Compensation</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Compensation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GS Compensation</layout>
+        <sections>
+            <label><!-- Compensation Information --></label>
+            <section>Compensation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ground Service Approved Layout</layout>
+        <sections>
+            <label><!-- Compensation Account Information --></label>
+            <section>Compensation Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Compensation Information --></label>
+            <section>Compensation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ground Service Compensation</layout>
+        <sections>
+            <label><!-- Compensation Account Information --></label>
+            <section>Compensation Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Compensation Information --></label>
+            <section>Compensation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>In-Flight</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>In-Flight Final Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- In-flight Information --></label>
+            <section>In-flight Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SD/SR Compensation Final Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- For Individual Compensation --></label>
+            <section>For Individual Compensation</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SD/SR Compensation Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- For Individual Compensation --></label>
+            <section>For Individual Compensation</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- CFMS Compensation --></label>
+        <name>CFMS_Compensation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CFMS Compensation Final --></label>
+        <name>CFMS_Compensation_Final</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GS Compensation --></label>
+        <name>GS_Compensation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- In-flight Compensation --></label>
+        <name>In_flight_Compensation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SD/SR Compensation --></label>
+        <name>SD_SR_Compensation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SD/SR Compensation Final --></label>
+        <name>SD_SR_Compensation_Final</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- ROE (USD) is mandatory --></errorMessage>
+        <name>ROE_USD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- ROE is required --></errorMessage>
+        <name>ROE_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please identify Amount if compensation tool is &apos;Cash&apos; or &apos;EMD&apos;. --></errorMessage>
+        <name>Validate_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot create new compensation with Approved status --></errorMessage>
+        <name>Validate_Approved_Status_OnCeate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please identify Total if compensation tool is not &apos;Cash&apos; or &apos;EMD&apos;. --></errorMessage>
+        <name>Validate_total</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Confirm --></label>
+        <name>Confirm</name>
+    </webLinks>
+</CustomObjectTranslation>

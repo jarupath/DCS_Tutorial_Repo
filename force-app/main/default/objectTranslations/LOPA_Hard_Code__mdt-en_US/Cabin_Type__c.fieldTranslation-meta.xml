@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cabin Type --></label>
+    <name>Cabin_Type__c</name>
+    <picklistValues>
+        <masterLabel>Main Deck</masterLabel>
+        <translation><!-- Main Deck --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upper Deck</masterLabel>
+        <translation><!-- Upper Deck --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

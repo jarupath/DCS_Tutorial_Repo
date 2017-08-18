@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Case_Ground</fullName>
+    <columns>Case_Number_Custom__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Flightid__c</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Case_Type__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Role_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Case</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Ground_Service_Team</group>
+    </sharedTo>
+</ListView>

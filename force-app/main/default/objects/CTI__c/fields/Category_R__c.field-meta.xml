@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_R__c</fullName>
+    <description>CTI Category with number.</description>
+    <externalId>false</externalId>
+    <formula>CASE(Category__c ,
+"Contact Center", "01. Contact Center",
+"Reservation and Ticketing Service", "02. Reservation and Ticketing Service",
+"Check-in and Service before immigration", "03. Check-in and Service before immigration",
+"Lounges", "04. Lounges",
+"Boarding and Departure Area", "05. Boarding and Departure Area",
+"In-flight Service", "06. In-flight Service",
+"Onboard Catering", "07. Onboard Catering",
+"Arrival/Transit/Connections", "08. Arrival/Transit/Connections",
+"Royal Orchid Plus Program", "09. Royal Orchid Plus Program",
+"Customer Retention", "10. Customer Retention",
+"General Comments on TG Services", "11. General Comments on TG Services",
+"Marketing", "12. Marketing",
+"Schedule Deviation", "13. Schedule Deviation",
+"Handling of flight Irregularities", "14. Handling of flight Irregularities","")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

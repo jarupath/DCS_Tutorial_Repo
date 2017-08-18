@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incident_Category_Mobile__c</fullName>
+    <description>This is the value from field "inCate" from Mobile Incident Service. It is the indication of Incident Category consisted of "Passenger", "Service", "Maintenance", "Emergency" and "Other",</description>
+    <externalId>false</externalId>
+    <label>Incident Category Mobile</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

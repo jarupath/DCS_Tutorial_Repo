@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Modified_Passenger</fullName>
+    <active>false</active>
+    <description>To block user edit passenger if passenger has value</description>
+    <errorConditionFormula>AND( NOT(ISBLANK(PRIORVALUE( Passengerid__c ))), ISCHANGED(Passengerid__c), Update_Passenger_By_Code__c == FALSE )</errorConditionFormula>
+    <errorDisplayField>Passengerid__c</errorDisplayField>
+    <errorMessage>Please update Passenger Name by update Case Group Member</errorMessage>
+</ValidationRule>

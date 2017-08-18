@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Upgrade Certificate --></label>
+    <name>UpgradeCertificate__c</name>
+    <picklistValues>
+        <masterLabel>Confirmed Upgrade Certificate</masterLabel>
+        <translation><!-- Confirmed Upgrade Certificate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stand-by Upgrade Certificate</masterLabel>
+        <translation><!-- Stand-by Upgrade Certificate --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

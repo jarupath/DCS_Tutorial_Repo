@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Tier --></label>
+    <name>Tier__c</name>
+    <picklistValues>
+        <masterLabel>Agency Sales</masterLabel>
+        <translation><!-- Agency Sales --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Airline Industry Relations</masterLabel>
+        <translation><!-- Airline Industry Relations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Airport Ticket Office</masterLabel>
+        <translation><!-- Airport Ticket Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>America / North and East Asia</masterLabel>
+        <translation><!-- America / North and East Asia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Australia / Middle East / South Asia</masterLabel>
+        <translation><!-- Australia / Middle East / South Asia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BKK Lounges</masterLabel>
+        <translation><!-- BKK Lounges --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BKK Reservation (Thai Contact Center)</masterLabel>
+        <translation><!-- BKK Reservation (Thai Contact Center) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BKK Station Manager / Duty Manager</masterLabel>
+        <translation><!-- BKK Station Manager / Duty Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baggage Services Dept.</masterLabel>
+        <translation><!-- Baggage Services Dept. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baggage Sorting</masterLabel>
+        <translation><!-- Baggage Sorting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booking through TG website</masterLabel>
+        <translation><!-- Booking through TG website --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CCTV at sorting area</masterLabel>
+        <translation><!-- CCTV at sorting area --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin Cleaning (Customer A/L)</masterLabel>
+        <translation><!-- Cabin Cleaning (Customer A/L) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin Cleaning (TG)</masterLabel>
+        <translation><!-- Cabin Cleaning (TG) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Catering Dept.</masterLabel>
+        <translation><!-- Catering Dept. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Check-in Landside - Domestic</masterLabel>
+        <translation><!-- Check-in Landside - Domestic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Check-in Landside - International</masterLabel>
+        <translation><!-- Check-in Landside - International --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chief</masterLabel>
+        <translation><!-- Chief --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Departure - Airside</masterLabel>
+        <translation><!-- Departure - Airside --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Stations &amp; Inter’l stations</masterLabel>
+        <translation><!-- Domestic Stations &amp; Inter’l stations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E-Ticketing</masterLabel>
+        <translation><!-- E-Ticketing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Europe and Africa group</masterLabel>
+        <translation><!-- Europe and Africa group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>First / Platinum</masterLabel>
+        <translation><!-- First / Platinum --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flight Operations Safety Department</masterLabel>
+        <translation><!-- Flight Operations Safety Department --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flight Standard Dept.</masterLabel>
+        <translation><!-- Flight Standard Dept. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ground Support Equipment Operations Control Dept.</masterLabel>
+        <translation><!-- Ground Support Equipment Operations Control Dept. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Flight Department Cabin Crew</masterLabel>
+        <translation><!-- In-Flight Department Cabin Crew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Flight Department Cabin Report</masterLabel>
+        <translation><!-- In-Flight Department Cabin Report --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Flight Duty Free Department</masterLabel>
+        <translation><!-- In-Flight Duty Free Department --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Flight Entertainment Management Dept.</masterLabel>
+        <translation><!-- In-Flight Entertainment Management Dept. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Flight Services Procedure Planning Department</masterLabel>
+        <translation><!-- In-Flight Services Procedure Planning Department --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internal for passenger</masterLabel>
+        <translation><!-- Internal for passenger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>International Stations</masterLabel>
+        <translation><!-- International Stations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Level 8 (Ground Service Urgent)</masterLabel>
+        <translation><!-- Level 8 (Ground Service Urgent) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Level 8 (In-Flight Urgent)</masterLabel>
+        <translation><!-- Level 8 (In-Flight Urgent) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Load Control</masterLabel>
+        <translation><!-- Load Control --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Load Performing</masterLabel>
+        <translation><!-- Load Performing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lounges at abroad</masterLabel>
+        <translation><!-- Lounges at abroad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manager</masterLabel>
+        <translation><!-- Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Menu Planning Dept.</masterLabel>
+        <translation><!-- Menu Planning Dept. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Passenger Refund</masterLabel>
+        <translation><!-- Passenger Refund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Passenger Service</masterLabel>
+        <translation><!-- Passenger Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Passenger Transport Dept.</masterLabel>
+        <translation><!-- Passenger Transport Dept. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pilot Admin. Dept.</masterLabel>
+        <translation><!-- Pilot Admin. Dept. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Refund office</masterLabel>
+        <translation><!-- Refund office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reservation System Service Management</masterLabel>
+        <translation><!-- Reservation System Service Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Delivery Support Dept.</masterLabel>
+        <translation><!-- Service Delivery Support Dept. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Equipment Inventory Control</masterLabel>
+        <translation><!-- Service Equipment Inventory Control --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stations</masterLabel>
+        <translation><!-- Stations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strategic Enterprise  Products</masterLabel>
+        <translation><!-- Strategic Enterprise  Products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Department BKKMC</masterLabel>
+        <translation><!-- Technical Department BKKMC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai Smile Airline</masterLabel>
+        <translation><!-- Thai Smile Airline --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ticket Receipt</masterLabel>
+        <translation><!-- Ticket Receipt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ticketing Dept.</masterLabel>
+        <translation><!-- Ticketing Dept. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tickets issued at Head office (Vibhavadee)</masterLabel>
+        <translation><!-- Tickets issued at Head office (Vibhavadee) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tickets issued at Larnluang Office</masterLabel>
+        <translation><!-- Tickets issued at Larnluang Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tickets issued at Silom office</masterLabel>
+        <translation><!-- Tickets issued at Silom office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tier 1</masterLabel>
+        <translation><!-- Tier 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tier 2</masterLabel>
+        <translation><!-- Tier 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tier 2 (Baggage claim)</masterLabel>
+        <translation><!-- Tier 2 (Baggage claim) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tractor Service in Ramp</masterLabel>
+        <translation><!-- Tractor Service in Ramp --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Asia / Indo-China and Domestic</masterLabel>
+        <translation><!-- West Asia / Indo-China and Domestic --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

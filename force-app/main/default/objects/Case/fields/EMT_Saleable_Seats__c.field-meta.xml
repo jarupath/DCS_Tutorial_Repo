@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EMT_Saleable_Seats__c</fullName>
+    <description>Displays the saleable seats of the flight related to the case</description>
+    <externalId>false</externalId>
+    <formula>IF( Previous_Flight__c &lt;> "", Previous_Flight__r.Aircraft_Configuration__c,Flightid__r.Aircraft_Configuration__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>EMT Saleable Seats</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

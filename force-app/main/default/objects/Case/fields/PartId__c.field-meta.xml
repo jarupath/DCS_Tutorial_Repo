@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PartId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Displays the part of the equipment that is related to the case</description>
+    <externalId>false</externalId>
+    <label>Part</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Master_Map__c.Depend_On_Object__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.EquipmentId__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Master_Map__c</referenceTo>
+    <relationshipLabel>Cases (Part)</relationshipLabel>
+    <relationshipName>Cases1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Ground_Service_Cases</fullName>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8</booleanFilter>
+    <columns>Case_Number_Custom__c</columns>
+    <columns>Passengerid__c</columns>
+    <columns>Flightid__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Case_Type__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Role_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Role_Name__c</field>
+        <operation>equals</operation>
+        <value>KN (Irregularities),KO (Duty Manager) - Air side,KO (Duty Manager) - Land side</value>
+    </filters>
+    <filters>
+        <field>Role_Name__c</field>
+        <operation>equals</operation>
+        <value>KO-B (Ground Flight Manager) - Controller + Gate</value>
+    </filters>
+    <filters>
+        <field>Role_Name__c</field>
+        <operation>equals</operation>
+        <value>KO-B (Ground Flight Manager) - Frontline</value>
+    </filters>
+    <filters>
+        <field>Role_Name__c</field>
+        <operation>equals</operation>
+        <value>KO-B (Ground Flight Manager) - Supporter</value>
+    </filters>
+    <filters>
+        <field>Role_Name__c</field>
+        <operation>equals</operation>
+        <value>KP (Check-in) - Air side - Gate Supervisor</value>
+    </filters>
+    <filters>
+        <field>Role_Name__c</field>
+        <operation>equals</operation>
+        <value>KP (Check-in) - Land side - Check-in Supervisor</value>
+    </filters>
+    <filters>
+        <field>Role_Name__c</field>
+        <operation>equals</operation>
+        <value>KW (Lounge)</value>
+    </filters>
+    <filters>
+        <field>Role_Name__c</field>
+        <operation>equals</operation>
+        <value>LL (Lost and Found),LP (VIP and First Class Service)</value>
+    </filters>
+    <label>All Ground Service Cases</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Ground_Service_Team</group>
+    </sharedTo>
+</ListView>

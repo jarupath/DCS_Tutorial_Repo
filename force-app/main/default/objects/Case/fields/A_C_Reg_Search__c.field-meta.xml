@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>A_C_Reg_Search__c</fullName>
+    <description>Displays the value of the Aircraft that the Case is related to in text format to allow field to be indexed for searching</description>
+    <externalId>false</externalId>
+    <label>A/C Reg Search</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

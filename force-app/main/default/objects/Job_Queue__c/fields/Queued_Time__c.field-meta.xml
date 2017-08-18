@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Queued_Time__c</fullName>
+    <description>The timestamp when this Job Queue entered Scheduled Job in Salesforce</description>
+    <externalId>false</externalId>
+    <label>Queued Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

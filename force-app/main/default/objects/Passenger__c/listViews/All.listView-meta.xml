@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Last_Name__c</columns>
+    <columns>First_Name__c</columns>
+    <columns>PNR__c</columns>
+    <columns>FlightId__c</columns>
+    <columns>FFP_Number__c</columns>
+    <columns>FFP_Tier__c</columns>
+    <columns>VIP_VVIP_Flag__c</columns>
+    <columns>Checkin_Seat__c</columns>
+    <columns>Cabin_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Flight_Date_Date__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

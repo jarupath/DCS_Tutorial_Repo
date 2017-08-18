@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ATA_Chapter_2_F__c</fullName>
+    <description>Displays the first two letters from the ATA Chapter of the equipment</description>
+    <externalId>false</externalId>
+    <formula>LEFT(  ATA_Chapter__c , 2)</formula>
+    <label>ATA CH</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

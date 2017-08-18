@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Issue_F__c</fullName>
+    <description>Type of issues with number e.g. '1.Complaint'</description>
+    <externalId>false</externalId>
+    <formula>IF(
+Text(Type_of_Issue__c) == "Complaint","1.Complaint",
+IF(
+Text(Type_of_Issue__c) == "Commendation","2.Commendation",
+IF(
+Text(Type_of_Issue__c) == "Suggestion","3.Suggestion","")))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Type of Issue</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

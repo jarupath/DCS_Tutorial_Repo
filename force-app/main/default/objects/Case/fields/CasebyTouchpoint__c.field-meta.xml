@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CasebyTouchpoint__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+CONTAINS( Created_by_Profile__c , "CFMS"), "CUSTOMER FEEDBACK", 
+IF( 
+CONTAINS( Created_by_Profile__c , "Ground"), "GROUND SERVICE", 
+IF( 
+CONTAINS( Created_by_Profile__c , "DT"), "AIRCRAFT MAINTENANCE", 
+IF( 
+CONTAINS( Created_by_Profile__c , "Purser"), "IN-FLIGHT", 
+IF( 
+CONTAINS( Created_by_Profile__c , "PT1"), "EMAIL-TO-CASE", "OTHER" 
+) 
+) 
+) 
+) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case by Touchpoint</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

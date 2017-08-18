@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Amount</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+OR(ISPICKVAL(Compensation_Tools__c,'Cash'), ISPICKVAL(Compensation_Tools__c,'EMD')), 
+OR(  Amount__c == 0,ISBLANK(Amount__c)), 
+OR($User.Department == 'S4', $User.Department = 'S3', $User.Department = 'AO')
+)</errorConditionFormula>
+    <errorDisplayField>Amount__c</errorDisplayField>
+    <errorMessage>Please identify Amount if compensation tool is 'Cash' or 'EMD'.</errorMessage>
+</ValidationRule>

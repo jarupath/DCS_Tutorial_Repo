@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_rejection</fullName>
+    <columns>NAME</columns>
+    <columns>Code__c</columns>
+    <columns>Source_System_Code__c</columns>
+    <columns>Depend_On_Object__c</columns>
+    <columns>Depend_On_Object2__c</columns>
+    <columns>Depend_On_Value__c</columns>
+    <columns>Field_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Field_Name__c</field>
+        <operation>equals</operation>
+        <value>Reason for rejection</value>
+    </filters>
+    <label>Reason for rejection</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accepted_Class__c</fullName>
+    <description>Passenger's Travel Class</description>
+    <externalId>false</externalId>
+    <label>Accepted Class</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>F</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>C</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>U</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Y</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Unidentified</fullName>
+                <default>true</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

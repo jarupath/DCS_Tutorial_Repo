@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Waiting_for_Response_by_Role__c</fullName>
+    <description>This field is stamped by code about role of who change case status to be 'Waiting Customer Reponse'.</description>
+    <externalId>false</externalId>
+    <label>Waiting for Response by (Role)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

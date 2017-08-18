@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Compensation Type --></label>
+    <name>Compensation_Type__c</name>
+    <picklistValues>
+        <masterLabel>Baggage Damage</masterLabel>
+        <translation><!-- Baggage Damage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baggage Delay</masterLabel>
+        <translation><!-- Baggage Delay --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baggage Loss</masterLabel>
+        <translation><!-- Baggage Loss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baggage Pilferage</masterLabel>
+        <translation><!-- Baggage Pilferage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boarding</masterLabel>
+        <translation><!-- Boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Check in Service</masterLabel>
+        <translation><!-- Check in Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contact Center</masterLabel>
+        <translation><!-- Contact Center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denied Boarding</masterLabel>
+        <translation><!-- Denied Boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Downgrade</masterLabel>
+        <translation><!-- Downgrade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EC261</masterLabel>
+        <translation><!-- EC261 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Food poisoning</masterLabel>
+        <translation><!-- Food poisoning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign object</masterLabel>
+        <translation><!-- Foreign object --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handling of Flight Irregularity</masterLabel>
+        <translation><!-- Handling of Flight Irregularity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IFE (in-flight entertainment) malfunction</masterLabel>
+        <translation><!-- IFE (in-flight entertainment) malfunction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In-Flight Service</masterLabel>
+        <translation><!-- In-Flight Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inadmissible passenger</masterLabel>
+        <translation><!-- Inadmissible passenger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Injury before boarding/after/on arrival/Medical assistance</masterLabel>
+        <translation><!-- Injury before boarding/after/on arrival/Medical assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Injury on Board</masterLabel>
+        <translation><!-- Injury on Board --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lounge</masterLabel>
+        <translation><!-- Lounge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical assistance</masterLabel>
+        <translation><!-- Medical assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On board Catering</masterLabel>
+        <translation><!-- On board Catering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reservation Service</masterLabel>
+        <translation><!-- Reservation Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedule Deviation</masterLabel>
+        <translation><!-- Schedule Deviation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat malfunction</masterLabel>
+        <translation><!-- Seat malfunction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Special meal request</masterLabel>
+        <translation><!-- Special meal request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ticketing Service</masterLabel>
+        <translation><!-- Ticketing Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Web Booking</masterLabel>
+        <translation><!-- Web Booking --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

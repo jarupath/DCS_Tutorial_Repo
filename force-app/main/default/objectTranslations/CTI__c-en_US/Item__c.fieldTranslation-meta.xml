@@ -1,0 +1,3685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Item --></label>
+    <name>Item__c</name>
+    <picklistValues>
+        <masterLabel>AVOD > Broken/inoperative</masterLabel>
+        <translation><!-- AVOD &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Absorption of Passenger Service Charge (Airport tax)</masterLabel>
+        <translation><!-- Absorption of Passenger Service Charge (Airport tax) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Absorption of hotel, meal, transportation (STPC)</masterLabel>
+        <translation><!-- Absorption of hotel, meal, transportation (STPC) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Absorption of visa on arrival</masterLabel>
+        <translation><!-- Absorption of visa on arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accent > Excellent</masterLabel>
+        <translation><!-- Accent &gt; Excellent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accent > Poor</masterLabel>
+        <translation><!-- Accent &gt; Poor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accessibility > Complicated, difficult to access, no/slow response</masterLabel>
+        <translation><!-- Accessibility &gt; Complicated, difficult to access, no/slow response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accessibility > Easy to access, convenience, quick response</masterLabel>
+        <translation><!-- Accessibility &gt; Easy to access, convenience, quick response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accident > By in-flight equipments</masterLabel>
+        <translation><!-- Accident &gt; By in-flight equipments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accident > By turbulence</masterLabel>
+        <translation><!-- Accident &gt; By turbulence --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accident > Items falling from overhead bin</masterLabel>
+        <translation><!-- Accident &gt; Items falling from overhead bin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accompany cannot enter to lounge</masterLabel>
+        <translation><!-- Accompany cannot enter to lounge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accrue mile with Star Alliance/Partners</masterLabel>
+        <translation><!-- Accrue mile with Star Alliance/Partners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accuracy of Information</masterLabel>
+        <translation><!-- Accuracy of Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adequacy / Availability</masterLabel>
+        <translation><!-- Adequacy / Availability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Age limitation of applicant</masterLabel>
+        <translation><!-- Age limitation of applicant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Age of Aircraft</masterLabel>
+        <translation><!-- Age of Aircraft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aircraft changed</masterLabel>
+        <translation><!-- Aircraft changed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambience</masterLabel>
+        <translation><!-- Ambience --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambience > Crowded</masterLabel>
+        <translation><!-- Ambience &gt; Crowded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambience > Nice/beautiful</masterLabel>
+        <translation><!-- Ambience &gt; Nice/beautiful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambience/Interior Design/Decoration > Nice, beautiful, comfortable</masterLabel>
+        <translation><!-- Ambience/Interior Design/Decoration &gt; Nice, beautiful, comfortable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ambience/Interior Design/Decoration > Old, Out of date</masterLabel>
+        <translation><!-- Ambience/Interior Design/Decoration &gt; Old, Out of date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amenities in toilets > Availability</masterLabel>
+        <translation><!-- Amenities in toilets &gt; Availability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amenities in toilets > Quality</masterLabel>
+        <translation><!-- Amenities in toilets &gt; Quality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amenity Availability > Insufficient, not provide</masterLabel>
+        <translation><!-- Amenity Availability &gt; Insufficient, not provide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amenity Availability > Sufficient, nice to provide</masterLabel>
+        <translation><!-- Amenity Availability &gt; Sufficient, nice to provide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amenity Quality > Brand name , nice, useful</masterLabel>
+        <translation><!-- Amenity Quality &gt; Brand name , nice, useful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amenity Quality > Poor, not up to standard</masterLabel>
+        <translation><!-- Amenity Quality &gt; Poor, not up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amount of incremental mileage purchase</masterLabel>
+        <translation><!-- Amount of incremental mileage purchase --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Amount of limited mileage to attain upper level</masterLabel>
+        <translation><!-- Amount of limited mileage to attain upper level --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Animal/pet handling</masterLabel>
+        <translation><!-- Animal/pet handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Animal/pets handling</masterLabel>
+        <translation><!-- Animal/pets handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Announcement in Lounge</masterLabel>
+        <translation><!-- Announcement in Lounge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appropriate seat assignment > Good, excellent, professional, etc.</masterLabel>
+        <translation><!-- Appropriate seat assignment &gt; Good, excellent, professional, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Armrest control unit, call button > Broken/inoperative</masterLabel>
+        <translation><!-- Armrest control unit, call button &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistance on board > Rendered by cabin crew to sick PAX</masterLabel>
+        <translation><!-- Assistance on board &gt; Rendered by cabin crew to sick PAX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Assistance on board > Rendered by other passenger to sick PAX</masterLabel>
+        <translation><!-- Assistance on board &gt; Rendered by other passenger to sick PAX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attachment link > Quick response</masterLabel>
+        <translation><!-- Attachment link &gt; Quick response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attachment link > Slow response</masterLabel>
+        <translation><!-- Attachment link &gt; Slow response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude > Courteous</masterLabel>
+        <translation><!-- Attitude &gt; Courteous --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude > Friendly</masterLabel>
+        <translation><!-- Attitude &gt; Friendly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude > Others</masterLabel>
+        <translation><!-- Attitude &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care > Courtesy/Politeness ; apology to customer</masterLabel>
+        <translation><!-- Attitude and Care &gt; Courtesy/Politeness ; apology to customer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care > Discrimination/Racism</masterLabel>
+        <translation><!-- Attitude and Care &gt; Discrimination/Racism --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care > Friendliness/Hospitality</masterLabel>
+        <translation><!-- Attitude and Care &gt; Friendliness/Hospitality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care > Inappropriate behavior; chatting, argue with passenger</masterLabel>
+        <translation><!-- Attitude and Care &gt; Inappropriate behavior; chatting, argue with passenger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care > Others</masterLabel>
+        <translation><!-- Attitude and Care &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude and Care > Service mind/Care</masterLabel>
+        <translation><!-- Attitude and Care &gt; Service mind/Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude of Staff</masterLabel>
+        <translation><!-- Attitude of Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude of Transit Staff</masterLabel>
+        <translation><!-- Attitude of Transit Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attitude of driver</masterLabel>
+        <translation><!-- Attitude of driver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Audio system > Broken/inoperative</masterLabel>
+        <translation><!-- Audio system &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability</masterLabel>
+        <translation><!-- Availability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Available</masterLabel>
+        <translation><!-- Availability &gt; Available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Available/nice to provide</masterLabel>
+        <translation><!-- Availability &gt; Available/nice to provide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Fruit not provided / not available</masterLabel>
+        <translation><!-- Availability &gt; Fruit not provided / not available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Fruit served as requested</masterLabel>
+        <translation><!-- Availability &gt; Fruit served as requested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Good, Nice to provide</masterLabel>
+        <translation><!-- Availability &gt; Good, Nice to provide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Insufficient, not provide</masterLabel>
+        <translation><!-- Availability &gt; Insufficient, not provide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Insufficient/Not provided</masterLabel>
+        <translation><!-- Availability &gt; Insufficient/Not provided --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Insufficient/not provide</masterLabel>
+        <translation><!-- Availability &gt; Insufficient/not provide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Nice to provide flat bed</masterLabel>
+        <translation><!-- Availability &gt; Nice to provide flat bed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > No baby kits packs</masterLabel>
+        <translation><!-- Availability &gt; No baby kits packs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > No flat bed</masterLabel>
+        <translation><!-- Availability &gt; No flat bed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > No service/not available</masterLabel>
+        <translation><!-- Availability &gt; No service/not available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > No toilet , no shower room</masterLabel>
+        <translation><!-- Availability &gt; No toilet , no shower room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Not available</masterLabel>
+        <translation><!-- Availability &gt; Not available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Not available/no service</masterLabel>
+        <translation><!-- Availability &gt; Not available/no service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Not available/no service/Insufficient</masterLabel>
+        <translation><!-- Availability &gt; Not available/no service/Insufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Not availble</masterLabel>
+        <translation><!-- Availability &gt; Not availble --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Number of toilet/shower room not enough</masterLabel>
+        <translation><!-- Availability &gt; Number of toilet/shower room not enough --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Others</masterLabel>
+        <translation><!-- Availability &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Special meal not provided / wrong SPML</masterLabel>
+        <translation><!-- Availability &gt; Special meal not provided / wrong SPML --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Special meal served as requested</masterLabel>
+        <translation><!-- Availability &gt; Special meal served as requested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Special meal served only some sector</masterLabel>
+        <translation><!-- Availability &gt; Special meal served only some sector --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Sufficient</masterLabel>
+        <translation><!-- Availability &gt; Sufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Sufficient, nice to provide</masterLabel>
+        <translation><!-- Availability &gt; Sufficient, nice to provide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability > Sufficient/nice to provide</masterLabel>
+        <translation><!-- Availability &gt; Sufficient/nice to provide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability of Membership Application and Guide</masterLabel>
+        <translation><!-- Availability of Membership Application and Guide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability of Membership card</masterLabel>
+        <translation><!-- Availability of Membership card --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability of counter > Suitable</masterLabel>
+        <translation><!-- Availability of counter &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability of counter > Unsuitable/lack of staff</masterLabel>
+        <translation><!-- Availability of counter &gt; Unsuitable/lack of staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability of desired flight/seat/class</masterLabel>
+        <translation><!-- Availability of desired flight/seat/class --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability of priority tags (ROP gold, premium pax)/name lable/fragile sticker</masterLabel>
+        <translation><!-- Availability of priority tags (ROP gold, premium pax)/name lable/fragile sticker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Availability of timetable</masterLabel>
+        <translation><!-- Availability of timetable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avio-bridge > Available</masterLabel>
+        <translation><!-- Avio-bridge &gt; Available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Avio-bridge > Not available</masterLabel>
+        <translation><!-- Avio-bridge &gt; Not available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Award eligibility</masterLabel>
+        <translation><!-- Award eligibility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baby Trolley/intercept baggage handling</masterLabel>
+        <translation><!-- Baby Trolley/intercept baggage handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baby trolley handling</masterLabel>
+        <translation><!-- Baby trolley handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baby/children > Crying/screaming</masterLabel>
+        <translation><!-- Baby/children &gt; Crying/screaming --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baby/children > Naughty</masterLabel>
+        <translation><!-- Baby/children &gt; Naughty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Baggage handling ; priority handling , additional baggage allowance</masterLabel>
+        <translation><!-- Baggage handling ; priority handling , additional baggage allowance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Announcement/paging for boarding</masterLabel>
+        <translation><!-- Basic service delivery &gt; Announcement/paging for boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Chatting/argue with passenger</masterLabel>
+        <translation><!-- Basic service delivery &gt; Chatting/argue with passenger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Crew being presence during entire flight</masterLabel>
+        <translation><!-- Basic service delivery &gt; Crew being presence during entire flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Crew bumping into to pax/spillage of beverages</masterLabel>
+        <translation><!-- Basic service delivery &gt; Crew bumping into to pax/spillage of beverages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Crew failed to serve some passenger</masterLabel>
+        <translation><!-- Basic service delivery &gt; Crew failed to serve some passenger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Crew not being presence during entire flight</masterLabel>
+        <translation><!-- Basic service delivery &gt; Crew not being presence during entire flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Disabled/sick pax</masterLabel>
+        <translation><!-- Basic service delivery &gt; Disabled/sick pax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Error made concerning making reservation or issuing ticket</masterLabel>
+        <translation><!-- Basic service delivery &gt; Error made concerning making reservation or issuing ticket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Error made during issue ticket process</masterLabel>
+        <translation><!-- Basic service delivery &gt; Error made during issue ticket process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Error made during working process</masterLabel>
+        <translation><!-- Basic service delivery &gt; Error made during working process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Excellent greeting/welcome</masterLabel>
+        <translation><!-- Basic service delivery &gt; Excellent greeting/welcome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Excellent greeting/welcome (wai, address pax by name)</masterLabel>
+        <translation><!-- Basic service delivery &gt; Excellent greeting/welcome (wai, address pax by name) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Excellent responsiveness; call button, special request</masterLabel>
+        <translation><!-- Basic service delivery &gt; Excellent responsiveness; call button, special request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Fail to put ROP number</masterLabel>
+        <translation><!-- Basic service delivery &gt; Fail to put ROP number --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Fail to put priority baggage tag</masterLabel>
+        <translation><!-- Basic service delivery &gt; Fail to put priority baggage tag --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Greeting/welcome</masterLabel>
+        <translation><!-- Basic service delivery &gt; Greeting/welcome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Inadmissible/deportees</masterLabel>
+        <translation><!-- Basic service delivery &gt; Inadmissible/deportees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Non English pax</masterLabel>
+        <translation><!-- Basic service delivery &gt; Non English pax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Not manage the queue</masterLabel>
+        <translation><!-- Basic service delivery &gt; Not manage the queue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Not provided fragile sticker/name lable, etc.</masterLabel>
+        <translation><!-- Basic service delivery &gt; Not provided fragile sticker/name lable, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Others</masterLabel>
+        <translation><!-- Basic service delivery &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Pax was not informed about delayed, cancellation, reschedule  of flights</masterLabel>
+        <translation><!-- Basic service delivery &gt; Pax was not informed about delayed, cancellation, reschedule  of flights --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Pax was not informed about schedule, Type of aircraft, reservation changed, etc.</masterLabel>
+        <translation><!-- Basic service delivery &gt; Pax was not informed about schedule, Type of aircraft, reservation changed, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Pax was not informed about seat/meal preference, ROP</masterLabel>
+        <translation><!-- Basic service delivery &gt; Pax was not informed about seat/meal preference, ROP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Poor Responsiveness; call button, special request</masterLabel>
+        <translation><!-- Basic service delivery &gt; Poor Responsiveness; call button, special request --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Poor greeting, welcome</masterLabel>
+        <translation><!-- Basic service delivery &gt; Poor greeting, welcome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Poor greeting/welcome</masterLabel>
+        <translation><!-- Basic service delivery &gt; Poor greeting/welcome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Poor greeting/welcome (wai, address pax by name)</masterLabel>
+        <translation><!-- Basic service delivery &gt; Poor greeting/welcome (wai, address pax by name) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Present of TG staff during delay /on arrival</masterLabel>
+        <translation><!-- Basic service delivery &gt; Present of TG staff during delay /on arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Professional, efficient, excellent</masterLabel>
+        <translation><!-- Basic service delivery &gt; Professional, efficient, excellent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Professional, efficient, excellent service</masterLabel>
+        <translation><!-- Basic service delivery &gt; Professional, efficient, excellent service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Rushed service</masterLabel>
+        <translation><!-- Basic service delivery &gt; Rushed service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Slow service</masterLabel>
+        <translation><!-- Basic service delivery &gt; Slow service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > UM/YP/Elderly pax</masterLabel>
+        <translation><!-- Basic service delivery &gt; UM/YP/Elderly pax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Unprofessional, inefficient</masterLabel>
+        <translation><!-- Basic service delivery &gt; Unprofessional, inefficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Unprofessional, inefficient, not contact with customers</masterLabel>
+        <translation><!-- Basic service delivery &gt; Unprofessional, inefficient, not contact with customers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > VIP/CIP/Gold members</masterLabel>
+        <translation><!-- Basic service delivery &gt; VIP/CIP/Gold members --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Basic service delivery > Visa/travel document improperly checked</masterLabel>
+        <translation><!-- Basic service delivery &gt; Visa/travel document improperly checked --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bassinett seat not given/allocated</masterLabel>
+        <translation><!-- Bassinett seat not given/allocated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beneficial for Customer</masterLabel>
+        <translation><!-- Beneficial for Customer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Boarding by row</masterLabel>
+        <translation><!-- Boarding by row --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus miles when status is attained/renewed</masterLabel>
+        <translation><!-- Bonus miles when status is attained/renewed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booking Process > Complicated Process/System Error</masterLabel>
+        <translation><!-- Booking Process &gt; Complicated Process/System Error --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booking Process > Limited time to booking or changing</masterLabel>
+        <translation><!-- Booking Process &gt; Limited time to booking or changing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booking Process > No option to choose in system; meal, seat, infant/child booking</masterLabel>
+        <translation><!-- Booking Process &gt; No option to choose in system; meal, seat, infant/child booking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booking Process > User friendly</masterLabel>
+        <translation><!-- Booking Process &gt; User friendly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Booking being cancelled</masterLabel>
+        <translation><!-- Booking being cancelled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broken/indeclinable/inoperative</masterLabel>
+        <translation><!-- Broken/indeclinable/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broken/inoperative</masterLabel>
+        <translation><!-- Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broken/inoperative/unstable</masterLabel>
+        <translation><!-- Broken/inoperative/unstable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Busy/Engaged line</masterLabel>
+        <translation><!-- Busy/Engaged line --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin cleanliness</masterLabel>
+        <translation><!-- Cabin cleanliness --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin decoration/color scheme</masterLabel>
+        <translation><!-- Cabin decoration/color scheme --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin layout</masterLabel>
+        <translation><!-- Cabin layout --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin lighting</masterLabel>
+        <translation><!-- Cabin lighting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin noise level</masterLabel>
+        <translation><!-- Cabin noise level --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin pressure/ventilation</masterLabel>
+        <translation><!-- Cabin pressure/ventilation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin temperature > Suitable temperature</masterLabel>
+        <translation><!-- Cabin temperature &gt; Suitable temperature --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cabin temperature > Too warm/too cool</masterLabel>
+        <translation><!-- Cabin temperature &gt; Too warm/too cool --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancelled flight</masterLabel>
+        <translation><!-- Cancelled flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chatting/argue with passenger</masterLabel>
+        <translation><!-- Chatting/argue with passenger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Adequate</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Adequate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Adequate / Available</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Adequate / Available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Adequate/ Available</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Adequate/ Available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Adequate/ Selected menu available</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Adequate/ Selected menu available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Desired brand</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Desired brand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Desired brand / Mineral water</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Desired brand / Mineral water --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Excellent/ Appropriate</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Excellent/ Appropriate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Excellent/ Interesting/ Appropriate</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Excellent/ Interesting/ Appropriate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Limited</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Limited --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Limited / same menu</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Limited / same menu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Limited/ Selected menu not available / Same menu</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Limited/ Selected menu not available / Same menu --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Limited/ not match on drink list/ not available/ ran out</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Limited/ not match on drink list/ not available/ ran out --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Limited/ ran out</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Limited/ ran out --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Local / Seasonal Fruit</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Local / Seasonal Fruit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Local food / Seasonal food / Signature dish / Festival food</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Local food / Seasonal food / Signature dish / Festival food --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Others</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Poor/ Inappropriate</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Poor/ Inappropriate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/ Variety > Poor/ Uninteresting/ Inappropriate</masterLabel>
+        <translation><!-- Choice/ Variety &gt; Poor/ Uninteresting/ Inappropriate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/variety > Interesting/many choices</masterLabel>
+        <translation><!-- Choice/variety &gt; Interesting/many choices --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Choice/variety > Limited choice</masterLabel>
+        <translation><!-- Choice/variety &gt; Limited choice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Class of hotel</masterLabel>
+        <translation><!-- Class of hotel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleanliness</masterLabel>
+        <translation><!-- Cleanliness --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleanliness > Clean</masterLabel>
+        <translation><!-- Cleanliness &gt; Clean --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleanliness > Clean, spotless</masterLabel>
+        <translation><!-- Cleanliness &gt; Clean, spotless --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleanliness > Dirty</masterLabel>
+        <translation><!-- Cleanliness &gt; Dirty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleanliness > Dirty, odors</masterLabel>
+        <translation><!-- Cleanliness &gt; Dirty, odors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cleanliness > Dirty/odors/not maintained during the flight</masterLabel>
+        <translation><!-- Cleanliness &gt; Dirty/odors/not maintained during the flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clearness > Clear</masterLabel>
+        <translation><!-- Clearness &gt; Clear --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clearness > Unclear</masterLabel>
+        <translation><!-- Clearness &gt; Unclear --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Combined flight</masterLabel>
+        <translation><!-- Combined flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comfortable</masterLabel>
+        <translation><!-- Comfortable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compensation of mile according to flight delayed</masterLabel>
+        <translation><!-- Compensation of mile according to flight delayed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complete/Useful information/Up to date</masterLabel>
+        <translation><!-- Complete/Useful information/Up to date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complicate, dislike stand by policy</masterLabel>
+        <translation><!-- Complicate, dislike stand by policy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complicated procedure</masterLabel>
+        <translation><!-- Complicated procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complicated procedure for document and body check at gate</masterLabel>
+        <translation><!-- Complicated procedure for document and body check at gate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complicated, procedure, not good</masterLabel>
+        <translation><!-- Complicated, procedure, not good --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condition</masterLabel>
+        <translation><!-- Condition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condition of bus > Good condition</masterLabel>
+        <translation><!-- Condition of bus &gt; Good condition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condition of bus > Old, dirty</masterLabel>
+        <translation><!-- Condition of bus &gt; Old, dirty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condition of bus > Old, dirty, noise, etc.</masterLabel>
+        <translation><!-- Condition of bus &gt; Old, dirty, noise, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condition of magazines</masterLabel>
+        <translation><!-- Condition of magazines --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condition of newspapers</masterLabel>
+        <translation><!-- Condition of newspapers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condition of seat</masterLabel>
+        <translation><!-- Condition of seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condition of seat/Sleep facility</masterLabel>
+        <translation><!-- Condition of seat/Sleep facility --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Condition of transportation</masterLabel>
+        <translation><!-- Condition of transportation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Confirmation from booking ; waitlist, flight/class/seat availability</masterLabel>
+        <translation><!-- Confirmation from booking ; waitlist, flight/class/seat availability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Congested, chaotic boarding</masterLabel>
+        <translation><!-- Congested, chaotic boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Connecting flights between two airports (BKK &amp; DMK)</masterLabel>
+        <translation><!-- Connecting flights between two airports (BKK &amp; DMK) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consistency of service > No service</masterLabel>
+        <translation><!-- Consistency of service &gt; No service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consistency of service > Time out</masterLabel>
+        <translation><!-- Consistency of service &gt; Time out --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Convenience > Easy, smooth</masterLabel>
+        <translation><!-- Convenience &gt; Easy, smooth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Convenience of Departure/ Arrival Times</masterLabel>
+        <translation><!-- Convenience of Departure/ Arrival Times --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Convenience to use</masterLabel>
+        <translation><!-- Convenience to use --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Convenience, easy, smooth etc.</masterLabel>
+        <translation><!-- Convenience, easy, smooth etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Convenience, good, nice to provide</masterLabel>
+        <translation><!-- Convenience, good, nice to provide --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Convenience, smooth</masterLabel>
+        <translation><!-- Convenience, smooth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Counter/staff > Enough</masterLabel>
+        <translation><!-- Counter/staff &gt; Enough --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Counter/staff > Not enough</masterLabel>
+        <translation><!-- Counter/staff &gt; Not enough --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Courteous/polite > Impolite words/manners, not apology</masterLabel>
+        <translation><!-- Courteous/polite &gt; Impolite words/manners, not apology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Courteous/polite > Others</masterLabel>
+        <translation><!-- Courteous/polite &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Courteous/polite > Polite words/manners, apology to customer</masterLabel>
+        <translation><!-- Courteous/polite &gt; Polite words/manners, apology to customer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Creativeness of campaign</masterLabel>
+        <translation><!-- Creativeness of campaign --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Crowded</masterLabel>
+        <translation><!-- Crowded --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Currency limitation of mileage purchase</masterLabel>
+        <translation><!-- Currency limitation of mileage purchase --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Damaged baggage/items inside/wet baggage</masterLabel>
+        <translation><!-- Damaged baggage/items inside/wet baggage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Decoration, color scheme</masterLabel>
+        <translation><!-- Decoration, color scheme --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dedicated Counter for ROP Gold member/senator/Gold member with Y class ticket</masterLabel>
+        <translation><!-- Dedicated Counter for ROP Gold member/senator/Gold member with Y class ticket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dedicated Counter for no bag pax, fast track</masterLabel>
+        <translation><!-- Dedicated Counter for no bag pax, fast track --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay > Due to VIP, politician, etc.</masterLabel>
+        <translation><!-- Delay &gt; Due to VIP, politician, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay > Due to air traffic/traffic on runway, apron</masterLabel>
+        <translation><!-- Delay &gt; Due to air traffic/traffic on runway, apron --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay > Due to cleaning</masterLabel>
+        <translation><!-- Delay &gt; Due to cleaning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay > Due to discrepancy in the number of passengers</masterLabel>
+        <translation><!-- Delay &gt; Due to discrepancy in the number of passengers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay > Due to plane rotation/arrival of aircraft</masterLabel>
+        <translation><!-- Delay &gt; Due to plane rotation/arrival of aircraft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay > Due to riot, disordered situation of country</masterLabel>
+        <translation><!-- Delay &gt; Due to riot, disordered situation of country --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay > Due to security check</masterLabel>
+        <translation><!-- Delay &gt; Due to security check --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay > Due to technical problem</masterLabel>
+        <translation><!-- Delay &gt; Due to technical problem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay > Due to unknown reasons and others</masterLabel>
+        <translation><!-- Delay &gt; Due to unknown reasons and others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delay > Due to weather; fog, rain, depression/typhoon, flood, etc.</masterLabel>
+        <translation><!-- Delay &gt; Due to weather; fog, rain, depression/typhoon, flood, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delayed baggage, baggage not arrive on the same flight</masterLabel>
+        <translation><!-- Delayed baggage, baggage not arrive on the same flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivery service</masterLabel>
+        <translation><!-- Delivery service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denied access to lounge due to policy; Star Alliance, pool partner</masterLabel>
+        <translation><!-- Denied access to lounge due to policy; Star Alliance, pool partner --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design</masterLabel>
+        <translation><!-- Design --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Detail and information</masterLabel>
+        <translation><!-- Detail and information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dimensions > Narrow/unsuitable space</masterLabel>
+        <translation><!-- Dimensions &gt; Narrow/unsuitable space --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dimensions > Suitable space</masterLabel>
+        <translation><!-- Dimensions &gt; Suitable space --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Direct flight/New Destination</masterLabel>
+        <translation><!-- Direct flight/New Destination --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discount ticket is not eligible for mileage accrual</masterLabel>
+        <translation><!-- Discount ticket is not eligible for mileage accrual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discrepancies between printed and actual movie listing</masterLabel>
+        <translation><!-- Discrepancies between printed and actual movie listing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discrepancies between printed and actual music listing</masterLabel>
+        <translation><!-- Discrepancies between printed and actual music listing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discriminate service</masterLabel>
+        <translation><!-- Discriminate service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dislike policy/procedure</masterLabel>
+        <translation><!-- Dislike policy/procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dislike/annoyed for being charged excess baggage</masterLabel>
+        <translation><!-- Dislike/annoyed for being charged excess baggage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dissatisfactory</masterLabel>
+        <translation><!-- Dissatisfactory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dissatisfied</masterLabel>
+        <translation><!-- Dissatisfied --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dissatisfied with downgrading criteria/procedure</masterLabel>
+        <translation><!-- Dissatisfied with downgrading criteria/procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dissatisfied with hand baggage charge at gate</masterLabel>
+        <translation><!-- Dissatisfied with hand baggage charge at gate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dissatisfied with special service during festival</masterLabel>
+        <translation><!-- Dissatisfied with special service during festival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dissatisfied with this flight/all service</masterLabel>
+        <translation><!-- Dissatisfied with this flight/all service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dissatisfied with upgrade criteria/procedure</masterLabel>
+        <translation><!-- Dissatisfied with upgrade criteria/procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Distribution procedure</masterLabel>
+        <translation><!-- Distribution procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Diverted flight</masterLabel>
+        <translation><!-- Diverted flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Document for Travel (Visa on Arrival, Validity of Passport, etc.)</masterLabel>
+        <translation><!-- Document for Travel (Visa on Arrival, Validity of Passport, etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drunk pax > Aggressive/horrify/violent behaviour</masterLabel>
+        <translation><!-- Drunk pax &gt; Aggressive/horrify/violent behaviour --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drunk pax > Fighting</masterLabel>
+        <translation><!-- Drunk pax &gt; Fighting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drunk pax > Noisy/screaming</masterLabel>
+        <translation><!-- Drunk pax &gt; Noisy/screaming --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drunk pax > Sexual harassment</masterLabel>
+        <translation><!-- Drunk pax &gt; Sexual harassment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Due to incorrect travel documents</masterLabel>
+        <translation><!-- Due to incorrect travel documents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Due to late arrival at boarding gate</masterLabel>
+        <translation><!-- Due to late arrival at boarding gate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Due to late arrival at check-in</masterLabel>
+        <translation><!-- Due to late arrival at check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Due to medical aspects</masterLabel>
+        <translation><!-- Due to medical aspects --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Duplicated seat assignment/seat changed after boarding pass given</masterLabel>
+        <translation><!-- Duplicated seat assignment/seat changed after boarding pass given --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>During take-off and landing > Disagree to close window shade</masterLabel>
+        <translation><!-- During take-off and landing &gt; Disagree to close window shade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>During take-off and landing > Safety awareness of cabin crew; safety check</masterLabel>
+        <translation><!-- During take-off and landing &gt; Safety awareness of cabin crew; safety check --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease for connecting flight</masterLabel>
+        <translation><!-- Ease for connecting flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease for operation > Complicated system/difficult to operate</masterLabel>
+        <translation><!-- Ease for operation &gt; Complicated system/difficult to operate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease for operation > Complicated/difficult to operate</masterLabel>
+        <translation><!-- Ease for operation &gt; Complicated/difficult to operate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease for operation > User friendly</masterLabel>
+        <translation><!-- Ease for operation &gt; User friendly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease for operation > Very nice/easy to operate</masterLabel>
+        <translation><!-- Ease for operation &gt; Very nice/easy to operate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of Contact > Good/Smooth</masterLabel>
+        <translation><!-- Ease of Contact &gt; Good/Smooth --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of Contact > Poor/Engaged</masterLabel>
+        <translation><!-- Ease of Contact &gt; Poor/Engaged --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of access > Quick response</masterLabel>
+        <translation><!-- Ease of access &gt; Quick response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of access > Slow response</masterLabel>
+        <translation><!-- Ease of access &gt; Slow response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of access/log-on</masterLabel>
+        <translation><!-- Ease of access/log-on --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of access/speed response > No response/System down/Failure system</masterLabel>
+        <translation><!-- Ease of access/speed response &gt; No response/System down/Failure system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of access/speed response > Quick response</masterLabel>
+        <translation><!-- Ease of access/speed response &gt; Quick response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of access/speed response > Slow response</masterLabel>
+        <translation><!-- Ease of access/speed response &gt; Slow response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of operation > No option to choose seat in system</masterLabel>
+        <translation><!-- Ease of operation &gt; No option to choose seat in system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of operation > Not user friendly</masterLabel>
+        <translation><!-- Ease of operation &gt; Not user friendly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of operation > User friendly</masterLabel>
+        <translation><!-- Ease of operation &gt; User friendly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of use > Not user friendly</masterLabel>
+        <translation><!-- Ease of use &gt; Not user friendly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ease of use > User friendly</masterLabel>
+        <translation><!-- Ease of use &gt; User friendly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Easy to contact</masterLabel>
+        <translation><!-- Easy to contact --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evaluation for qualifying mileage accumulation</masterLabel>
+        <translation><!-- Evaluation for qualifying mileage accumulation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Excellent / Good Service</masterLabel>
+        <translation><!-- Excellent / Good Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Excellent Service</masterLabel>
+        <translation><!-- Excellent Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Excellent, professional, efficient in announcement</masterLabel>
+        <translation><!-- Excellent, professional, efficient in announcement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Exceptions of mileage for level evaluation</masterLabel>
+        <translation><!-- Exceptions of mileage for level evaluation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Excess baggage rate too expensive</masterLabel>
+        <translation><!-- Excess baggage rate too expensive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Excessive handbag, security item interception at boarding gate</masterLabel>
+        <translation><!-- Excessive handbag, security item interception at boarding gate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expired, bad smell</masterLabel>
+        <translation><!-- Expired, bad smell --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facilities in hotel; telephone, mini bar etc.</masterLabel>
+        <translation><!-- Facilities in hotel; telephone, mini bar etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facility/sign, indicator > Clear</masterLabel>
+        <translation><!-- Facility/sign, indicator &gt; Clear --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facility/sign, indicator > No sign, unclear</masterLabel>
+        <translation><!-- Facility/sign, indicator &gt; No sign, unclear --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failure to pass on the message</masterLabel>
+        <translation><!-- Failure to pass on the message --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fare > Difference from what was advertised</masterLabel>
+        <translation><!-- Fare &gt; Difference from what was advertised --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fare > Expensive</masterLabel>
+        <translation><!-- Fare &gt; Expensive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fare too expensive</masterLabel>
+        <translation><!-- Fare too expensive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Faulty</masterLabel>
+        <translation><!-- Faulty --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Faulty recording</masterLabel>
+        <translation><!-- Faulty recording --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fee charge > Dissatisfied with fee charge</masterLabel>
+        <translation><!-- Fee charge &gt; Dissatisfied with fee charge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Feedback/Enquiry > No response, System down/Failure system</masterLabel>
+        <translation><!-- Feedback/Enquiry &gt; No response, System down/Failure system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Feedback/Enquiry > Quick response</masterLabel>
+        <translation><!-- Feedback/Enquiry &gt; Quick response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Feedback/Enquiry > Slow response</masterLabel>
+        <translation><!-- Feedback/Enquiry &gt; Slow response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flight Information; flying time, distance etc. > Lack/wrong information</masterLabel>
+        <translation><!-- Flight Information; flying time, distance etc. &gt; Lack/wrong information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flight Information; flying time, distance etc. > Useful information</masterLabel>
+        <translation><!-- Flight Information; flying time, distance etc. &gt; Useful information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flight/seat/class availability for award ticket</masterLabel>
+        <translation><!-- Flight/seat/class availability for award ticket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foot rest > Broken/inoperative</masterLabel>
+        <translation><!-- Foot rest &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Form of payment > Cash</masterLabel>
+        <translation><!-- Form of payment &gt; Cash --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Form of payment > Credit card</masterLabel>
+        <translation><!-- Form of payment &gt; Credit card --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Form of payment > Currency</masterLabel>
+        <translation><!-- Form of payment &gt; Currency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frequency of flights</masterLabel>
+        <translation><!-- Frequency of flights --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Friendliness/hospitality > Friendly staff, smiling faces</masterLabel>
+        <translation><!-- Friendliness/hospitality &gt; Friendly staff, smiling faces --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Friendliness/hospitality > Others</masterLabel>
+        <translation><!-- Friendliness/hospitality &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Friendliness/hospitality > Unfriendly staff, stern faces</masterLabel>
+        <translation><!-- Friendliness/hospitality &gt; Unfriendly staff, stern faces --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Functional usage > Not user friendly, cannot change seat etc.</masterLabel>
+        <translation><!-- Functional usage &gt; Not user friendly, cannot change seat etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Functional usage > Others</masterLabel>
+        <translation><!-- Functional usage &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Functional usage > Out of order, etc</masterLabel>
+        <translation><!-- Functional usage &gt; Out of order, etc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Functional usage > User friendly, etc</masterLabel>
+        <translation><!-- Functional usage &gt; User friendly, etc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Games > Broken/inoperative</masterLabel>
+        <translation><!-- Games &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gate changed without notice</masterLabel>
+        <translation><!-- Gate changed without notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gate environment > Good, nice</masterLabel>
+        <translation><!-- Gate environment &gt; Good, nice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gate environment > Pollution</masterLabel>
+        <translation><!-- Gate environment &gt; Pollution --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gate environment > Raining, too warm, no air-conditioned, etc.</masterLabel>
+        <translation><!-- Gate environment &gt; Raining, too warm, no air-conditioned, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>General operation > Broken/inoperative</masterLabel>
+        <translation><!-- General operation &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good information, Update information, Useful information</masterLabel>
+        <translation><!-- Good information, Update information, Useful information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good quality/up to standard</masterLabel>
+        <translation><!-- Good quality/up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good timing procedure of transportation to hotel vv.</masterLabel>
+        <translation><!-- Good timing procedure of transportation to hotel vv. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good, excellent, appropriated alternative flight arrangement</masterLabel>
+        <translation><!-- Good, excellent, appropriated alternative flight arrangement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good, excellent, efficiency, clear, up to date</masterLabel>
+        <translation><!-- Good, excellent, efficiency, clear, up to date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good, excellent, efficiency, professional, on time service</masterLabel>
+        <translation><!-- Good, excellent, efficiency, professional, on time service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good, excellent, efficient</masterLabel>
+        <translation><!-- Good, excellent, efficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good, excellent, efficient, professional handling</masterLabel>
+        <translation><!-- Good, excellent, efficient, professional handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good, excellent, professional</masterLabel>
+        <translation><!-- Good, excellent, professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good, excellent, relax</masterLabel>
+        <translation><!-- Good, excellent, relax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Group/youngsters > Disturb other people</masterLabel>
+        <translation><!-- Group/youngsters &gt; Disturb other people --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Group/youngsters > Noisy</masterLabel>
+        <translation><!-- Group/youngsters &gt; Noisy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guaranteed confirmed seating on fully booked flights</masterLabel>
+        <translation><!-- Guaranteed confirmed seating on fully booked flights --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handling of lost ticket > Complicated procedure</masterLabel>
+        <translation><!-- Handling of lost ticket &gt; Complicated procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handling of lost ticket > Dislike to buy new ticket</masterLabel>
+        <translation><!-- Handling of lost ticket &gt; Dislike to buy new ticket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Handling of lost ticket > Easy/suitable procedure</masterLabel>
+        <translation><!-- Handling of lost ticket &gt; Easy/suitable procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Head rest > Broken/inoperative</masterLabel>
+        <translation><!-- Head rest &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Headphone > Broken/inoperative</masterLabel>
+        <translation><!-- Headphone &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Holding on period</masterLabel>
+        <translation><!-- Holding on period --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene</masterLabel>
+        <translation><!-- Hygiene --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Chemical / Toxic contaminated</masterLabel>
+        <translation><!-- Hygiene &gt; Chemical / Toxic contaminated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Chemical / Toxic contaminated / Smell bad</masterLabel>
+        <translation><!-- Hygiene &gt; Chemical / Toxic contaminated / Smell bad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Food Poisoning caused sickness</masterLabel>
+        <translation><!-- Hygiene &gt; Food Poisoning caused sickness --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Foreign objects in Coffee/Tea</masterLabel>
+        <translation><!-- Hygiene &gt; Foreign objects in Coffee/Tea --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Foreign objects in drink</masterLabel>
+        <translation><!-- Hygiene &gt; Foreign objects in drink --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Foreign objects in food</masterLabel>
+        <translation><!-- Hygiene &gt; Foreign objects in food --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Foreign objects in fruit</masterLabel>
+        <translation><!-- Hygiene &gt; Foreign objects in fruit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Foreign objects in water</masterLabel>
+        <translation><!-- Hygiene &gt; Foreign objects in water --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Manufacturing date expired</masterLabel>
+        <translation><!-- Hygiene &gt; Manufacturing date expired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Meets / Exceeds hygienic expectations</masterLabel>
+        <translation><!-- Hygiene &gt; Meets / Exceeds hygienic expectations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Meets/ Exceeds hygienic expectations</masterLabel>
+        <translation><!-- Hygiene &gt; Meets/ Exceeds hygienic expectations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Meets/Exceeds hygienic expectations</masterLabel>
+        <translation><!-- Hygiene &gt; Meets/Exceeds hygienic expectations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Others</masterLabel>
+        <translation><!-- Hygiene &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Poisoning caused sickness</masterLabel>
+        <translation><!-- Hygiene &gt; Poisoning caused sickness --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Rotten / mold / stale / smell bad</masterLabel>
+        <translation><!-- Hygiene &gt; Rotten / mold / stale / smell bad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hygiene > Rotten/ mold/ stale/ smell bad</masterLabel>
+        <translation><!-- Hygiene &gt; Rotten/ mold/ stale/ smell bad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inadequate assistance</masterLabel>
+        <translation><!-- Inadequate assistance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate behaviour during working > Chatting, reading, eating etc.</masterLabel>
+        <translation><!-- Inappropriate behaviour during working &gt; Chatting, reading, eating etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate behaviour during working > Chatting, reading, eating, etc</masterLabel>
+        <translation><!-- Inappropriate behaviour during working &gt; Chatting, reading, eating, etc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate behaviour during working > Chatting, reading, eating, etc.</masterLabel>
+        <translation><!-- Inappropriate behaviour during working &gt; Chatting, reading, eating, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate behaviour during working > Chatting, reading, smoking, eating, etc</masterLabel>
+        <translation><!-- Inappropriate behaviour during working &gt; Chatting, reading, smoking, eating, etc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate behaviour during working > Chatting, reading, smoking, eating, etc.</masterLabel>
+        <translation><!-- Inappropriate behaviour during working &gt; Chatting, reading, smoking, eating, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate seat assignment > Family/companion not seated together</masterLabel>
+        <translation><!-- Inappropriate seat assignment &gt; Family/companion not seated together --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate seat assignment > For general pax : near toilet, last row seat, etc.</masterLabel>
+        <translation><!-- Inappropriate seat assignment &gt; For general pax : near toilet, last row seat, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate seat assignment > For special pax : monk, disabled pax, ROP Gold, etc.</masterLabel>
+        <translation><!-- Inappropriate seat assignment &gt; For special pax : monk, disabled pax, ROP Gold, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate seat assignment > Others</masterLabel>
+        <translation><!-- Inappropriate seat assignment &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inappropriate seat assignment > Overweight/obesity pax</masterLabel>
+        <translation><!-- Inappropriate seat assignment &gt; Overweight/obesity pax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inconsistency of applying baggage handling policy</masterLabel>
+        <translation><!-- Inconsistency of applying baggage handling policy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inconsistency of applying excess baggage charges</masterLabel>
+        <translation><!-- Inconsistency of applying excess baggage charges --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inconsistency of hand baggage handling</masterLabel>
+        <translation><!-- Inconsistency of hand baggage handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inconvenience connecting flight</masterLabel>
+        <translation><!-- Inconvenience connecting flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inconvenience of Departure/ Arrival Times</masterLabel>
+        <translation><!-- Inconvenience of Departure/ Arrival Times --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inconvenience, dissatisfied, poor, etc.</masterLabel>
+        <translation><!-- Inconvenience, dissatisfied, poor, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information</masterLabel>
+        <translation><!-- Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information > Lack of information</masterLabel>
+        <translation><!-- Information &gt; Lack of information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information > Nice to apology</masterLabel>
+        <translation><!-- Information &gt; Nice to apology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information > No apology</masterLabel>
+        <translation><!-- Information &gt; No apology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information > Useful information</masterLabel>
+        <translation><!-- Information &gt; Useful information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information > Wrong information</masterLabel>
+        <translation><!-- Information &gt; Wrong information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information about UM/YP/WCHR/Infant/Pregnant/etc.</masterLabel>
+        <translation><!-- Information about UM/YP/WCHR/Infant/Pregnant/etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information provided > Lack of information</masterLabel>
+        <translation><!-- Information provided &gt; Lack of information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information provided > Useful information</masterLabel>
+        <translation><!-- Information provided &gt; Useful information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information provided > Wrong information</masterLabel>
+        <translation><!-- Information provided &gt; Wrong information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information/Content > Clear, good, useful information</masterLabel>
+        <translation><!-- Information/Content &gt; Clear, good, useful information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information/Content > Unclear, wrong, no information</masterLabel>
+        <translation><!-- Information/Content &gt; Unclear, wrong, no information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inoperative</masterLabel>
+        <translation><!-- Inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insects</masterLabel>
+        <translation><!-- Insects --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insects, mosquitoes</masterLabel>
+        <translation><!-- Insects, mosquitoes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insufficient</masterLabel>
+        <translation><!-- Insufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intercept baggage handling</masterLabel>
+        <translation><!-- Intercept baggage handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interesting</masterLabel>
+        <translation><!-- Interesting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interim payment not given/insufficient</masterLabel>
+        <translation><!-- Interim payment not given/insufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internet check-in counter</masterLabel>
+        <translation><!-- Internet check-in counter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Internet checked in seat was changed</masterLabel>
+        <translation><!-- Internet checked in seat was changed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Involuntary upgrade/forced to pay the difference</masterLabel>
+        <translation><!-- Involuntary upgrade/forced to pay the difference --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Keeping pax on the plane, No aircondition, etc</masterLabel>
+        <translation><!-- Keeping pax on the plane, No aircondition, etc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Excellent in general knowledge about seat configulation, regulations, etc.</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Excellent in general knowledge about seat configulation, regulations, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Excellent in general knowledge about seat configulation,regulations,etc.</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Excellent in general knowledge about seat configulation,regulations,etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Excellent in general knowledge of company/TG products</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Excellent in general knowledge of company/TG products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Pax was not informed about fare:normal fare,special fare,</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Pax was not informed about fare:normal fare,special fare, --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Pax was not informed about fare; normal fare, special fare,</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Pax was not informed about fare; normal fare, special fare, --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Pax was not informed about visa/travel document, YP,</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Pax was not informed about visa/travel document, YP, --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Pax was not informed about visa/travel document, YP, Infant,</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Pax was not informed about visa/travel document, YP, Infant, --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Poor in general knowledge about company/TG products</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Poor in general knowledge about company/TG products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Poor in general knowledge about seat configuration, regulations, etc.</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Poor in general knowledge about seat configuration, regulations, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Poor in general knowledge about seat configuration, requlations, etc.</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Poor in general knowledge about seat configuration, requlations, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Provide lack or wrong information</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Provide lack or wrong information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and Information > Provide useful information</masterLabel>
+        <translation><!-- Knowledge and Information &gt; Provide useful information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and information > Others</masterLabel>
+        <translation><!-- Knowledge and information &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and information > Poor in general knowledge of company/TG products</masterLabel>
+        <translation><!-- Knowledge and information &gt; Poor in general knowledge of company/TG products --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and information > Provide adequate information</masterLabel>
+        <translation><!-- Knowledge and information &gt; Provide adequate information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Knowledge and information > Provide inadequate or wrong information</masterLabel>
+        <translation><!-- Knowledge and information &gt; Provide inadequate or wrong information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lack of leg room, little space</masterLabel>
+        <translation><!-- Lack of leg room, little space --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lack/Wrong information, Not update information</masterLabel>
+        <translation><!-- Lack/Wrong information, Not update information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lack/Wrong information/Out of date</masterLabel>
+        <translation><!-- Lack/Wrong information/Out of date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language</masterLabel>
+        <translation><!-- Language --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language > Local language</masterLabel>
+        <translation><!-- Language &gt; Local language --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language > Soundtrack/sub-title</masterLabel>
+        <translation><!-- Language &gt; Soundtrack/sub-title --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language Skills > Excellent language skills</masterLabel>
+        <translation><!-- Language Skills &gt; Excellent language skills --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language Skills > Poor language skills</masterLabel>
+        <translation><!-- Language Skills &gt; Poor language skills --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language skill > Excellent</masterLabel>
+        <translation><!-- Language skill &gt; Excellent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Language skill > Poor</masterLabel>
+        <translation><!-- Language skill &gt; Poor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Languages</masterLabel>
+        <translation><!-- Languages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late arrival of priority bag, no priority (Gold member, Premium baggage, priority tag etc.)</masterLabel>
+        <translation><!-- Late arrival of priority bag, no priority (Gold member, Premium baggage, priority tag etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late open/closed</masterLabel>
+        <translation><!-- Late open/closed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late recording</masterLabel>
+        <translation><!-- Late recording --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leg rest > Broken/inoperative</masterLabel>
+        <translation><!-- Leg rest &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Letter confirmation for flight irregularity</masterLabel>
+        <translation><!-- Letter confirmation for flight irregularity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Letter for insurance claim</masterLabel>
+        <translation><!-- Letter for insurance claim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Life vest</masterLabel>
+        <translation><!-- Life vest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lighting</masterLabel>
+        <translation><!-- Lighting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Limited data usage</masterLabel>
+        <translation><!-- Limited data usage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Location</masterLabel>
+        <translation><!-- Location --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Location > Convenience</masterLabel>
+        <translation><!-- Location &gt; Convenience --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Location > Inconvenience</masterLabel>
+        <translation><!-- Location &gt; Inconvenience --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Location > Not too far</masterLabel>
+        <translation><!-- Location &gt; Not too far --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Location > Too far</masterLabel>
+        <translation><!-- Location &gt; Too far --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Long distance from arrival gate to immigration/customs</masterLabel>
+        <translation><!-- Long distance from arrival gate to immigration/customs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost baggage</masterLabel>
+        <translation><!-- Lost baggage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost personal belonging</masterLabel>
+        <translation><!-- Lost personal belonging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost personal belongings on Board</masterLabel>
+        <translation><!-- Lost personal belongings on Board --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lounge access</masterLabel>
+        <translation><!-- Lounge access --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mail Delivery/System Response > No delivery/No response</masterLabel>
+        <translation><!-- Mail Delivery/System Response &gt; No delivery/No response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mail Delivery/System Response > Quick</masterLabel>
+        <translation><!-- Mail Delivery/System Response &gt; Quick --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mail Delivery/System Response > Slow</masterLabel>
+        <translation><!-- Mail Delivery/System Response &gt; Slow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mail delivery > No response, System down/Failure system</masterLabel>
+        <translation><!-- Mail delivery &gt; No response, System down/Failure system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mail delivery > Quick response</masterLabel>
+        <translation><!-- Mail delivery &gt; Quick response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mail delivery > Slow response</masterLabel>
+        <translation><!-- Mail delivery &gt; Slow response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Many varieties/choices</masterLabel>
+        <translation><!-- Many varieties/choices --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marvellous/New aircraft/High Technology</masterLabel>
+        <translation><!-- Marvellous/New aircraft/High Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal Serving Priority > Baby meal / Child meal</masterLabel>
+        <translation><!-- Meal Serving Priority &gt; Baby meal / Child meal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal Serving Priority > Others</masterLabel>
+        <translation><!-- Meal Serving Priority &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal Serving Priority > Special meal</masterLabel>
+        <translation><!-- Meal Serving Priority &gt; Special meal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal Serving Priority > Start to serve at the front/back of cabin</masterLabel>
+        <translation><!-- Meal Serving Priority &gt; Start to serve at the front/back of cabin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal Variety > Not Variety</masterLabel>
+        <translation><!-- Meal Variety &gt; Not Variety --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal Variety > Variety</masterLabel>
+        <translation><!-- Meal Variety &gt; Variety --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal available</masterLabel>
+        <translation><!-- Meal available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal not available</masterLabel>
+        <translation><!-- Meal not available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal taste > Distasteful, tasteless</masterLabel>
+        <translation><!-- Meal taste &gt; Distasteful, tasteless --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal taste > Food inedible</masterLabel>
+        <translation><!-- Meal taste &gt; Food inedible --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meal taste > Tasteful, delicious</masterLabel>
+        <translation><!-- Meal taste &gt; Tasteful, delicious --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meals / Beverage served too late after take off</masterLabel>
+        <translation><!-- Meals / Beverage served too late after take off --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Meals/Beverage served too early after take off</masterLabel>
+        <translation><!-- Meals/Beverage served too early after take off --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicine availability</masterLabel>
+        <translation><!-- Medicine availability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medicine quality</masterLabel>
+        <translation><!-- Medicine quality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Miles not match with flying time</masterLabel>
+        <translation><!-- Miles not match with flying time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missing miles for flight flown</masterLabel>
+        <translation><!-- Missing miles for flight flown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Negative comments of full fare pax on upgrading practice</masterLabel>
+        <translation><!-- Negative comments of full fare pax on upgrading practice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nice, beautiful, good, excellent</masterLabel>
+        <translation><!-- Nice, beautiful, good, excellent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nice, excellent</masterLabel>
+        <translation><!-- Nice, excellent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nice/Beautiful/Up to date</masterLabel>
+        <translation><!-- Nice/Beautiful/Up to date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No air conditioner, too warm</masterLabel>
+        <translation><!-- No air conditioner, too warm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No air-conditioned bus</masterLabel>
+        <translation><!-- No air-conditioned bus --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No announcement,no information,not up to date</masterLabel>
+        <translation><!-- No announcement,no information,not up to date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No avio-bridge, dislike to board at bus gate</masterLabel>
+        <translation><!-- No avio-bridge, dislike to board at bus gate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No boarding by row</masterLabel>
+        <translation><!-- No boarding by row --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No dedicated Counter for ROP Gold member/senator/Gold member with Y class ticket</masterLabel>
+        <translation><!-- No dedicated Counter for ROP Gold member/senator/Gold member with Y class ticket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No dedicated Counter for no bag pax, fast track</masterLabel>
+        <translation><!-- No dedicated Counter for no bag pax, fast track --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No dedicated bus for premium pax/special pax</masterLabel>
+        <translation><!-- No dedicated bus for premium pax/special pax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No discriminate service</masterLabel>
+        <translation><!-- No discriminate service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No foot rest</masterLabel>
+        <translation><!-- No foot rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No head rest</masterLabel>
+        <translation><!-- No head rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No leg rest</masterLabel>
+        <translation><!-- No leg rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No lounge</masterLabel>
+        <translation><!-- No lounge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No priority for F, C, Gold members, special pax, etc.</masterLabel>
+        <translation><!-- No priority for F, C, Gold members, special pax, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No response</masterLabel>
+        <translation><!-- No response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No staff answering the phone</masterLabel>
+        <translation><!-- No staff answering the phone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No staff to manage the queue</masterLabel>
+        <translation><!-- No staff to manage the queue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No variety/choice</masterLabel>
+        <translation><!-- No variety/choice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No window beside the seat</masterLabel>
+        <translation><!-- No window beside the seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No wine/champagne</masterLabel>
+        <translation><!-- No wine/champagne --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nobody calling back</masterLabel>
+        <translation><!-- Nobody calling back --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Noisy, loud</masterLabel>
+        <translation><!-- Noisy, loud --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not available</masterLabel>
+        <translation><!-- Not available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not good, dissatisfied</masterLabel>
+        <translation><!-- Not good, dissatisfied --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not offered</masterLabel>
+        <translation><!-- Not offered --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not provided</masterLabel>
+        <translation><!-- Not provided --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not provided the same class of service, Waiting time for the first available flight</masterLabel>
+        <translation><!-- Not provided the same class of service, Waiting time for the first available flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not provided through check-in</masterLabel>
+        <translation><!-- Not provided through check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not up to standard, outdated, old seat</masterLabel>
+        <translation><!-- Not up to standard, outdated, old seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not up to standard/outdated seat</masterLabel>
+        <translation><!-- Not up to standard/outdated seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not update/Faulty recording</masterLabel>
+        <translation><!-- Not update/Faulty recording --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number / Frequency of drinks served during the flight</masterLabel>
+        <translation><!-- Number / Frequency of drinks served during the flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number / Frequency of meals served during the flight</masterLabel>
+        <translation><!-- Number / Frequency of meals served during the flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of TV > Insufficient</masterLabel>
+        <translation><!-- Number of TV &gt; Insufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of TV > Sufficient</masterLabel>
+        <translation><!-- Number of TV &gt; Sufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of baggage/weight/size allowance > Suitable</masterLabel>
+        <translation><!-- Number of baggage/weight/size allowance &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of baggage/weight/size allowance > Unsuitable</masterLabel>
+        <translation><!-- Number of baggage/weight/size allowance &gt; Unsuitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of bus > Insufficient</masterLabel>
+        <translation><!-- Number of bus &gt; Insufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of bus > Sufficient</masterLabel>
+        <translation><!-- Number of bus &gt; Sufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of channel > Limited</masterLabel>
+        <translation><!-- Number of channel &gt; Limited --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of channel > Lots of channel</masterLabel>
+        <translation><!-- Number of channel &gt; Lots of channel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of hand baggage allowance</masterLabel>
+        <translation><!-- Number of hand baggage allowance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of staff at transfer desk > Insufficient</masterLabel>
+        <translation><!-- Number of staff at transfer desk &gt; Insufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of staff at transfer desk > Sufficient</masterLabel>
+        <translation><!-- Number of staff at transfer desk &gt; Sufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of toilet > Insufficient</masterLabel>
+        <translation><!-- Number of toilet &gt; Insufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Number of toilet > Sufficient</masterLabel>
+        <translation><!-- Number of toilet &gt; Sufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OK ticket: no record of booking/called to reconfirm but still no record at check-in</masterLabel>
+        <translation><!-- OK ticket: no record of booking/called to reconfirm but still no record at check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Odors</masterLabel>
+        <translation><!-- Odors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office hours</masterLabel>
+        <translation><!-- Office hours --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On time flight</masterLabel>
+        <translation><!-- On time flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Thai Shop/etc.</masterLabel>
+        <translation><!-- Others &gt; Thai Shop/etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others > Toilets</masterLabel>
+        <translation><!-- Others &gt; Toilets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Out of date</masterLabel>
+        <translation><!-- Out of date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Out of order, broken</masterLabel>
+        <translation><!-- Out of order, broken --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Out of order, out of service</masterLabel>
+        <translation><!-- Out of order, out of service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overnight Stay/Hotel/Accomodation during Transit > Class of hotel</masterLabel>
+        <translation><!-- Overnight Stay/Hotel/Accomodation during Transit &gt; Class of hotel --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overnight Stay/Hotel/Accomodation during Transit > Not provided</masterLabel>
+        <translation><!-- Overnight Stay/Hotel/Accomodation during Transit &gt; Not provided --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overnight Stay/Hotel/Accomodation during Transit > Others</masterLabel>
+        <translation><!-- Overnight Stay/Hotel/Accomodation during Transit &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overnight Stay/Hotel/Accomodation during Transit > Provided</masterLabel>
+        <translation><!-- Overnight Stay/Hotel/Accomodation during Transit &gt; Provided --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overnight kit not offered when baggage lost</masterLabel>
+        <translation><!-- Overnight kit not offered when baggage lost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pamphlet (safety instruction)</masterLabel>
+        <translation><!-- Pamphlet (safety instruction) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pax denied check-in due to overbooking</masterLabel>
+        <translation><!-- Pax denied check-in due to overbooking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pax dislike procedure of credit card verification (internet purchasing)</masterLabel>
+        <translation><!-- Pax dislike procedure of credit card verification (internet purchasing) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pax disliked overbooking policy</masterLabel>
+        <translation><!-- Pax disliked overbooking policy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pax have to pay airport tax, visa on arrival</masterLabel>
+        <translation><!-- Pax have to pay airport tax, visa on arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pax transferred to another carrier due to overbooking</masterLabel>
+        <translation><!-- Pax transferred to another carrier due to overbooking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pax was downgraded due to aircraft change</masterLabel>
+        <translation><!-- Pax was downgraded due to aircraft change --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pax was downgraded due to overbooking</masterLabel>
+        <translation><!-- Pax was downgraded due to overbooking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Procedure > Convenience Payment</masterLabel>
+        <translation><!-- Payment Procedure &gt; Convenience Payment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Procedure > Dislike the protective measures against credit card fraud</masterLabel>
+        <translation><!-- Payment Procedure &gt; Dislike the protective measures against credit card fraud --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment Procedure > Inconvenience Payment</masterLabel>
+        <translation><!-- Payment Procedure &gt; Inconvenience Payment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment procedure</masterLabel>
+        <translation><!-- Payment procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment procedure > Complicated procedure</masterLabel>
+        <translation><!-- Payment procedure &gt; Complicated procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment procedure > Difficult, duplicated charge, etc.</masterLabel>
+        <translation><!-- Payment procedure &gt; Difficult, duplicated charge, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment procedure > Fast, convenience, smooth, nice, etc.</masterLabel>
+        <translation><!-- Payment procedure &gt; Fast, convenience, smooth, nice, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment procedure > Form of payment/credit card</masterLabel>
+        <translation><!-- Payment procedure &gt; Form of payment/credit card --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment procedure > Suitable procedure</masterLabel>
+        <translation><!-- Payment procedure &gt; Suitable procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency > Appearance/Grooming/Uniform</masterLabel>
+        <translation><!-- Performance and Efficiency &gt; Appearance/Grooming/Uniform --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency > Basic service delivery</masterLabel>
+        <translation><!-- Performance and Efficiency &gt; Basic service delivery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency > Basic service delivery ; answering the phone, calling back</masterLabel>
+        <translation><!-- Performance and Efficiency &gt; Basic service delivery ; answering the phone, calling back --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency > Greeting/Welcome</masterLabel>
+        <translation><!-- Performance and Efficiency &gt; Greeting/Welcome --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency > Knowlegde and Information</masterLabel>
+        <translation><!-- Performance and Efficiency &gt; Knowlegde and Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency > Language skills ; local language</masterLabel>
+        <translation><!-- Performance and Efficiency &gt; Language skills ; local language --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency > Language skills; local language</masterLabel>
+        <translation><!-- Performance and Efficiency &gt; Language skills; local language --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency > Others</masterLabel>
+        <translation><!-- Performance and Efficiency &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and Efficiency > Trouble-shooting ability</masterLabel>
+        <translation><!-- Performance and Efficiency &gt; Trouble-shooting ability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and efficiency > Decision making</masterLabel>
+        <translation><!-- Performance and efficiency &gt; Decision making --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and efficiency > Smooth landing, taking-off</masterLabel>
+        <translation><!-- Performance and efficiency &gt; Smooth landing, taking-off --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance and efficiency > Smooth operation when flying</masterLabel>
+        <translation><!-- Performance and efficiency &gt; Smooth operation when flying --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance of Transit Staff</masterLabel>
+        <translation><!-- Performance of Transit Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance of driver</masterLabel>
+        <translation><!-- Performance of driver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance of staff</masterLabel>
+        <translation><!-- Performance of staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personal video > Broken/inoperative</masterLabel>
+        <translation><!-- Personal video &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality / Appearance > Grooming, uniform</masterLabel>
+        <translation><!-- Personality / Appearance &gt; Grooming, uniform --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality/Appearance > Good looking</masterLabel>
+        <translation><!-- Personality/Appearance &gt; Good looking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality/Appearance > Grooming/Uniform</masterLabel>
+        <translation><!-- Personality/Appearance &gt; Grooming/Uniform --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality/Appearance > Grooming/Uniform, etc.</masterLabel>
+        <translation><!-- Personality/Appearance &gt; Grooming/Uniform, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality/Appearance > Not happy, tired</masterLabel>
+        <translation><!-- Personality/Appearance &gt; Not happy, tired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality/Appearance > Not happy/tired</masterLabel>
+        <translation><!-- Personality/Appearance &gt; Not happy/tired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality/Appearance > Others</masterLabel>
+        <translation><!-- Personality/Appearance &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality/Apperance > Grooming/Uniform</masterLabel>
+        <translation><!-- Personality/Apperance &gt; Grooming/Uniform --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality/Apperance > Not happy, tired</masterLabel>
+        <translation><!-- Personality/Apperance &gt; Not happy, tired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality/Apperance > Not happy/tired</masterLabel>
+        <translation><!-- Personality/Apperance &gt; Not happy/tired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personality/Apperance > Others</masterLabel>
+        <translation><!-- Personality/Apperance &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pets > Noisy/barking</masterLabel>
+        <translation><!-- Pets &gt; Noisy/barking --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pets > Smelled</masterLabel>
+        <translation><!-- Pets &gt; Smelled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Picture quality > Excellent/up to standard</masterLabel>
+        <translation><!-- Picture quality &gt; Excellent/up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Picture quality > Poor/not up to standard</masterLabel>
+        <translation><!-- Picture quality &gt; Poor/not up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Piece/weight/size concept allowance</masterLabel>
+        <translation><!-- Piece/weight/size concept allowance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pilfered baggage, items inside lost</masterLabel>
+        <translation><!-- Pilfered baggage, items inside lost --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pin code</masterLabel>
+        <translation><!-- Pin code --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pitch/limited recline</masterLabel>
+        <translation><!-- Pitch/limited recline --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Placed on standby despite having confirmed ticket</masterLabel>
+        <translation><!-- Placed on standby despite having confirmed ticket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plenty of leg room</masterLabel>
+        <translation><!-- Plenty of leg room --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Policy for claim mileage ; needed original B/P, tickets and payment receipts</masterLabel>
+        <translation><!-- Policy for claim mileage ; needed original B/P, tickets and payment receipts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Policy for expired mileage handling</masterLabel>
+        <translation><!-- Policy for expired mileage handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor</masterLabel>
+        <translation><!-- Poor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor alternative flight arrangement</masterLabel>
+        <translation><!-- Poor alternative flight arrangement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor arrangement</masterLabel>
+        <translation><!-- Poor arrangement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor quality/not up to standard</masterLabel>
+        <translation><!-- Poor quality/not up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor service returning delayed baggage</masterLabel>
+        <translation><!-- Poor service returning delayed baggage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor timing procedure of transportation to hotel vv.</masterLabel>
+        <translation><!-- Poor timing procedure of transportation to hotel vv. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor/Out of date</masterLabel>
+        <translation><!-- Poor/Out of date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Position of TV > Suitable</masterLabel>
+        <translation><!-- Position of TV &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Position of TV > Unsuitable</masterLabel>
+        <translation><!-- Position of TV &gt; Unsuitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-order meal was not provided as requested</masterLabel>
+        <translation><!-- Pre-order meal was not provided as requested --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prefer served in bottle</masterLabel>
+        <translation><!-- Prefer served in bottle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preference meal/seat/etc. was not recognized</masterLabel>
+        <translation><!-- Preference meal/seat/etc. was not recognized --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation > Bad / Poor</masterLabel>
+        <translation><!-- Presentation &gt; Bad / Poor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation > Bad/ Poor</masterLabel>
+        <translation><!-- Presentation &gt; Bad/ Poor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation > Good / Excellent</masterLabel>
+        <translation><!-- Presentation &gt; Good / Excellent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation > Good/ Excellent</masterLabel>
+        <translation><!-- Presentation &gt; Good/ Excellent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation > Nice presentation</masterLabel>
+        <translation><!-- Presentation &gt; Nice presentation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation > Others</masterLabel>
+        <translation><!-- Presentation &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation > Poor presentation</masterLabel>
+        <translation><!-- Presentation &gt; Poor presentation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation of meal > Nicely presented</masterLabel>
+        <translation><!-- Presentation of meal &gt; Nicely presented --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presentation of meal > Poorly presented</masterLabel>
+        <translation><!-- Presentation of meal &gt; Poorly presented --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price > Expensive</masterLabel>
+        <translation><!-- Price &gt; Expensive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price > Reasonable price</masterLabel>
+        <translation><!-- Price &gt; Reasonable price --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price of WIFI package > Expensive</masterLabel>
+        <translation><!-- Price of WIFI package &gt; Expensive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price of WIFI package > Reasonable</masterLabel>
+        <translation><!-- Price of WIFI package &gt; Reasonable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price of purchased upgrade( fare difference) too high</masterLabel>
+        <translation><!-- Price of purchased upgrade( fare difference) too high --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priority boarding</masterLabel>
+        <translation><!-- Priority boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priority check-in</masterLabel>
+        <translation><!-- Priority check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priority for disembarkation > No priority for special pax, congested etc.</masterLabel>
+        <translation><!-- Priority for disembarkation &gt; No priority for special pax, congested etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priority for disembarkation > Smooth handling</masterLabel>
+        <translation><!-- Priority for disembarkation &gt; Smooth handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Priority reservation waitlisting</masterLabel>
+        <translation><!-- Priority reservation waitlisting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Problem with telephone system</masterLabel>
+        <translation><!-- Problem with telephone system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procedure</masterLabel>
+        <translation><!-- Procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procedures:CIQ(THRU check-in) > Complicated procedure</masterLabel>
+        <translation><!-- Procedures:CIQ(THRU check-in) &gt; Complicated procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procedures:CIQ(THRU check-in) > Good, excellent, professional</masterLabel>
+        <translation><!-- Procedures:CIQ(THRU check-in) &gt; Good, excellent, professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procedures:CIQ(THRU check-in) > No Information</masterLabel>
+        <translation><!-- Procedures:CIQ(THRU check-in) &gt; No Information --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procedures:CIQ(THRU check-in) > No Staff handling</masterLabel>
+        <translation><!-- Procedures:CIQ(THRU check-in) &gt; No Staff handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Processing time > Fast</masterLabel>
+        <translation><!-- Processing time &gt; Fast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Processing time > Slow, long time</masterLabel>
+        <translation><!-- Processing time &gt; Slow, long time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product and service received compare to Advertising</masterLabel>
+        <translation><!-- Product and service received compare to Advertising --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prompt, fast boarding</masterLabel>
+        <translation><!-- Prompt, fast boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provide through check-in</masterLabel>
+        <translation><!-- Provide through check-in --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provided</masterLabel>
+        <translation><!-- Provided --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provided,excellent service</masterLabel>
+        <translation><!-- Provided,excellent service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality</masterLabel>
+        <translation><!-- Quality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Bad / Poor/ not up to standard</masterLabel>
+        <translation><!-- Quality &gt; Bad / Poor/ not up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Bad/ Poor/ not up to standard</masterLabel>
+        <translation><!-- Quality &gt; Bad/ Poor/ not up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Beverage not up to standard</masterLabel>
+        <translation><!-- Quality &gt; Beverage not up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Boring/uninteresting contents</masterLabel>
+        <translation><!-- Quality &gt; Boring/uninteresting contents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Brand name</masterLabel>
+        <translation><!-- Quality &gt; Brand name --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Design</masterLabel>
+        <translation><!-- Quality &gt; Design --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Excellent / Good / Up to standard</masterLabel>
+        <translation><!-- Quality &gt; Excellent / Good / Up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Excellent beverage</masterLabel>
+        <translation><!-- Quality &gt; Excellent beverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Excellent food, good food</masterLabel>
+        <translation><!-- Quality &gt; Excellent food, good food --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Excellent, up to standard, up to date</masterLabel>
+        <translation><!-- Quality &gt; Excellent, up to standard, up to date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Excellent/clearness</masterLabel>
+        <translation><!-- Quality &gt; Excellent/clearness --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Excellent/up to standard/up to date</masterLabel>
+        <translation><!-- Quality &gt; Excellent/up to standard/up to date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Excellent/up to standard/up to date system</masterLabel>
+        <translation><!-- Quality &gt; Excellent/up to standard/up to date system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Food not up to standard</masterLabel>
+        <translation><!-- Quality &gt; Food not up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Good, excellent</masterLabel>
+        <translation><!-- Quality &gt; Good, excellent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Good, excellent etc.</masterLabel>
+        <translation><!-- Quality &gt; Good, excellent etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Good, excellent, professional</masterLabel>
+        <translation><!-- Quality &gt; Good, excellent, professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Good, excellent, tasteful</masterLabel>
+        <translation><!-- Quality &gt; Good, excellent, tasteful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > High quality/up to standard/temperature</masterLabel>
+        <translation><!-- Quality &gt; High quality/up to standard/temperature --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Inedible (oily, hard, spicy, msg added, overcooked, etc.)</masterLabel>
+        <translation><!-- Quality &gt; Inedible (oily, hard, spicy, msg added, overcooked, etc.) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Interesting contents/useful information/design</masterLabel>
+        <translation><!-- Quality &gt; Interesting contents/useful information/design --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Lack/wrong information, printing errors</masterLabel>
+        <translation><!-- Quality &gt; Lack/wrong information, printing errors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Low quality/temperature</masterLabel>
+        <translation><!-- Quality &gt; Low quality/temperature --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Material</masterLabel>
+        <translation><!-- Quality &gt; Material --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Nice/beautiful</masterLabel>
+        <translation><!-- Quality &gt; Nice/beautiful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Not good, inconvenience, poor</masterLabel>
+        <translation><!-- Quality &gt; Not good, inconvenience, poor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Not good, poor, bad, inefficient, unorganized, dissatisfied</masterLabel>
+        <translation><!-- Quality &gt; Not good, poor, bad, inefficient, unorganized, dissatisfied --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Not up to standard, distasteful</masterLabel>
+        <translation><!-- Quality &gt; Not up to standard, distasteful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Others</masterLabel>
+        <translation><!-- Quality &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Poor, not up to standard</masterLabel>
+        <translation><!-- Quality &gt; Poor, not up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Poor/not up to standard</masterLabel>
+        <translation><!-- Quality &gt; Poor/not up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Poor/not up to standard/not up to date system</masterLabel>
+        <translation><!-- Quality &gt; Poor/not up to standard/not up to date system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Size</masterLabel>
+        <translation><!-- Quality &gt; Size --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Useful</masterLabel>
+        <translation><!-- Quality &gt; Useful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Useful items</masterLabel>
+        <translation><!-- Quality &gt; Useful items --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality > Wrong/ inappropriate ingredient in SPML</masterLabel>
+        <translation><!-- Quality &gt; Wrong/ inappropriate ingredient in SPML --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality of products > Damage items</masterLabel>
+        <translation><!-- Quality of products &gt; Damage items --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality of products > High quality</masterLabel>
+        <translation><!-- Quality of products &gt; High quality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality of products > Low quality</masterLabel>
+        <translation><!-- Quality of products &gt; Low quality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantity / Portion</masterLabel>
+        <translation><!-- Quantity / Portion --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantity / Portion > Others</masterLabel>
+        <translation><!-- Quantity / Portion &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantity / Portion > Suitable</masterLabel>
+        <translation><!-- Quantity / Portion &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantity / Portion > Unsuitable</masterLabel>
+        <translation><!-- Quantity / Portion &gt; Unsuitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantity > Enough</masterLabel>
+        <translation><!-- Quantity &gt; Enough --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quantity > Not enough</masterLabel>
+        <translation><!-- Quantity &gt; Not enough --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queue at security check point</masterLabel>
+        <translation><!-- Queue at security check point --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queue time > Long time, slow, busy, crowded, unorganized</masterLabel>
+        <translation><!-- Queue time &gt; Long time, slow, busy, crowded, unorganized --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queue time > Long time, slow, busy, crowded, unorganized, etc.</masterLabel>
+        <translation><!-- Queue time &gt; Long time, slow, busy, crowded, unorganized, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queue time > Quick, fast, no queue</masterLabel>
+        <translation><!-- Queue time &gt; Quick, fast, no queue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queuing time/Waiting time > Fast, no queue</masterLabel>
+        <translation><!-- Queuing time/Waiting time &gt; Fast, no queue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queuing time/Waiting time > Too slow</masterLabel>
+        <translation><!-- Queuing time/Waiting time &gt; Too slow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queuing time/waiting time</masterLabel>
+        <translation><!-- Queuing time/waiting time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quick response</masterLabel>
+        <translation><!-- Quick response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reasonable Fare</masterLabel>
+        <translation><!-- Reasonable Fare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Remaining miles accrued in mileage account</masterLabel>
+        <translation><!-- Remaining miles accrued in mileage account --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Excess baggage waiver</masterLabel>
+        <translation><!-- Request for Excess baggage waiver --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Gifts/THAI Shop Products/Flower</masterLabel>
+        <translation><!-- Request for Gifts/THAI Shop Products/Flower --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Lounge access</masterLabel>
+        <translation><!-- Request for Lounge access --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Meal/Seat/MAAS</masterLabel>
+        <translation><!-- Request for Meal/Seat/MAAS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Mileage credits</masterLabel>
+        <translation><!-- Request for Mileage credits --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Reimbursement</masterLabel>
+        <translation><!-- Request for Reimbursement --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Ticket refund</masterLabel>
+        <translation><!-- Request for Ticket refund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request for Upgrade class of service</masterLabel>
+        <translation><!-- Request for Upgrade class of service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requested seat assigned > Good, excellent, professional, etc</masterLabel>
+        <translation><!-- Requested seat assigned &gt; Good, excellent, professional, etc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requested seat not assigned > Cannot get booking seat</masterLabel>
+        <translation><!-- Requested seat not assigned &gt; Cannot get booking seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requested seat not assigned > Cannot get seat as requested(despite coming early)</masterLabel>
+        <translation><!-- Requested seat not assigned &gt; Cannot get seat as requested(despite coming early) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requested seat not assigned > Regulation problem for safety purpose</masterLabel>
+        <translation><!-- Requested seat not assigned &gt; Regulation problem for safety purpose --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requested seat not assigned > Seat found on board not as requested(window seat, legroom, exit)</masterLabel>
+        <translation><!-- Requested seat not assigned &gt; Seat found on board not as requested(window seat, legroom, exit) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rescheduled flight</masterLabel>
+        <translation><!-- Rescheduled flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restrictions > Dissatisfied with ticket restriction; expired, nonendorsable, nonrerouting, etc.</masterLabel>
+        <translation><!-- Restrictions &gt; Dissatisfied with ticket restriction; expired, nonendorsable, nonrerouting, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Restrictions > Fullfare ticket but cannot be endorsed</masterLabel>
+        <translation><!-- Restrictions &gt; Fullfare ticket but cannot be endorsed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Routing change</masterLabel>
+        <translation><!-- Routing change --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rules and regulations for electronic devices/mobile phone</masterLabel>
+        <translation><!-- Rules and regulations for electronic devices/mobile phone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safety demonstration by cabin crew</masterLabel>
+        <translation><!-- Safety demonstration by cabin crew --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safety demonstration by safety video</masterLabel>
+        <translation><!-- Safety demonstration by safety video --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Satisfaction with the amount of earned miles</masterLabel>
+        <translation><!-- Satisfaction with the amount of earned miles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Satisfactory</masterLabel>
+        <translation><!-- Satisfactory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Satisfied</masterLabel>
+        <translation><!-- Satisfied --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Satisfied with excellent flight/all service</masterLabel>
+        <translation><!-- Satisfied with excellent flight/all service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Satisfied with special service during festival</masterLabel>
+        <translation><!-- Satisfied with special service during festival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Satisfied with upgrade criteria/procedure</masterLabel>
+        <translation><!-- Satisfied with upgrade criteria/procedure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Satisfy with this service</masterLabel>
+        <translation><!-- Satisfy with this service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat Availability > Insufficient</masterLabel>
+        <translation><!-- Seat Availability &gt; Insufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat Availability > Sufficient</masterLabel>
+        <translation><!-- Seat Availability &gt; Sufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat Comfort > Comfortable</masterLabel>
+        <translation><!-- Seat Comfort &gt; Comfortable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat Comfort > Uncomfortable</masterLabel>
+        <translation><!-- Seat Comfort &gt; Uncomfortable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat Pocket > Conditon of seat pocket</masterLabel>
+        <translation><!-- Seat Pocket &gt; Conditon of seat pocket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat Pocket > Others</masterLabel>
+        <translation><!-- Seat Pocket &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat/Meal preferences</masterLabel>
+        <translation><!-- Seat/Meal preferences --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat/Sleep facility > Available</masterLabel>
+        <translation><!-- Seat/Sleep facility &gt; Available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seat/Sleep facility > No seat</masterLabel>
+        <translation><!-- Seat/Sleep facility &gt; No seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seatbelt > Broken/inoperative</masterLabel>
+        <translation><!-- Seatbelt &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service at restaurant</masterLabel>
+        <translation><!-- Service at restaurant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service fees</masterLabel>
+        <translation><!-- Service fees --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service in hotel; wake up time, information by hotel staff, etc.</masterLabel>
+        <translation><!-- Service in hotel; wake up time, information by hotel staff, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service mind/Care > Service mind staff, attentiven, patient</masterLabel>
+        <translation><!-- Service mind/Care &gt; Service mind staff, attentiven, patient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service mind/care > Helpful, kind</masterLabel>
+        <translation><!-- Service mind/care &gt; Helpful, kind --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service mind/care > No service mind staff, inattentive, impatient</masterLabel>
+        <translation><!-- Service mind/care &gt; No service mind staff, inattentive, impatient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service mind/care > Others</masterLabel>
+        <translation><!-- Service mind/care &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service mind/care > Service mind staff, attentive, patient</masterLabel>
+        <translation><!-- Service mind/care &gt; Service mind staff, attentive, patient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service mind/care > Unhelpful, unkind</masterLabel>
+        <translation><!-- Service mind/care &gt; Unhelpful, unkind --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Serving drinks same time as meal</masterLabel>
+        <translation><!-- Serving drinks same time as meal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Serving welcome drink or appetizer</masterLabel>
+        <translation><!-- Serving welcome drink or appetizer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sign indicator > Clear/easy to understand</masterLabel>
+        <translation><!-- Sign indicator &gt; Clear/easy to understand --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sign indicator > Language</masterLabel>
+        <translation><!-- Sign indicator &gt; Language --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sign indicator > Unclear</masterLabel>
+        <translation><!-- Sign indicator &gt; Unclear --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sign indicators in toilets > Language/instruction</masterLabel>
+        <translation><!-- Sign indicators in toilets &gt; Language/instruction --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Silver card cannot enter to lounge</masterLabel>
+        <translation><!-- Silver card cannot enter to lounge --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Size > Suitable</masterLabel>
+        <translation><!-- Size &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Size > Unsuitable</masterLabel>
+        <translation><!-- Size &gt; Unsuitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Size of TV monitor/screen > Suitable</masterLabel>
+        <translation><!-- Size of TV monitor/screen &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Size of TV monitor/screen > Unsuitable</masterLabel>
+        <translation><!-- Size of TV monitor/screen &gt; Unsuitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sleep facility > Cleanliness</masterLabel>
+        <translation><!-- Sleep facility &gt; Cleanliness --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sleep facility > Comfortable</masterLabel>
+        <translation><!-- Sleep facility &gt; Comfortable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sleep facility > Uncomfortable</masterLabel>
+        <translation><!-- Sleep facility &gt; Uncomfortable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sleep facility Availability > Available</masterLabel>
+        <translation><!-- Sleep facility Availability &gt; Available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sleep facility Availability > Not available</masterLabel>
+        <translation><!-- Sleep facility Availability &gt; Not available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slow boarding</masterLabel>
+        <translation><!-- Slow boarding --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Slow response</masterLabel>
+        <translation><!-- Slow response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sound quality > Excellent/up to standard</masterLabel>
+        <translation><!-- Sound quality &gt; Excellent/up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sound quality > Poor/not up to standard</masterLabel>
+        <translation><!-- Sound quality &gt; Poor/not up to standard --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Space of bin storage</masterLabel>
+        <translation><!-- Space of bin storage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speed > Excellent</masterLabel>
+        <translation><!-- Speed &gt; Excellent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speed > Excellent, fast, smooth response</masterLabel>
+        <translation><!-- Speed &gt; Excellent, fast, smooth response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speed > Fast</masterLabel>
+        <translation><!-- Speed &gt; Fast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speed > Slow</masterLabel>
+        <translation><!-- Speed &gt; Slow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speed > Slow response</masterLabel>
+        <translation><!-- Speed &gt; Slow response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speed and efficiency</masterLabel>
+        <translation><!-- Speed and efficiency --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Staff answering the phone promptly</masterLabel>
+        <translation><!-- Staff answering the phone promptly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Staff calling back</masterLabel>
+        <translation><!-- Staff calling back --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Start too late</masterLabel>
+        <translation><!-- Start too late --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Status of ticket > No record of booking/called to reconfirm but still no record</masterLabel>
+        <translation><!-- Status of ticket &gt; No record of booking/called to reconfirm but still no record --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sufficient</masterLabel>
+        <translation><!-- Sufficient --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suitable</masterLabel>
+        <translation><!-- Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suitable foot rest</masterLabel>
+        <translation><!-- Suitable foot rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suitable head rest</masterLabel>
+        <translation><!-- Suitable head rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suitable leg rest</masterLabel>
+        <translation><!-- Suitable leg rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suitable location, comfortable to pax</masterLabel>
+        <translation><!-- Suitable location, comfortable to pax --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suitable size/pitch/width</masterLabel>
+        <translation><!-- Suitable size/pitch/width --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suitable time for collect Meals / Beverage</masterLabel>
+        <translation><!-- Suitable time for collect Meals / Beverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suitable time for massage</masterLabel>
+        <translation><!-- Suitable time for massage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suspention of flights</masterLabel>
+        <translation><!-- Suspention of flights --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TG Service / Image > Good / Excellent / Satisfactory</masterLabel>
+        <translation><!-- TG Service / Image &gt; Good / Excellent / Satisfactory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TG Service / Image > Improved</masterLabel>
+        <translation><!-- TG Service / Image &gt; Improved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TG Service / Image > Not improved/Deteriorated</masterLabel>
+        <translation><!-- TG Service / Image &gt; Not improved/Deteriorated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TG Service / Image > Others</masterLabel>
+        <translation><!-- TG Service / Image &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TG Service / Image > Poor/Bad/Dissatisfactory</masterLabel>
+        <translation><!-- TG Service / Image &gt; Poor/Bad/Dissatisfactory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TG Staff</masterLabel>
+        <translation><!-- TG Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TV Monitor > Broken/inoperative</masterLabel>
+        <translation><!-- TV Monitor &gt; Broken/inoperative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taste</masterLabel>
+        <translation><!-- Taste --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taste > Distasteful / Tasteless</masterLabel>
+        <translation><!-- Taste &gt; Distasteful / Tasteless --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taste > Distasteful, tasteless</masterLabel>
+        <translation><!-- Taste &gt; Distasteful, tasteless --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taste > Others</masterLabel>
+        <translation><!-- Taste &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taste > Tasteful</masterLabel>
+        <translation><!-- Taste &gt; Tasteful --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taste > Tasteful / Delicious</masterLabel>
+        <translation><!-- Taste &gt; Tasteful / Delicious --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Taste > Traditional taste of local food</masterLabel>
+        <translation><!-- Taste &gt; Traditional taste of local food --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temperature</masterLabel>
+        <translation><!-- Temperature --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temperature > Suitable</masterLabel>
+        <translation><!-- Temperature &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Temperature > Unsuitable</masterLabel>
+        <translation><!-- Temperature &gt; Unsuitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai Massage staff > Good, excellent, nice, professional</masterLabel>
+        <translation><!-- Thai Massage staff &gt; Good, excellent, nice, professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai Massage staff > Impolite</masterLabel>
+        <translation><!-- Thai Massage staff &gt; Impolite --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai Massage staff > Others</masterLabel>
+        <translation><!-- Thai Massage staff &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai Massage staff > Polite</masterLabel>
+        <translation><!-- Thai Massage staff &gt; Polite --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thai Massage staff > Unprofessional</masterLabel>
+        <translation><!-- Thai Massage staff &gt; Unprofessional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The rules for opening / closing bar > Dissatisfied</masterLabel>
+        <translation><!-- The rules for opening / closing bar &gt; Dissatisfied --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The rules for opening / closing bar > Satisfied</masterLabel>
+        <translation><!-- The rules for opening / closing bar &gt; Satisfied --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/contents > Inappropriate/offensive music</masterLabel>
+        <translation><!-- Theme/contents &gt; Inappropriate/offensive music --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/contents > Inappropriate/offensive/boring</masterLabel>
+        <translation><!-- Theme/contents &gt; Inappropriate/offensive/boring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/contents > Lack of/limited children's programs</masterLabel>
+        <translation><!-- Theme/contents &gt; Lack of/limited children&apos;s programs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/contents > New movies/box office movies</masterLabel>
+        <translation><!-- Theme/contents &gt; New movies/box office movies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/contents > Nice music</masterLabel>
+        <translation><!-- Theme/contents &gt; Nice music --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/contents > Nice/fun movies</masterLabel>
+        <translation><!-- Theme/contents &gt; Nice/fun movies --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/contents > Outdated movie (not first run movie)</masterLabel>
+        <translation><!-- Theme/contents &gt; Outdated movie (not first run movie) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/contents > Outdated music</masterLabel>
+        <translation><!-- Theme/contents &gt; Outdated music --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/game contents > Inappropriate/offensive/boring</masterLabel>
+        <translation><!-- Theme/game contents &gt; Inappropriate/offensive/boring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/game contents > Nice/fun</masterLabel>
+        <translation><!-- Theme/game contents &gt; Nice/fun --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Theme/game contents > Not up to date</masterLabel>
+        <translation><!-- Theme/game contents &gt; Not up to date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Time between Meals / Beverage</masterLabel>
+        <translation><!-- Time between Meals / Beverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Time for open/close, Office hour</masterLabel>
+        <translation><!-- Time for open/close, Office hour --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Time not suitable for having Meals / Beverage</masterLabel>
+        <translation><!-- Time not suitable for having Meals / Beverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Time period for mileage accumulation to attain upper level</masterLabel>
+        <translation><!-- Time period for mileage accumulation to attain upper level --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Time suitable for having Meals / Beverage</masterLabel>
+        <translation><!-- Time suitable for having Meals / Beverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Time to wake up pax for meal</masterLabel>
+        <translation><!-- Time to wake up pax for meal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Time too short</masterLabel>
+        <translation><!-- Time too short --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timetable/Schedule/Type of Aircraft</masterLabel>
+        <translation><!-- Timetable/Schedule/Type of Aircraft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing > Short time</masterLabel>
+        <translation><!-- Timing &gt; Short time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing > Suitable</masterLabel>
+        <translation><!-- Timing &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing > Take a long time</masterLabel>
+        <translation><!-- Timing &gt; Take a long time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing for mileage claim</masterLabel>
+        <translation><!-- Timing for mileage claim --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing for obtaining purchased mileage</masterLabel>
+        <translation><!-- Timing for obtaining purchased mileage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing for open-closed > Appropriate time</masterLabel>
+        <translation><!-- Timing for open-closed &gt; Appropriate time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing for open-closed > Inappropriate time</masterLabel>
+        <translation><!-- Timing for open-closed &gt; Inappropriate time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing for paging customer > Suitable</masterLabel>
+        <translation><!-- Timing for paging customer &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing for paging customer > Unsuitable</masterLabel>
+        <translation><!-- Timing for paging customer &gt; Unsuitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing to provide form > Appropriate</masterLabel>
+        <translation><!-- Timing to provide form &gt; Appropriate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing to provide form > Inappropriate</masterLabel>
+        <translation><!-- Timing to provide form &gt; Inappropriate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing to show > Appropriate time</masterLabel>
+        <translation><!-- Timing to show &gt; Appropriate time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing to show > Inappropriate time</masterLabel>
+        <translation><!-- Timing to show &gt; Inappropriate time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timing to show > Program ends too soon/before landing</masterLabel>
+        <translation><!-- Timing to show &gt; Program ends too soon/before landing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>To let pax reclined the seat during meal time</masterLabel>
+        <translation><!-- To let pax reclined the seat during meal time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Too far</masterLabel>
+        <translation><!-- Too far --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting abilities</masterLabel>
+        <translation><!-- Trouble-shooting abilities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting abilities > Baggage handling on arrival</masterLabel>
+        <translation><!-- Trouble-shooting abilities &gt; Baggage handling on arrival --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting abilities > Meal preference</masterLabel>
+        <translation><!-- Trouble-shooting abilities &gt; Meal preference --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting abilities > Others</masterLabel>
+        <translation><!-- Trouble-shooting abilities &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting abilities > Seat preference</masterLabel>
+        <translation><!-- Trouble-shooting abilities &gt; Seat preference --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting abilities > UM, YP, INF, Elderly, VIP, Premium, etc.</masterLabel>
+        <translation><!-- Trouble-shooting abilities &gt; UM, YP, INF, Elderly, VIP, Premium, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting ability > Booking/ticket problem</masterLabel>
+        <translation><!-- Trouble-shooting ability &gt; Booking/ticket problem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting ability > Disruptive/Unruly passenger handling</masterLabel>
+        <translation><!-- Trouble-shooting ability &gt; Disruptive/Unruly passenger handling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting ability > Handling of a delayed flight</masterLabel>
+        <translation><!-- Trouble-shooting ability &gt; Handling of a delayed flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting ability > Meal/drink preference</masterLabel>
+        <translation><!-- Trouble-shooting ability &gt; Meal/drink preference --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting ability > Others</masterLabel>
+        <translation><!-- Trouble-shooting ability &gt; Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting ability > Seat preference</masterLabel>
+        <translation><!-- Trouble-shooting ability &gt; Seat preference --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting ability > Seat/meal preference</masterLabel>
+        <translation><!-- Trouble-shooting ability &gt; Seat/meal preference --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trouble-shooting ability > Upgrade/Downgrade</masterLabel>
+        <translation><!-- Trouble-shooting ability &gt; Upgrade/Downgrade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Type of Aircraft/Size of Aircraft</masterLabel>
+        <translation><!-- Type of Aircraft/Size of Aircraft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unable to refund due to ticket restrictions; unutilized sector etc.</masterLabel>
+        <translation><!-- Unable to refund due to ticket restrictions; unutilized sector etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uncomfortable</masterLabel>
+        <translation><!-- Uncomfortable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uncooperative pax > Disturb other people</masterLabel>
+        <translation><!-- Uncooperative pax &gt; Disturb other people --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uncooperative pax > Not willing to do what cabin crew asked for</masterLabel>
+        <translation><!-- Uncooperative pax &gt; Not willing to do what cabin crew asked for --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Uninteresting/boring</masterLabel>
+        <translation><!-- Uninteresting/boring --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unserviceable</masterLabel>
+        <translation><!-- Unserviceable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsuitable</masterLabel>
+        <translation><!-- Unsuitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsuitable foot rest</masterLabel>
+        <translation><!-- Unsuitable foot rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsuitable for movie viewing</masterLabel>
+        <translation><!-- Unsuitable for movie viewing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsuitable head rest</masterLabel>
+        <translation><!-- Unsuitable head rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsuitable leg rest</masterLabel>
+        <translation><!-- Unsuitable leg rest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsuitable size/pitch/width</masterLabel>
+        <translation><!-- Unsuitable size/pitch/width --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsuitable time for collect Meals / Beverage</masterLabel>
+        <translation><!-- Unsuitable time for collect Meals / Beverage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unsuitable time for massage</masterLabel>
+        <translation><!-- Unsuitable time for massage --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Up to date</masterLabel>
+        <translation><!-- Up to date --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Up to standard, up to dated, new seat</masterLabel>
+        <translation><!-- Up to standard, up to dated, new seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Up to standard/up to date seat</masterLabel>
+        <translation><!-- Up to standard/up to date seat --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Update/Correct recording</masterLabel>
+        <translation><!-- Update/Correct recording --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upgrade class of service</masterLabel>
+        <translation><!-- Upgrade class of service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User friendly/ease of use</masterLabel>
+        <translation><!-- User friendly/ease of use --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Using time > Suitable</masterLabel>
+        <translation><!-- Using time &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Using time > Unsuitable</masterLabel>
+        <translation><!-- Using time &gt; Unsuitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validity > Confirmed in system but no record</masterLabel>
+        <translation><!-- Validity &gt; Confirmed in system but no record --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variation in Fare</masterLabel>
+        <translation><!-- Variation in Fare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety</masterLabel>
+        <translation><!-- Variety --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety > Adequate items in amenity kits</masterLabel>
+        <translation><!-- Variety &gt; Adequate items in amenity kits --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety > Inadequate items in amenity kits</masterLabel>
+        <translation><!-- Variety &gt; Inadequate items in amenity kits --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety > Interesting toys/many choices</masterLabel>
+        <translation><!-- Variety &gt; Interesting toys/many choices --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety > Language, local newspapers</masterLabel>
+        <translation><!-- Variety &gt; Language, local newspapers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety > Same as previous flight</masterLabel>
+        <translation><!-- Variety &gt; Same as previous flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety > Uninteresting toys/limited choices</masterLabel>
+        <translation><!-- Variety &gt; Uninteresting toys/limited choices --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety of language</masterLabel>
+        <translation><!-- Variety of language --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety of magazines > Language/local newspapers</masterLabel>
+        <translation><!-- Variety of magazines &gt; Language/local newspapers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety of magazines > Type of magazine; sport, fashion, etc.</masterLabel>
+        <translation><!-- Variety of magazines &gt; Type of magazine; sport, fashion, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety of newspaper > Language/local newspapers</masterLabel>
+        <translation><!-- Variety of newspaper &gt; Language/local newspapers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety of program > Good choice; documentary, humor, drama, action etc.</masterLabel>
+        <translation><!-- Variety of program &gt; Good choice; documentary, humor, drama, action etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety of program > Good choice; rock, pop, jazz, classic etc.</masterLabel>
+        <translation><!-- Variety of program &gt; Good choice; rock, pop, jazz, classic etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety of program > Limited choice, range of video program, same program</masterLabel>
+        <translation><!-- Variety of program &gt; Limited choice, range of video program, same program --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety of program > Limited choice; rock, pop, jazz, classic etc.</masterLabel>
+        <translation><!-- Variety of program &gt; Limited choice; rock, pop, jazz, classic etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety of program > Number of movie during the flight</masterLabel>
+        <translation><!-- Variety of program &gt; Number of movie during the flight --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety of programme</masterLabel>
+        <translation><!-- Variety of programme --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety/Selection > Not variety</masterLabel>
+        <translation><!-- Variety/Selection &gt; Not variety --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Variety/Selection > Variety</masterLabel>
+        <translation><!-- Variety/Selection &gt; Variety --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting Time at ticketing office > Queuing time at ticketing Office</masterLabel>
+        <translation><!-- Waiting Time at ticketing office &gt; Queuing time at ticketing Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting Time at ticketing office > Slow processing time at ticketing office</masterLabel>
+        <translation><!-- Waiting Time at ticketing office &gt; Slow processing time at ticketing office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting time > Fast, quick</masterLabel>
+        <translation><!-- Waiting time &gt; Fast, quick --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting time > Prompt, fast</masterLabel>
+        <translation><!-- Waiting time &gt; Prompt, fast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting time > Slow</masterLabel>
+        <translation><!-- Waiting time &gt; Slow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting time at conveyor belt/baggage came out very late (late arrival of first bag)</masterLabel>
+        <translation><!-- Waiting time at conveyor belt/baggage came out very late (late arrival of first bag) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Waiting time at immigration</masterLabel>
+        <translation><!-- Waiting time at immigration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Water dripped through condensation/leaks</masterLabel>
+        <translation><!-- Water dripped through condensation/leaks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ways to contact for mileage purchase</masterLabel>
+        <translation><!-- Ways to contact for mileage purchase --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Web attachment link > No response, System down/Failure system</masterLabel>
+        <translation><!-- Web attachment link &gt; No response, System down/Failure system --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Web attachment link > Quick response</masterLabel>
+        <translation><!-- Web attachment link &gt; Quick response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Web attachment link > Slow response</masterLabel>
+        <translation><!-- Web attachment link &gt; Slow response --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Well organized for priority pax ; F, C, Gold member, special pax, etc.</masterLabel>
+        <translation><!-- Well organized for priority pax ; F, C, Gold member, special pax, etc. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Width/cramp/narrow</masterLabel>
+        <translation><!-- Width/cramp/narrow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Working hour > Suitable</masterLabel>
+        <translation><!-- Working hour &gt; Suitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Working hour > Unsuitable</masterLabel>
+        <translation><!-- Working hour &gt; Unsuitable --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Working time > Not open</masterLabel>
+        <translation><!-- Working time &gt; Not open --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Working time > Office hours</masterLabel>
+        <translation><!-- Working time &gt; Office hours --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

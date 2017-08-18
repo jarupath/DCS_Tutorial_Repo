@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Date_TH__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(DAY(TODAY())) &amp; " " &amp;CASE(MONTH(TODAY()),1,"มกราคม",2,"กุมภาพันธ์",3,"มีนาคม",4,"เมษายน",5,"พฤษภาคม",6,"มิถุนายน",7,"กรกฎาคม",8,"สิงหาคม",9,"กันยายน",10,"ตุลาคม",11,"พฤศจิกายน",12,"ธันวาคม","-") &amp; " " &amp; TEXT(YEAR(TODAY()) + 543)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current Date TH</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

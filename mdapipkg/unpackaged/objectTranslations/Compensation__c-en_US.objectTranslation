@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Compensation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Compensations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount (Cash/EMD) --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>CaseId__c</name>
+        <relationshipLabel><!-- Compensations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Case Group Member --></label>
+        <name>Case_Group_Member__c</name>
+        <relationshipLabel><!-- Compensations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Compensation Account Center --></label>
+        <name>Compensation_Account_Center__c</name>
+        <picklistValues>
+            <masterLabel>1015519</masterLabel>
+            <translation><!-- 1015519 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1030100</masterLabel>
+            <translation><!-- 1030100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1301220</masterLabel>
+            <translation><!-- 1301220 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Compensation Account Number --></label>
+        <name>Compensation_Account_Number__c</name>
+        <picklistValues>
+            <masterLabel>631070 - Baggage Claims Compensation</masterLabel>
+            <translation><!-- 631070 - Baggage Claims Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>631071 - Injury</masterLabel>
+            <translation><!-- 631071 - Injury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>631080 - Compensation EX-Gratia Passenger Complaint&amp;Claim</masterLabel>
+            <translation><!-- 631080 - Compensation EX-Gratia Passenger Complaint&amp;Claim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>631130 - DBC / DGC</masterLabel>
+            <translation><!-- 631130 - DBC / DGC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>631140 - Customer Relations EMD</masterLabel>
+            <translation><!-- 631140 - Customer Relations EMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>631150 - Inflight Service Compliment</masterLabel>
+            <translation><!-- 631150 - Inflight Service Compliment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>811106 -  Int.Charge for Other Flight Kitchen (for Lounge Access Voucher)</masterLabel>
+            <translation><!-- 811106 -  Int.Charge for Other Flight Kitchen (for Lounge Access Voucher) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Compensation Detail --></label>
+        <name>Compensation_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compensation Tools --></label>
+        <name>Compensation_Tools__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complimentary Ticket</masterLabel>
+            <translation><!-- Complimentary Ticket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duty Free</masterLabel>
+            <translation><!-- Duty Free --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMD</masterLabel>
+            <translation><!-- EMD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excess Baggage</masterLabel>
+            <translation><!-- Excess Baggage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gifts</masterLabel>
+            <translation><!-- Gifts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lounge Access Voucher</masterLabel>
+            <translation><!-- Lounge Access Voucher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mileage Compensation</masterLabel>
+            <translation><!-- Mileage Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrading</masterLabel>
+            <translation><!-- Upgrading --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Compensation Type --></label>
+        <name>Compensation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Baggage Damage</masterLabel>
+            <translation><!-- Baggage Damage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baggage Delay</masterLabel>
+            <translation><!-- Baggage Delay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baggage Loss</masterLabel>
+            <translation><!-- Baggage Loss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baggage Pilferage</masterLabel>
+            <translation><!-- Baggage Pilferage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boarding</masterLabel>
+            <translation><!-- Boarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check in Service</masterLabel>
+            <translation><!-- Check in Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Center</masterLabel>
+            <translation><!-- Contact Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied Boarding</masterLabel>
+            <translation><!-- Denied Boarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downgrade</masterLabel>
+            <translation><!-- Downgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EC261</masterLabel>
+            <translation><!-- EC261 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food poisoning</masterLabel>
+            <translation><!-- Food poisoning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign object</masterLabel>
+            <translation><!-- Foreign object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Handling of Flight Irregularity</masterLabel>
+            <translation><!-- Handling of Flight Irregularity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IFE (in-flight entertainment) malfunction</masterLabel>
+            <translation><!-- IFE (in-flight entertainment) malfunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Flight Service</masterLabel>
+            <translation><!-- In-Flight Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inadmissible passenger</masterLabel>
+            <translation><!-- Inadmissible passenger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injury before boarding/after/on arrival/Medical assistance</masterLabel>
+            <translation><!-- Injury before boarding/after/on arrival/Medical assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Injury on Board</masterLabel>
+            <translation><!-- Injury on Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lounge</masterLabel>
+            <translation><!-- Lounge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical assistance</masterLabel>
+            <translation><!-- Medical assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On board Catering</masterLabel>
+            <translation><!-- On board Catering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reservation Service</masterLabel>
+            <translation><!-- Reservation Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule Deviation</masterLabel>
+            <translation><!-- Schedule Deviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seat malfunction</masterLabel>
+            <translation><!-- Seat malfunction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special meal request</masterLabel>
+            <translation><!-- Special meal request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ticketing Service</masterLabel>
+            <translation><!-- Ticketing Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Booking</masterLabel>
+            <translation><!-- Web Booking --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created At (Mobile) --></label>
+        <name>Created_At_Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+        <picklistValues>
+            <masterLabel>AED</masterLabel>
+            <translation><!-- AED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUD</masterLabel>
+            <translation><!-- AUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BDT</masterLabel>
+            <translation><!-- BDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BHD</masterLabel>
+            <translation><!-- BHD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHF</masterLabel>
+            <translation><!-- CHF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CNY</masterLabel>
+            <translation><!-- CNY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DKK</masterLabel>
+            <translation><!-- DKK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP</masterLabel>
+            <translation><!-- GBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HKD</masterLabel>
+            <translation><!-- HKD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDR</masterLabel>
+            <translation><!-- IDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INR</masterLabel>
+            <translation><!-- INR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRR</masterLabel>
+            <translation><!-- IRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JPY</masterLabel>
+            <translation><!-- JPY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KHR</masterLabel>
+            <translation><!-- KHR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KRW</masterLabel>
+            <translation><!-- KRW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAK</masterLabel>
+            <translation><!-- LAK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LKR</masterLabel>
+            <translation><!-- LKR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMK</masterLabel>
+            <translation><!-- MMK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOP</masterLabel>
+            <translation><!-- MOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYR</masterLabel>
+            <translation><!-- MYR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOK</masterLabel>
+            <translation><!-- NOK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NPR</masterLabel>
+            <translation><!-- NPR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZD</masterLabel>
+            <translation><!-- NZD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OMR</masterLabel>
+            <translation><!-- OMR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHP</masterLabel>
+            <translation><!-- PHP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PKR</masterLabel>
+            <translation><!-- PKR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RUB</masterLabel>
+            <translation><!-- RUB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEK</masterLabel>
+            <translation><!-- SEK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGD</masterLabel>
+            <translation><!-- SGD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THB</masterLabel>
+            <translation><!-- THB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TWD</masterLabel>
+            <translation><!-- TWD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VND</masterLabel>
+            <translation><!-- VND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XDR</masterLabel>
+            <translation><!-- XDR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- From Class --></label>
+        <name>From_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- From Seat --></label>
+        <name>From_Seat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goodwill Detail --></label>
+        <name>Goodwill_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goodwill --></label>
+        <name>Goodwill__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISC Form No. --></label>
+        <name>ISC_Form_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Individual --></label>
+        <name>Is_Individual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Code No. --></label>
+        <name>Item_Code_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Description --></label>
+        <name>Item_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Liability --></label>
+        <name>Liability__c</name>
+        <picklistValues>
+            <masterLabel>Act of Legislation 2015 for International Air Transportation</masterLabel>
+            <translation><!-- Act of Legislation 2015 for International Air Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EC261/2004</masterLabel>
+            <translation><!-- EC261/2004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Laws</masterLabel>
+            <translation><!-- Local Laws --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MC99 (The Montreal Convention)</masterLabel>
+            <translation><!-- MC99 (The Montreal Convention) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Laws</masterLabel>
+            <translation><!-- US Laws --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warsaw Convention</masterLabel>
+            <translation><!-- Warsaw Convention --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mobile App Key --></label>
+        <name>Mobile_App_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger --></label>
+        <name>PassengerId__c</name>
+        <relationshipLabel><!-- Compensations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Passenger Name --></label>
+        <name>Passenger_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passenger Number --></label>
+        <name>Passenger_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Problem --></label>
+        <name>Problem__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROE (USD) --></label>
+        <name>ROE_US_Dollars__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROE --></label>
+        <name>ROE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Name --></label>
+        <name>Record_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obsolete</masterLabel>
+            <translation><!-- Obsolete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- To Class --></label>
+        <name>To_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- To Seat --></label>
+        <name>To_Seat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>TotalTotal_sum_of_CGM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount (Cash/EMD) --></label>
+        <name>Total_Amount_Cash_EMD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Amount (THB) --></label>
+        <name>Total_Amount_THB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total (THB) --></label>
+        <name>Total_THB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total (USD) --></label>
+        <name>Total_USD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Irregularity --></label>
+        <name>Type_of_Irregularity__c</name>
+    </fields>
+    <fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit --></label>
+        <name>Unit__c</name>
+        <picklistValues>
+            <masterLabel>Currency</masterLabel>
+            <translation><!-- Currency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kilogramme</masterLabel>
+            <translation><!-- Kilogramme --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miles</masterLabel>
+            <translation><!-- Miles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Person</masterLabel>
+            <translation><!-- Person --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sector</masterLabel>
+            <translation><!-- Sector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ticket</masterLabel>
+            <translation><!-- Ticket --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Upgrade Certificate --></label>
+        <name>UpgradeCertificate__c</name>
+        <picklistValues>
+            <masterLabel>Confirmed Upgrade Certificate</masterLabel>
+            <translation><!-- Confirmed Upgrade Certificate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stand-by Upgrade Certificate</masterLabel>
+            <translation><!-- Stand-by Upgrade Certificate --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>CFMS Compensation Final Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- For Individual Compensation --></label>
+            <section>For Individual Compensation</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CFMS Compensation Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- For Individual Compensation --></label>
+            <section>For Individual Compensation</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Compensation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GS Compensation</layout>
+        <sections>
+            <label><!-- Compensation Information --></label>
+            <section>Compensation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ground Service Approved Layout</layout>
+        <sections>
+            <label><!-- Compensation Account Information --></label>
+            <section>Compensation Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Compensation Information --></label>
+            <section>Compensation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ground Service Compensation</layout>
+        <sections>
+            <label><!-- Compensation Account Information --></label>
+            <section>Compensation Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Compensation Information --></label>
+            <section>Compensation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>In-Flight</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>In-Flight Final Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- In-flight Information --></label>
+            <section>In-flight Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SD/SR Compensation Final Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- For Individual Compensation --></label>
+            <section>For Individual Compensation</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SD/SR Compensation Layout</layout>
+        <sections>
+            <label><!-- Case Information --></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- For Individual Compensation --></label>
+            <section>For Individual Compensation</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- CFMS Compensation --></label>
+        <name>CFMS_Compensation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CFMS Compensation Final --></label>
+        <name>CFMS_Compensation_Final</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GS Compensation --></label>
+        <name>GS_Compensation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- In-flight Compensation --></label>
+        <name>In_flight_Compensation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SD/SR Compensation --></label>
+        <name>SD_SR_Compensation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SD/SR Compensation Final --></label>
+        <name>SD_SR_Compensation_Final</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- ROE (USD) is mandatory --></errorMessage>
+        <name>ROE_USD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- ROE is required --></errorMessage>
+        <name>ROE_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please identify Amount if compensation tool is &apos;Cash&apos; or &apos;EMD&apos;. --></errorMessage>
+        <name>Validate_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot create new compensation with Approved status --></errorMessage>
+        <name>Validate_Approved_Status_OnCeate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please identify Total if compensation tool is not &apos;Cash&apos; or &apos;EMD&apos;. --></errorMessage>
+        <name>Validate_total</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Confirm --></label>
+        <name>Confirm</name>
+    </webLinks>
+</CustomObjectTranslation>

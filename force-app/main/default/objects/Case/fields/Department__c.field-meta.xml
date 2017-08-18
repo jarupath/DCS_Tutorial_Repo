@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <description>Displayed authorized person's department which support for both of BKK and non-BKK. This field is used to be a pert of autorized signatue in email and print feature.</description>
+    <externalId>false</externalId>
+    <formula>IF(	Owner:User.Station__c != 'BKK' &amp;&amp; 
+	Owner:User.Station__c != 'CNX' &amp;&amp; 
+	Owner:User.Station__c != 'HKT' &amp;&amp; 
+	Owner:User.Station__c != 'KBV' &amp;&amp;
+	Owner:User.Station__c != 'USM',
+        Department_txt__c,
+	IF(
+		Text(Authorize_Signature__c) != null,
+		IF(
+			Text(Letter_Language__c) == "TH",
+			Department_TH_txt__c ,
+			Department_EN_txt__c
+		),
+	null)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Department</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
